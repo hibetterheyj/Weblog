@@ -53,7 +53,7 @@
     <meta name="description" itemprop="description" content="
 
 
-快速入门**TeX**数学公式">
+快速入门TeX数学公式">
     <meta name="keywords" content=",TeX,markdown,博客维护">
 
     <!-- Import lsloader -->
@@ -241,7 +241,7 @@
     <meta property="og:description" content="
 
 
-快速入门**TeX**数学公式">
+快速入门TeX数学公式">
     <meta property="og:article:tag" content="TeX"> <meta property="og:article:tag" content="markdown"> <meta property="og:article:tag" content="博客维护"> 
 
     
@@ -254,7 +254,7 @@
     <meta name="twitter:description" content="
 
 
-快速入门**TeX**数学公式">
+快速入门TeX数学公式">
     <meta name="twitter:image" content="https://hibetterheyj.github.io/img/favicon(1).png">
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content="https://hibetterheyj.github.io" />
@@ -298,7 +298,7 @@
     "description": "
 
 
-快速入门**TeX**数学公式",
+快速入门TeX数学公式",
 }
 </script>
 
@@ -514,12 +514,12 @@
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML">
 </script>
 
-<center><font size="6">快速入门**TeX**数学公式</font></center>
+<center><font size="6">快速入门<strong>TeX</strong>数学公式</font></center>
 
 <a id="more"></a>
-<center><font size="2">First Summarized on <u>Sep 24, 2017</u> & Last Updated on <u>Sep 25, 2017</u> by **_PhilHE_**</font></center>
+<center><font size="2">First Summarized on <u>Sep 24, 2017</u> &amp; Last Updated on <u>Sep 25, 2017</u> by <strong><em>PhilHE</em></strong></font></center>
 
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>This is $ \TeX $ ！</p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>This is $\TeX$ ！</p>
 <p>本文主要参考 <a href="http://www.dralpha.com/zh/tech/tech.htm" target="_blank" rel="external"><strong><em>$ \LaTeX $ Notes</em></strong>（$ \LaTeX $笔记）</a>！</p>
 <blockquote>
 <p>  第一听说 <strong>$ \TeX $</strong>来自于我某次使用<strong>Word</strong>排版要吐之后的上网搜索，不过直到最近开始尝试用<strong>Typora</strong>（markdown著名编辑器）整理学习笔记，内置支持<strong>MathJax</strong>就开始入坑之旅！</p>
@@ -528,10 +528,10 @@
 <p>在<strong>markdown</strong>环境下原本多行公式需要一行打出才能正常显示（存疑？！）</p>
 <font color="#ffffff" size="5">color=此段为放空</font>
 
-<h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><h4 id="数学模式"><a href="#数学模式" class="headerlink" title="数学模式"></a>数学模式</h4><p>LATEX 的数学模式有两种形式：行间 (inline) 模式和独立 (display) 模式。前者是指在正文中插入数学内容；后者独立排列。行间公式用 <script type="math/tex">...</script>，无编号独立公式用$$$…$$$而不是<code>\[...\]</code>（与书中建议相反的原因在于<strong>markdown</strong>语言中的<code>\[</code>另有其他的规定）</p>
-<p><strong>再次重复：行间公式 <script type="math/tex">...</script>，无编号独立公式$$$…$$$（大部分编辑器会自动居中）</strong></p>
+<h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><h4 id="数学模式"><a href="#数学模式" class="headerlink" title="数学模式"></a>数学模式</h4><p>LATEX 的数学模式有两种形式：行间 (inline) 模式和独立 (display) 模式。前者是指在正文中插入数学内容；后者独立排列。行间公式用 <code>$...$</code>，无编号独立公式用<code>$$...$$</code>而不是<code>\[...\]</code>（与书中建议相反的原因在于<strong>markdown</strong>语言中的<code>\[</code>另有其他的规定）</p>
+<p><strong>再次重复：行间公式 <code>$...$</code>，无编号独立公式<code>$$...$$</code>（大部分编辑器会自动居中）</strong></p>
 <p><strong><em>示例：</em></strong></p>
-<pre class="line-numbers language-lang-tex"><code class="language-lang-tex">Einstein 's $E=mc^2$
+<pre class="line-numbers language-tex"><code class="language-tex">Einstein 's $E=mc^2$
 % 行内公式
 $ \boxed{E=mc^2} $ 
 % boxed{}可以外加方框
@@ -541,18 +541,15 @@ $$ E=mc^2 $$
 <p>以上代码显示为如下：</p>
 <hr>
 <p>Einstein ‘s $E=mc^2$</p>
-<p>$ \boxed{E=mc^2} $</p>
-<center>$$ E=mc^2 $$</center>
-
+<p>\begin{equation} \boxed{E=mc^2} \end{equation}</p>
+<p>$$ E=mc^2 $$</p>
 <hr>
 <font color="#ffffff" size="3">color=此段为放空</font>
 
 <h4 id="基本元素"><a href="#基本元素" class="headerlink" title="基本元素"></a>基本元素</h4><h5 id="希腊字母-amp-上下标、根号"><a href="#希腊字母-amp-上下标、根号" class="headerlink" title="希腊字母&amp;上下标、根号"></a>希腊字母&amp;上下标、根号</h5><ul>
 <li><strong>希腊字母则需要用命令（顺便可以学习一下英语拼写哈哈）输入，注意大写希腊字母的命令首字母也是大写</strong>。</li>
 </ul>
-<center><img src="https://i.loli.net/2017/09/24/59c79181bc5ca.png" title="LaTeX希腊字母表" wideth="200">
-
-</center>
+<center><img src="https://i.loli.net/2017/09/24/59c79181bc5ca.png" title="LaTeX希腊字母表" wideth="200"><br><br></center>
 
 <center><font size="2">$ \LaTeX $希腊字母表</font></center>
 
@@ -560,7 +557,7 @@ $$ E=mc^2 $$
 <li><strong>指数或上标用<code>^</code> 表示，下标用 <code>_</code>表示，根号用<code>\sqrt</code>表示。上下标如果多于一个字母或符号，需要用一对 <code>{}</code>括起来。</strong></li>
 </ul>
 <p><strong><em>示例：</em></strong></p>
-<pre class="line-numbers language-lang-tex"><code class="language-lang-tex">$ \alpha_1 = 10 $
+<pre class="line-numbers language-tex"><code class="language-tex">$ \alpha_1 = 10 $
 $ \sqrt{\beta_2} = 5 $
 $ \alpha_1^2 + \beta_2 = 125 $
 %为了便于查看，下方在一行显示
@@ -576,7 +573,7 @@ $ \alpha_1^2 + \beta_2 = 125 $
 <li>我们可以人工设置分数字号，比如<code>\dfrac</code> 命令把分数的字号设置为独立公式中的大小，而 <code>\tfrac</code> 命令则把字号设为行间公式中的大小</li>
 </ul>
 <p><strong><em>示例：</em></strong></p>
-<pre class="line-numbers language-lang-tex"><code class="language-lang-tex">$ \frac{1}{2} \dfrac{1}{2} $
+<pre class="line-numbers language-tex"><code class="language-tex">$ \frac{1}{2} \dfrac{1}{2} $
 $$ \frac{1}{2} \tfrac{1}{2} $$
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <p>以上代码显示为如下：</p>
@@ -612,7 +609,7 @@ $$ \frac{1}{2} \tfrac{1}{2} $$
 <font color="#ffffff" size="5">color=此段为放空</font>
 
 <h3 id="尾记"><a href="#尾记" class="headerlink" title="尾记"></a>尾记</h3><p>小彩蛋：$ \TeX $与$ \LaTeX $的打印输出</p>
-<pre class="line-numbers language-lang-tex"><code class="language-lang-tex">$ \TeX $
+<pre class="line-numbers language-tex"><code class="language-tex">$ \TeX $
 % Tex的打印
 $ \LaTeX $
 % LaTeX的打印
