@@ -5,12 +5,16 @@
     <entry>
       <title><![CDATA[快速入门TeX数学公式]]></title>
       <url>/2017/09/24/crash-course-to-latex-maths-equation/</url>
-      <content type="html"><![CDATA[<center><font size="6">快速入门**$ \TeX $**数学公式</font></center>
+      <content type="html"><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML">
+</script>
+
+<center><font size="6">快速入门**TeX**数学公式</font></center>
 
 <a id="more"></a>
 <center><font size="2">First Summarized on <u>Sep 24, 2017</u> & Last Updated on <u>Sep 25, 2017</u> by **_PhilHE_**</font></center>
 
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文主要参考 <a href="http://www.dralpha.com/zh/tech/tech.htm" target="_blank" rel="external"><strong><em>$ \LaTeX $ Notes</em></strong>（$ \LaTeX $笔记）</a>！</p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>This is $ \TeX $ ！</p>
+<p>本文主要参考 <a href="http://www.dralpha.com/zh/tech/tech.htm" target="_blank" rel="external"><strong><em>$ \LaTeX $ Notes</em></strong>（$ \LaTeX $笔记）</a>！</p>
 <blockquote>
 <p>  第一听说 <strong>$ \TeX $</strong>来自于我某次使用<strong>Word</strong>排版要吐之后的上网搜索，不过直到最近开始尝试用<strong>Typora</strong>（markdown著名编辑器）整理学习笔记，内置支持<strong>MathJax</strong>就开始入坑之旅！</p>
 </blockquote>
@@ -951,24 +955,6 @@ $ popd <dir>
   
     
     <entry>
-      <title><![CDATA[gallery]]></title>
-      <url>/gallery.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[关于]]></title>
       <url>/about.html</url>
       <content type="html"><![CDATA[<blockquote>
@@ -994,10 +980,11 @@ $ popd <dir>
 <li>2017.08.17 增加了【时光】、【映像】、【关于】栏目，并将google搜索改变为本地搜索，开始丰富小站内容</li>
 <li>2017.08.20 增加了【技术·小见】、【每日·精进】分类，更新相关文章</li>
 <li>2017.09.08 增加了Hexo-Prism-Plugin插件，形成<a href="https://github.com/ele828/hexo-prism-plugin" target="_blank" rel="external">代码高亮样式</a></li>
+<li>2017.09.27 生日前夜误将<code>node_modules</code>文件夹删除，导致本地更新无法同步。由于学业，数日后重建本地博客文件夹修复！</li>
 </ul>
 <h5 id="预期"><a href="#预期" class="headerlink" title="预期"></a>预期</h5><ul>
+<li><del>“不蒜子”访问量插件的导入</del></li>
 <li>相关文字格式、字体美化</li>
-<li>“不蒜子”访问量插件的导入</li>
 <li>CDN加速访问的设置</li>
 <li>coding.net国内访问的迁移备份</li>
 <li>emoji与MathJax的CDN载入支持</li>
@@ -1016,6 +1003,24 @@ $ popd <dir>
 <p>以上为近期待办事项，若为<code>o</code>为未完成，<code>i</code>为正在进行中，<code>x</code>则为已完成。</p>
 </blockquote>
 ]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[links]]></title>
+      <url>/links.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[gallery]]></title>
+      <url>/gallery.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[tags]]></title>
+      <url>/tags.html</url>
+      <content type="html"></content>
     </entry>
     
     <entry>
