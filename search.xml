@@ -948,6 +948,7 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <li>2017.08.20 增加了【技术·小见】、【每日·精进】分类，更新相关文章</li>
 <li>2017.09.08 增加了Hexo-Prism-Plugin插件，形成<a href="https://github.com/ele828/hexo-prism-plugin" target="_blank" rel="external">代码高亮样式</a></li>
 <li>2017.09.27 生日前夜误将<code>node_modules</code>文件夹删除，导致本地更新无法同步。由于学业，数日后重建本地博客文件夹修复！</li>
+<li>2017.09.27 增加在<coding.net>上的新备份，此处为<a href="http://philhe.coding.me/PhilHE/" target="_blank" rel="external">coding pages</a></coding.net></li>
 </ul>
 <h5 id="预期"><a href="#预期" class="headerlink" title="预期"></a>预期</h5><ul>
 <li><del>“不蒜子”访问量插件的导入</del></li>
@@ -973,20 +974,14 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
     </entry>
     
     <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links.html</url>
+      <title><![CDATA[tags]]></title>
+      <url>/tags.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
       <title><![CDATA[gallery]]></title>
       <url>/gallery.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags.html</url>
       <content type="html"></content>
     </entry>
     
@@ -998,6 +993,12 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <li>2017.08.15 确定了以Material为主题</li>
 </ul>
 ]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[links]]></title>
+      <url>/links.html</url>
+      <content type="html"></content>
     </entry>
     
   
