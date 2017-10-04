@@ -524,7 +524,7 @@
 <blockquote>
 <p>  第一听说 <strong>$ \TeX $</strong>来自于我某次使用<strong>Word</strong>排版要吐之后的上网搜索，不过直到最近开始尝试用<strong>Typora</strong>（markdown著名编辑器）整理学习笔记，内置支持<strong>MathJax</strong>就开始入坑之旅！</p>
 </blockquote>
-<p>几个简单的示例：$  a+b=b+a $，$ \sqrt[n]{\frac{x^2+\sqrt  2}{x+y}}$，$ A = \begin{pmatrix} a<em>{11} &amp; a</em>{12} &amp; a<em>{13} \ 0 &amp; a</em>{22} &amp; a<em>{22}  \ 0 &amp; 0 &amp; a</em>{33} \end{pmatrix} $</p>
+<p>几个简单的示例：$  a+b=b+a $，$ \sqrt[n]{\frac{x^2+\sqrt  2}{x+y}}$</p>
 <p>在<strong>markdown</strong>环境下原本多行公式需要一行打出才能正常显示（存疑？！）</p>
 <font color="#ffffff" size="5">color=此段为放空</font>
 
@@ -1173,6 +1173,26 @@ It will not impact the appearance and can give developers a lot of support :)
 </script>
 
 <!-- MathJax Load-->
+
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },
+        tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno",skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']},
+        TeX: {  noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, Macros: { href: "{}" } },
+        messageStyle: "none"
+    });
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
 
 
 <!-- Bing Background -->
