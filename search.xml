@@ -120,13 +120,16 @@
 <li><a href="http://www.icourse163.org/course/NEU-1001812007" target="_blank" rel="external">中国大学Mooc——东北大学：机械工程控制基础</a></li>
 <li><a href="http://www.xuetangx.com/courses/course-v1:Tsinghuax+30130123X+sp/about" target="_blank" rel="external">学堂在线——清华大学：控制工程基础（自主模式）</a></li>
 <li><a href="http://www.xuetangx.com/courses/course-v1:NUDT+0811101+sp/about" target="_blank" rel="external">学堂在线——国防科技大学：自动控制原理(自主模式)</a></li>
+<li><a href="https://ocw.mit.edu/courses/mechanical-engineering/2-14-analysis-and-design-of-feedback-control-systems-spring-2014/index.htm" target="_blank" rel="external">2.14Analysis and Design of Feedback Control Systems-MIT OpenCourseWare</a><br>Related Textbook: <a href="http://textbooksearch.mit.edu/class/2.14" target="_blank" rel="external">Click Here</a></li>
+<li><a href="http://fast.scripts.mit.edu/dronecontrol/" target="_blank" rel="external">16.30 Feedback Control Systems-MIT CourseWeb</a> Including some codes in <em>GitHub</em> which is related to the <strong>drone control</strong></li>
 </ul>
 <font color="#ffffff" size="3">color=此段为放空</font>
 
 
 
 <h3 id="疑问解答"><a href="#疑问解答" class="headerlink" title="疑问解答"></a>疑问解答</h3><ul>
-<li><a href="http://www.fuzihao.org/blog/2014/07/21/%E6%8B%89%E6%99%AE%E6%8B%89%E6%96%AF%E5%8F%98%E6%8D%A2%E4%B8%AD%E7%9A%84s%E6%98%AF%E4%BB%80%E4%B9%88/" target="_blank" rel="external">拉普拉斯变换中的s是什么</a></li>
+<li><a href="http://www.fuzihao.org/blog/2014/07/21/%E6%8B%89%E6%99%AE%E6%8B%89%E6%96%AF%E5%8F%98%E6%8D%A2%E4%B8%AD%E7%9A%84s%E6%98%AF%E4%BB%80%E4%B9%88/" target="_blank" rel="external">拉普拉斯变换中的s是什么 - 切问录（个人博客）</a></li>
+<li><a href="https://www.zhihu.com/question/24086239" target="_blank" rel="external">传递函数的零点、极点怎么解释，有什么用？- 知乎</a></li>
 </ul>
 <font color="#ffffff" size="3">color=此段为放空</font>
 
@@ -141,7 +144,7 @@
 
 
 <p><strong>[未完待续]</strong></p>
-<p><font color="#ffffff" size="4">color=此段为放空</font><br>（最后更新于<em>2017.10.01</em>）</p>
+<p><font color="#ffffff" size="4">color=此段为放空</font><br>（最后更新于<em>2017.10.07</em>）</p>
 ]]></content>
       
         <categories>
@@ -1081,8 +1084,8 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
   
     
     <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links.html</url>
+      <title><![CDATA[gallery]]></title>
+      <url>/gallery.html</url>
       <content type="html"></content>
     </entry>
     
@@ -1090,22 +1093,6 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
       <title><![CDATA[tags]]></title>
       <url>/tags.html</url>
       <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[gallery]]></title>
-      <url>/gallery.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[小站历史]]></title>
-      <url>/timeline.html</url>
-      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
-<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
-<li>2017.08.15 确定了以Material为主题</li>
-</ul>
-]]></content>
     </entry>
     
     <entry>
@@ -1160,6 +1147,22 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <blockquote>
 <p>以上为近期待办事项，若为<code>o</code>为未完成，<code>i</code>为正在进行中，<code>x</code>则为已完成。</p>
 </blockquote>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[links]]></title>
+      <url>/links.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[小站历史]]></title>
+      <url>/timeline.html</url>
+      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
+<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
+<li>2017.08.15 确定了以Material为主题</li>
+</ul>
 ]]></content>
     </entry>
     
