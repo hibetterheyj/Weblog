@@ -39,7 +39,7 @@
     
     <title>
         
-            归档: 2017 | 
+            LaTeX之下的控制工程拉式变换 | 
         
         PhilHE
     </title>
@@ -50,8 +50,10 @@
     <meta name="format-detection" content="telephone=no"/>
     <meta name="theme-color" content="#FEDFE1">
     <meta name="author" content="PhilHE">
-    <meta name="description" itemprop="description" content="这是一个利用Hexo搭建的博客">
-    <meta name="keywords" content="">
+    <meta name="description" itemprop="description" content="
+第一次尝试用LaTeX与Markdown的结合来做控工笔记！
+">
+    <meta name="keywords" content=",控制工程,TeX">
 
     <!-- Import lsloader -->
     <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(key){try{localStorage.removeItem(key)}catch(e){}};lsloader.setLS=function(key,val){try{localStorage.setItem(key,val)}catch(e){}};lsloader.getLS=function(key){var val="";try{val=localStorage.getItem(key)}catch(e){val=""}return val};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var keys=[];for(var i=0;i<localStorage.length;i++){keys.push(localStorage.key(i))}keys.forEach(function(key){var data=lsloader.getLS(key);if(window.oldVersion){var remove=window.oldVersion.reduce(function(p,c){return p||data.indexOf("/*"+c+"*/")!==-1},false);if(remove){lsloader.removeLS(key)}}})}catch(e){}};lsloader.clean();lsloader.load=function(jsname,jspath,cssonload,isJs){if(typeof cssonload==="boolean"){isJs=cssonload;cssonload=undefined}isJs=isJs||false;cssonload=cssonload||function(){};var code;code=this.getLS(jsname);if(code&&code.indexOf(versionString)===-1){this.removeLS(jsname);this.requestResource(jsname,jspath,cssonload,isJs);return}if(code){var versionNumber=code.split(versionString)[0];if(versionNumber!=jspath){console.log("reload:"+jspath);this.removeLS(jsname);this.requestResource(jsname,jspath,cssonload,isJs);return}code=code.split(versionString)[1];if(isJs){this.jsRunSequence.push({name:jsname,code:code});this.runjs(jspath,jsname,code)}else{document.getElementById(jsname).appendChild(document.createTextNode(code));cssonload()}}else{this.requestResource(jsname,jspath,cssonload,isJs)}};lsloader.requestResource=function(name,path,cssonload,isJs){var that=this;if(isJs){this.iojs(path,name,function(path,name,code){that.setLS(name,path+versionString+code);that.runjs(path,name,code)})}else{this.iocss(path,name,function(code){document.getElementById(name).appendChild(document.createTextNode(code));that.setLS(name,path+versionString+code)},cssonload)}};lsloader.iojs=function(path,jsname,callback){var that=this;that.jsRunSequence.push({name:jsname,code:""});try{var xhr=new XMLHttpRequest;xhr.open("get",path,true);xhr.onreadystatechange=function(){if(xhr.readyState==4){if(xhr.status>=200&&xhr.status<300||xhr.status==304){if(xhr.response!=""){callback(path,jsname,xhr.response);return}}that.jsfallback(path,jsname)}};xhr.send(null)}catch(e){that.jsfallback(path,jsname)}};lsloader.iocss=function(path,jsname,callback,cssonload){var that=this;try{var xhr=new XMLHttpRequest;xhr.open("get",path,true);xhr.onreadystatechange=function(){if(xhr.readyState==4){if(xhr.status>=200&&xhr.status<300||xhr.status==304){if(xhr.response!=""){callback(xhr.response);cssonload();return}}that.cssfallback(path,jsname,cssonload)}};xhr.send(null)}catch(e){that.cssfallback(path,jsname,cssonload)}};lsloader.iofonts=function(path,jsname,callback,cssonload){var that=this;try{var xhr=new XMLHttpRequest;xhr.open("get",path,true);xhr.onreadystatechange=function(){if(xhr.readyState==4){if(xhr.status>=200&&xhr.status<300||xhr.status==304){if(xhr.response!=""){callback(xhr.response);cssonload();return}}that.cssfallback(path,jsname,cssonload)}};xhr.send(null)}catch(e){that.cssfallback(path,jsname,cssonload)}};lsloader.runjs=function(path,name,code){if(!!name&&!!code){for(var k in this.jsRunSequence){if(this.jsRunSequence[k].name==name){this.jsRunSequence[k].code=code}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var script=document.createElement("script");script.appendChild(document.createTextNode(this.jsRunSequence[0].code));script.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(script);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var that=this;var script=document.createElement("script");script.src=this.jsRunSequence[0].path;script.type="text/javascript";this.jsRunSequence[0].status="loading";script.onload=function(){that.jsRunSequence.shift();if(that.jsRunSequence.length>0){that.runjs()}};document.body.appendChild(script)}};lsloader.tagLoad=function(path,name){this.jsRunSequence.push({name:name,code:"",path:path,status:"failed"});this.runjs()};lsloader.jsfallback=function(path,name){if(!!this.jsnamemap[name]){return}else{this.jsnamemap[name]=name}for(var k in this.jsRunSequence){if(this.jsRunSequence[k].name==name){this.jsRunSequence[k].code="";this.jsRunSequence[k].status="failed";this.jsRunSequence[k].path=path}}this.runjs()};lsloader.cssfallback=function(path,name,cssonload){if(!!this.cssnamemap[name]){return}else{this.cssnamemap[name]=1}var link=document.createElement("link");link.type="text/css";link.href=path;link.rel="stylesheet";link.onload=link.onerror=cssonload;var root=document.getElementsByTagName("script")[0];root.parentNode.insertBefore(link,root)};lsloader.runInlineScript=function(scriptId,codeId){var code=document.getElementById(codeId).innerText;this.jsRunSequence.push({name:scriptId,code:code});this.runjs()};lsloader.loadCombo=function(jslist){var updateList="";var requestingModules={};for(var k in jslist){var LS=this.getLS(jslist[k].name);if(!!LS){var version=LS.split(versionString)[0];var code=LS.split(versionString)[1]}else{var version=""}if(version==jslist[k].path){this.jsRunSequence.push({name:jslist[k].name,code:code,path:jslist[k].path})}else{this.jsRunSequence.push({name:jslist[k].name,code:null,path:jslist[k].path,status:"comboloading"});requestingModules[jslist[k].name]=true;updateList+=(updateList==""?"":";")+jslist[k].path}}var that=this;if(!!updateList){var xhr=new XMLHttpRequest;xhr.open("get",combo+updateList,true);xhr.onreadystatechange=function(){if(xhr.readyState==4){if(xhr.status>=200&&xhr.status<300||xhr.status==304){if(xhr.response!=""){that.runCombo(xhr.response,requestingModules);return}}else{for(var i in that.jsRunSequence){if(requestingModules[that.jsRunSequence[i].name]){that.jsRunSequence[i].status="failed"}}that.runjs()}}};xhr.send(null)}this.runjs()};lsloader.runCombo=function(comboCode,requestingModules){comboCode=comboCode.split("/*combojs*/");comboCode.shift();for(var k in this.jsRunSequence){if(!!requestingModules[this.jsRunSequence[k].name]&&!!comboCode[0]){this.jsRunSequence[k].status="comboJS";this.jsRunSequence[k].code=comboCode[0];this.setLS(this.jsRunSequence[k].name,this.jsRunSequence[k].path+versionString+comboCode[0]);comboCode.shift()}}this.runjs()}})();</script>
@@ -233,29 +235,68 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="https://hibetterheyj.github.io">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="归档: 2017 | PhilHE">
+    <meta property="og:title" content="LaTeX之下的控制工程拉式变换 | PhilHE">
     <meta property="og:image" content="https://hibetterheyj.github.io/img/favicon(1).png" />
-    <meta property="og:description" content="这是一个利用Hexo搭建的博客">
-    
+    <meta property="og:description" content="
+第一次尝试用LaTeX与Markdown的结合来做控工笔记！
+">
+    <meta property="og:article:tag" content="控制工程"> <meta property="og:article:tag" content="TeX"> 
 
+    
+        <meta property="article:published_time" content="Sat Oct 07 2017 23:06:33 GMT+0800" />
+        <meta property="article:modified_time" content="Sat Oct 07 2017 23:06:33 GMT+0800" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="归档: 2017 | PhilHE">
-    <meta name="twitter:description" content="这是一个利用Hexo搭建的博客">
+    <meta name="twitter:title" content="LaTeX之下的控制工程拉式变换 | PhilHE">
+    <meta name="twitter:description" content="
+第一次尝试用LaTeX与Markdown的结合来做控工笔记！
+">
     <meta name="twitter:image" content="https://hibetterheyj.github.io/img/favicon(1).png">
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content="https://hibetterheyj.github.io" />
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="https://hibetterheyj.github.io/archives/2017/page/2/index.html" />
+        <link rel="canonical" href="https://hibetterheyj.github.io/2017/10/07/basic-notes-of-Laplace-transform-under-LaTeX/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "https://hibetterheyj.github.io/2017/10/07/basic-notes-of-Laplace-transform-under-LaTeX/index.html",
+    "headline": "LaTeX之下的控制工程拉式变换",
+    "datePublished": "Sat Oct 07 2017 23:06:33 GMT+0800",
+    "dateModified": "Sat Oct 07 2017 23:06:33 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "PhilHE",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avatar(1).jpg"
+        },
+        "description": "望学有专长，意有专情,终安和黾勉，趣味无倦"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "PhilHE",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon(1).png"
+        }
+    },
+    "keywords": ",控制工程,TeX",
+    "description": "
+第一次尝试用LaTeX与Markdown的结合来做控工笔记！
+",
+}
+</script>
 
 
     
@@ -290,288 +331,418 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
     
-        
-            
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#定义"><span class="post-toc-number">1.</span> <span class="post-toc-text">定义</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#七种典型函数"><span class="post-toc-number">2.</span> <span class="post-toc-text">七种典型函数</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#相关定理"><span class="post-toc-number">3.</span> <span class="post-toc-text">相关定理</span></a></li></ol>
+    </ul>
+    
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
                 
-                    <!-- Paradox Thumbnail -->
-                    <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+    <!-- Paradox Post Header -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/10/01/second-week-summary-in-first-half-junior/"><span>[Top]</span>大三上·第二周（大家国庆快乐呀~）</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            大三上·第二周（国庆快乐） 
-
-Summarized by PhilHE on Oct 1, 2017
-
-
-
-  ​    首先祝大家国庆快乐哈！
-
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/10/01/second-week-summary-in-first-half-junior/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar(1).jpg" width="44px" height="44px" alt="PhilHE's avatar">
-            </div>
-            <div>
-                <strong>PhilHE</strong>
-                <span>10月 01, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/每周·点滴/">每周·点滴</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-                
-                
-            
-                
-                    <!-- Paradox Thumbnail -->
-                    <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/10/01/automotive-control-engineering-related-resources/"><span>[Top]</span>控制工程相关资源整理</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            控制工程相关整理
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/10/01/automotive-control-engineering-related-resources/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar(1).jpg" width="44px" height="44px" alt="PhilHE's avatar">
-            </div>
-            <div>
-                <strong>PhilHE</strong>
-                <span>10月 01, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/学业·积累/">学业·积累</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-                
-                
-            
-        
-    
-
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/08/16/The-Economist-reading-notes(1)_The-property-market/">The Economist短文阅读笔记（1）——The property market</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            这几日新开博客，也顺道整理过去参加外刊看中国的阅读笔记，索性放在这，多多指教！标题为The Property Market——Cat and house
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/08/16/The-Economist-reading-notes(1)_The-property-market/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar(1).jpg" width="44px" height="44px" alt="PhilHE's avatar">
-            </div>
-            <div>
-                <strong>PhilHE</strong>
-                <span>8月 16, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/每日·精进/">每日·精进</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/08/14/hello-world-hello-hexo/">Hello World generated by Hexo</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            这是PhilHE的第一篇测试博客，你好，Hexo！Welcome to Hexo! This is your very first po...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/08/14/hello-world-hello-hexo/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar(1).jpg" width="44px" height="44px" alt="PhilHE's avatar">
-            </div>
-            <div>
-                <strong>PhilHE</strong>
-                <span>8月 14, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-
-    
-    <!-- Index nav -->
-        <nav class="material-nav mdl-cell mdl-cell--12-col">
-            <a class="extend prev" rel="prev" href="/archives/2017/"><button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"><i class="material-icons" role="presentation">arrow_back</i></button></a><a class="page-number" href="/archives/2017/">1</a><span class="page-number current">2</span>
-        </nav>
-    
-
-    
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
     $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
 </script>
 
+        
+    
+            <p class="article-headline-p">
+                LaTeX之下的控制工程拉式变换
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar(1).jpg" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>PhilHE</strong>
+        <span>10月 07, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/TeX/">TeX</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/控制工程/">控制工程</a>
+    </ul>
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+        
+            <!-- Busuanzi Views -->
+            <a class="post_share-link" href="#">
+                <li class="mdl-menu__item">
+                    <span id="busuanzi_container_page_pv">
+                        <span id="busuanzi_value_page_pv"></span>&nbsp;浏览量
+                    </span>
+                </li>
+            </a>
+        
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=LaTeX之下的控制工程拉式变换&url=https://hibetterheyj.github.io/2017/10/07/basic-notes-of-Laplace-transform-under-LaTeX/index.html&pic=https://hibetterheyj.github.io/img/favicon(1).png&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://hibetterheyj.github.io/2017/10/07/basic-notes-of-Laplace-transform-under-LaTeX/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=https://hibetterheyj.github.io/2017/10/07/basic-notes-of-Laplace-transform-under-LaTeX/index.html&text=LaTeX之下的控制工程拉式变换" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Telegram
+            </li>
+        </a>
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <blockquote>
+<p>第一次尝试用LaTeX与Markdown的结合来做控工笔记！</p>
+</blockquote>
+<a id="more"></a>
+<center><font size="5"><strong>$\LaTeX$</strong>之下的<strong>控制工程</strong>拉式变换</font></center> 
+
+<center><font size="1">Summarized by <strong><em>PhilHE</em></strong> on <u>Oct 7, 2017</u></font></center>
+
+
+<h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><blockquote>
+<p>  函数$ x(t) $的<strong>拉式变换</strong>：$ L[x(t)]=X(s)=\displaystyle\int_0^{\infty} x(t)e^{-st} dt $，其中$ s=\sigma+j\omega $</p>
+<p>  类似的，傅里叶变换$ \int_{-\infty}^{\infty} x(t)e^{-j\omega t} dt $</p>
+<p>  拉式反变换（一般少用$ x(t)=L^{-1}[X(s)] = \dfrac{1}{2\pi j}\displaystyle\int_{\sigma-j\infty}^{\sigma+j\infty} X(s)e^{st}  dt \quad t\in(0,+\infty) $</p>
+</blockquote>
+<font color="#ffffff" size="5">color=此段为放空</font>
+
+<h3 id="七种典型函数"><a href="#七种典型函数" class="headerlink" title="七种典型函数"></a>七种典型函数</h3><ul>
+<li><strong>单位阶跃</strong>函数 $ L[1(t)]=\int_0^{\infty} 1(t)e^{-st} dt=\dfrac{1}{s} $</li>
+</ul>
+<ul>
+<li><strong>指数</strong>函数 $ L[e^{-at}] =\int_0^{\infty} e^{-at} \cdot e^{-st} dt = \int_0^{\infty} e^{-(x+a)t} dt = \dfrac{1}{s+a}$</li>
+</ul>
+<font color="#ffffff" size="1">color=此段为放空</font>
+
+<ul>
+<li><strong>正弦</strong>函数 $ L[sin(wt)]=\dfrac{\omega}{\omega^2 + s^2} $</li>
+</ul>
+<ul>
+<li><strong>余弦</strong>函数 $ L[cos(wt)]=\dfrac{s}{\omega^2 + s^2} $</li>
+</ul>
+<font color="#ffffff" size="1">color=此段为放空</font>
+
+<ul>
+<li><strong>单位脉冲</strong>函数，作用时间短，冲量正好为1</li>
+</ul>
+<p>$ \delta(t)=\begin{cases} 0, \quad (others) \ \lim_\limits{\epsilon \to0} \dfrac{1}{\epsilon},\quad (0&lt;t&lt;\epsilon)  \end{cases} $</p>
+<p>对应拉氏变换 $ L[\delta(t)]=1 $（利用<strong>洛必达法则</strong>）</p>
+<font color="#ffffff" size="1">color=此段为放空</font>
+
+<ul>
+<li><strong>幂函数</strong> $ t^n $的象函数$ L[x(t)]=\dfrac{n!}{s^{n+1}} $</li>
+</ul>
+<font color="#ffffff" size="1">color=此段为放空</font>
+
+<ul>
+<li>幂函数<strong>变式一</strong>：<strong>单位速度</strong>函数（斜坡函数）</li>
+</ul>
+<p>$ x(t)=\begin{cases} 0 \quad t&lt;0\t \quad t\ge0 \end{cases} $</p>
+<p>对应拉氏变换 $ L[x(t)]=\dfrac{1!}{s^2}=\dfrac{1}{s^2} $，即可表示为 $ x(t)\xrightarrow{L} \dfrac{1}{s^2} $</p>
+<font color="#ffffff" size="1">color=此段为放空</font>
+
+<ul>
+<li>幂函数<strong>变式二</strong>：<strong>单位加速度</strong>函数</li>
+</ul>
+<p>$ f(t)=\begin{cases} 0 \quad t&lt;0 \ \dfrac{1}{2}t^2 \quad t\geq 0 \end{cases} $</p>
+<p>对应变换$ L[x(t)]=\dfrac{1}{2}\times\dfrac{2!}{s^3}=\dfrac{1}{s^3} $，即可表示为$ x(t)\xrightarrow{L} \dfrac{1}{s^3} $</p>
+<font color="#ffffff" size="5">color=此段为放空</font>
+
+<h3 id="相关定理"><a href="#相关定理" class="headerlink" title="相关定理"></a>相关定理</h3><ul>
+<li><strong>叠加</strong>定理：齐次性、叠加性</li>
+</ul>
+<ul>
+<li>（重点！）<strong>微分</strong>定理：</li>
+</ul>
+<p>$ L\bigg[\dfrac{d}{dt} x(t)\bigg]=sX(s)-x(0^+) $</p>
+<p>$ L \bigg[\dfrac{d^2x(t)}{dt^2} \bigg]=s^2X(s)-sx(0^+)-x’(0^+) $</p>
+<p>$ L\bigg[\dfrac{d^nx(t)}{dt^n} \bigg]=s^nX(s)-s^{n-1}x(0^+)-s^{n-2}x’(0^+)-\cdots-x^{n-1}(0^+) $</p>
+<p>因此，当初始条件全为0是，则$ \dfrac{d^n}{dt^n}x(t)\Leftrightarrow s^nX(s) $ </p>
+<font color="#ffffff" size="1">color=此段为放空</font>
+
+<ul>
+<li><strong>积分</strong>定理 $L\bigg[\displaystyle\idotsint x(t)(dt)^n \bigg] = \dfrac{X(s)}{s^n} + \dfrac{x^{-1}(0^+)}{s^n} + \dfrac{x^{-2}(0^+)}{s^{n-1}} + \cdots + \dfrac{x^{-n}(0^+)}{s} $</li>
+</ul>
+<font color="#ffffff" size="1">color=此段为放空</font>
+
+
+<ul>
+<li>拉式<strong>反变换</strong> $ x(t)=\dfrac{1}{2\pi j} \displaystyle\int_{a-j\infty}^{a+j\infty} X(s)e^{st}ds $，一般使用较少</li>
+</ul>
+<font color="#ffffff" size="1">color=此段为放空</font>
+
+
+<ul>
+<li><p><strong>卷积</strong>定理$L[f(t)*g(t)]=F(s)G(s)$</p>
+<p>  其中$f(t)*g(t)$即为两函数的卷积，必须符合条件：当$t&lt;0$时，$f(t)=g(t)=0$，则卷积可以表示为</p>
+<p>  $$ f(t)*g(t)=\displaystyle\int_0^t f(t-\tau)g(\tau)d\tau = \displaystyle\int_0^t f(\tau)g(t-\tau)d\tau $$</p>
+<p>  <strong><em>举例</em></strong></p>
+<hr>
+<p>  已知$f(t)=t$，$g(t)=t^2$</p>
+<p>  则$ f(t)*g(t)=\displaystyle\int_0^t (t-\tau)\cdot{\tau}^2 d\tau = \dfrac{1}{3}\tau^3 t-\dfrac{1}{4}\tau^4 \bigg|_0^t = \dfrac{1}{12}t^4$</p>
+<p>  所以$ \mathcal{L}(\dfrac{1}{12}t^4)=\dfrac{1}{12}\cdot\dfrac{4!}{s^5} =\dfrac{2}{s^5}$</p>
+<p>  而由$ \mathcal{L}(t) = \dfrac{1}{s^2} $，$ \mathcal{L}(t^2) = \dfrac{2}{s^3} $可知卷积公式成立！</p>
+<hr>
+  <font color="#ffffff" size="2">color=此段为放空</font>
+</li>
+<li><p>$ f(\dfrac{t}{a}) $的<strong>象函数</strong></p>
+<p> $L\bigg[f(\dfrac{t}{a})\bigg]=aF(as) \quad     其中 a=costant&gt;0$</p>
+<p>   <strong><em>举例</em></strong></p>
+<hr>
+<p>   $L[e^{-t}] = F(s) = \dfrac{1}{s+1} $，则$ L[e^{-t/a}] = aF(as)=\dfrac{a}{as+1} $</p>
+<hr>
+</li>
+</ul>
+<p><font color="#ffffff" size="4">color=此段为放空</font><br>（最后更新于<em>2017.10.07</em>）</p>
+
+        
+                <blockquote style="margin: 2em 0 0;padding: 0.5em 1em;border-left: 3px solid #F44336;background-color: #F5F5F5;list-style: none;">
+                    <p><strong>
+                         
+                            本文使用 <a rel='nofollow noopener' href='https://creativecommons.org/licenses/by-nc-sa/3.0/deed.zh' target='_blank'>CC BY-NC-SA 3.0 Unported</a> 协议进行许可，<a href='https://creativecommons.org/' target='_blank'>相关说明</a>
+                        </strong>
+                        <br>
+                        <strong>本文链接：</strong><a href="https://hibetterheyj.github.io/2017/10/07/basic-notes-of-Laplace-transform-under-LaTeX/">https://hibetterheyj.github.io/2017/10/07/basic-notes-of-Laplace-transform-under-LaTeX/</a>
+                    </p>
+                </blockquote>
+        
+    
+
     
 </div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用 DISQUS_CLICK -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+
+<!-- add animation -->
+<style>
+	.disqus_click_btn {
+            line-height: 30px;
+            margin: 0;
+            min-width: 50px;
+            padding: 0 14px;
+            display: inline-block;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0;
+            overflow: hidden;
+            will-change: box-shadow;
+            transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1);
+            outline: 0;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            vertical-align: middle;
+            border: 0;
+            background: rgba(158, 158, 158, .2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+            color: #fff;
+            background-color: #757575;
+            text-shadow: 0
+        }
+</style>
+	
+<div class="btn_click_load"> 
+    <button class="disqus_click_btn" style="display: none">阅读评论（请确保 disqus 可以正常加载）</button>
+</div>
+
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'https://hibetterheyj.github.io/2017/10/07/basic-notes-of-Laplace-transform-under-LaTeX/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'https://hibetterheyj.github.io/2017/10/07/basic-notes-of-Laplace-transform-under-LaTeX/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+
+<script type="text/ls-javascript" id="disqus-lazy-load-script">
+    $.ajax({
+        url: 'https://disqus.com/next/config.json',
+        timeout: 4000,
+        type: 'GET',
+        success: (function() {
+            var d = document;
+            var s = d.createElement('script');
+            s.src = '//philhe.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+            $('.btn_click_load').css('display','none');
+        })(),
+        error: function() {
+          $('.btn_click_load').css('display','block');
+        }
+    });
+    $('.btn_click_load').click(function() {  //click to load comments
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document;
+            var s = d.createElement('script');
+            s.src = '//philhe.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        $('.btn_click_load').css('display','none');
+    });
+</script>
+  	
+
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2017/10/01/second-week-summary-in-first-half-junior/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
@@ -990,6 +1161,26 @@ It will not impact the appearance and can give developers a lot of support :)
 </script>
 
 <!-- MathJax Load-->
+
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },
+        tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno",skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']},
+        TeX: {  noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, Macros: { href: "{}" } },
+        messageStyle: "none"
+    });
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
 
 
 <!-- Bing Background -->
