@@ -671,13 +671,8 @@ $ \LaTeX $
 <p>&#160;&#160;&#160;&#160;&#160;&#160;对于越来越臃肿的微博，我们还是眼不见心不烦吧。「眼不见心不烦」由国人开发，可以高度自定义微博的显示样式。安装成功后在页面右上角的「齿轮」便可打开设置页面。<a href="weibo.com">新浪微博</a>非官方功能增强插件，可以无限制地屏蔽关键词、用户、来源，去除页面广告和推广微博，反刷屏，还您一个清爽干净的微博！</p>
 <p><strong>下载链接</strong>：<em><a href="https://chrome.google.com/webstore/detail/%E7%9C%BC%E4%B8%8D%E8%A7%81%E5%BF%83%E4%B8%8D%E7%83%A6%EF%BC%88%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A%EF%BC%89/aognaapdfnnldnjglanfbbklaakbpejm" target="_blank" rel="external">Chrome Web Store – 眼不见心不烦（新浪微博）</a></em></p>
 <ul>
-<li><h4 id="Facebook-Flat"><a href="#Facebook-Flat" class="headerlink" title="Facebook Flat"></a><strong>Facebook Flat</strong></h4></li>
+<li><h4 id="Facebook-Flat（已失效）"><a href="#Facebook-Flat（已失效）" class="headerlink" title="Facebook Flat（已失效）"></a><del><strong>Facebook Flat（已失效）</strong></del></h4></li>
 </ul>
-<center><img src="https://ooo.0o0.ooo/2017/09/01/59a8bf057683a.jpg" alt="323777.jpg" title="FacebookFlat效果图<"></center><br><center>FacebookFlat效果图</center>
-
-<p>&#160;&#160;&#160;&#160;&#160;&#160;Facebook 的页面千年不变，我早已看厌，而且也有越来越臃肿的趋势。该扩展可以给脸书换脸，瞬间清爽不留痕。安装完成后点击页面左上角那个开关即可，可惜不支持自定义。</p>
-<p>&#160;&#160;&#160;&#160;&#160;&#160;相关文章可阅读：<a href="https://free.com.tw/facebook-flat/" target="_blank" rel="external">Facebook Flat 將臉書網頁樣式平面化，更美麗更輕量，提升整體速度！（Chrome 擴充功能）</a></p>
-<p><strong>下载链接</strong>：<em><a href="https://chrome.google.com/webstore/detail/facebook-flat/kadbillinepbjlgenaliokdhejdmmlgp" target="_blank" rel="external">Chrome Web Store –facebook-flat</a></em></p>
 <font color="#ffffff" size="6">color=此段为放空</font>
 
 <h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ol>
@@ -1210,24 +1205,6 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
   
     
     <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[gallery]]></title>
-      <url>/gallery.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[关于]]></title>
       <url>/about.html</url>
       <content type="html"><![CDATA[<blockquote>
@@ -1283,6 +1260,18 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
     </entry>
     
     <entry>
+      <title><![CDATA[gallery]]></title>
+      <url>/gallery.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[tags]]></title>
+      <url>/tags.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[小站历史]]></title>
       <url>/timeline.html</url>
       <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
@@ -1290,6 +1279,12 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <li>2017.08.15 确定了以Material为主题</li>
 </ul>
 ]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[links]]></title>
+      <url>/links.html</url>
+      <content type="html"></content>
     </entry>
     
   
