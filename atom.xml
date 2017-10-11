@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hibetterheyj.github.io/"/>
-  <updated>2017-10-07T15:06:33.000Z</updated>
+  <updated>2017-10-11T18:53:32.000Z</updated>
   <id>https://hibetterheyj.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>新栏目【何处·听说】：说说自己，说说博客！</title>
+    <link href="https://hibetterheyj.github.io/2017/10/12/a-new-column-HEre2Talk-blog-and-me/"/>
+    <id>https://hibetterheyj.github.io/2017/10/12/a-new-column-HEre2Talk-blog-and-me/</id>
+    <published>2017-10-11T18:53:32.000Z</published>
+    <updated>2017-10-11T18:53:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<center><font size="5">新栏目【何处·听说】：说说自己，说说博客</font></center> <hr><blockquote><p>  大学两年多以来，疏于记录自己成长的所见、所闻、所感。</p></blockquote><a id="more"></a><p><font color="#ffffff" size="4">color=此段为放空</font><br>（最后更新于<em>2017.10.12</em>）</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;center&gt;&lt;font size=&quot;5&quot;&gt;新栏目【何处·听说】：说说自己，说说博客&lt;/font&gt;&lt;/center&gt; 
+
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;  大学两年多以来，疏于记录自己成长的所见、所闻、所感。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="何处·听说" scheme="https://hibetterheyj.github.io/categories/%E4%BD%95%E5%A4%84%C2%B7%E5%90%AC%E8%AF%B4/"/>
+    
+    
+      <category term="blog" scheme="https://hibetterheyj.github.io/tags/blog/"/>
+    
+  </entry>
   
   <entry>
     <title>LaTeX之下的控制工程拉式变换</title>
@@ -97,8 +124,8 @@
   
   <entry>
     <title>快速入门TeX数学公式</title>
-    <link href="https://hibetterheyj.github.io/2017/09/24/crash-course-to-latex-maths-equation/"/>
-    <id>https://hibetterheyj.github.io/2017/09/24/crash-course-to-latex-maths-equation/</id>
+    <link href="https://hibetterheyj.github.io/2017/09/24/crash-course-to-LaTeX-maths-equation/"/>
+    <id>https://hibetterheyj.github.io/2017/09/24/crash-course-to-LaTeX-maths-equation/</id>
     <published>2017-09-24T11:30:11.000Z</published>
     <updated>2017-09-24T11:30:11.000Z</updated>
     
@@ -291,9 +318,9 @@
       <category term="每日·精进" scheme="https://hibetterheyj.github.io/categories/%E6%AF%8F%E6%97%A5%C2%B7%E7%B2%BE%E8%BF%9B/"/>
     
     
-      <category term="Economist" scheme="https://hibetterheyj.github.io/tags/Economist/"/>
-    
       <category term="English_learning" scheme="https://hibetterheyj.github.io/tags/English-learning/"/>
+    
+      <category term="Economist" scheme="https://hibetterheyj.github.io/tags/Economist/"/>
     
   </entry>
   

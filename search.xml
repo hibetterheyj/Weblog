@@ -3,6 +3,34 @@
   
     
     <entry>
+      <title><![CDATA[新栏目【何处·听说】：说说自己，说说博客！]]></title>
+      <url>/2017/10/12/a-new-column-HEre2Talk-blog-and-me/</url>
+      <content type="html"><![CDATA[<center><font size="5">新栏目【何处·听说】：说说自己，说说博客</font></center> 
+
+<hr>
+<blockquote>
+<p>  大学两年多以来，疏于记录自己成长的所见、所闻、所感。</p>
+</blockquote>
+<a id="more"></a>
+<p><font color="#ffffff" size="4">color=此段为放空</font><br>（最后更新于<em>2017.10.12</em>）</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 何处·听说 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> blog </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[LaTeX之下的控制工程拉式变换]]></title>
       <url>/2017/10/07/basic-notes-of-Laplace-transform-under-LaTeX/</url>
       <content type="html"><![CDATA[<blockquote>
@@ -286,7 +314,7 @@
     
     <entry>
       <title><![CDATA[快速入门TeX数学公式]]></title>
-      <url>/2017/09/24/crash-course-to-latex-maths-equation/</url>
+      <url>/2017/09/24/crash-course-to-LaTeX-maths-equation/</url>
       <content type="html"><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML">
 </script>
 
@@ -1160,9 +1188,9 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
         
         <tags>
             
-            <tag> Economist </tag>
-            
             <tag> English_learning </tag>
+            
+            <tag> Economist </tag>
             
         </tags>
         
@@ -1205,14 +1233,24 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
     </entry>
     
     <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links.html</url>
+      <title><![CDATA[tags]]></title>
+      <url>/tags.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags.html</url>
+      <title><![CDATA[小站历史]]></title>
+      <url>/timeline.html</url>
+      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
+<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
+<li>2017.08.15 确定了以Material为主题</li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[links]]></title>
+      <url>/links.html</url>
       <content type="html"></content>
     </entry>
     
@@ -1268,16 +1306,6 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <blockquote>
 <p>以上为近期待办事项，若为<code>o</code>为未完成，<code>i</code>为正在进行中，<code>x</code>则为已完成。</p>
 </blockquote>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[小站历史]]></title>
-      <url>/timeline.html</url>
-      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
-<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
-<li>2017.08.15 确定了以Material为主题</li>
-</ul>
 ]]></content>
     </entry>
     
