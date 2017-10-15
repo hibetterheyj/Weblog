@@ -4,12 +4,13 @@
     
     <entry>
       <title><![CDATA[大三上·第四周]]></title>
-      <url>/2017/10/15/four-week-summary-in-first-half-junior/</url>
-      <content type="html"><![CDATA[<center><font size="5"><strong>大三上·第四周</strong></font></center> in <strong>Pixyll</strong> theme<br><br><center><font size="1">Summarized by <strong><em>PhilHE</em></strong> on <u>Oct 15, 2017</u></font></center>
+      <url>/2017/10/15/fourth-week-summary-in-first-half-junior/</url>
+      <content type="html"><![CDATA[<center><font size="5"><strong>大三上·第四周</strong></font></center> 
+
+<center><font size="1">Summarized by <strong><em>PhilHE</em></strong> on <u>Oct 15, 2017</u></font></center>
 
 <hr>
 <a id="more"></a>
-<hr>
 <blockquote>
 <p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;颓废的国庆已然过去，而凛冬将至，该做好准备应对即将到来的一切！</p>
 </blockquote>
@@ -17,7 +18,7 @@
 <h4 id="课程相关"><a href="#课程相关" class="headerlink" title="课程相关"></a>课程相关</h4><h5 id="现代光学导论-by-孙恺老师"><a href="#现代光学导论-by-孙恺老师" class="headerlink" title="现代光学导论 by 孙恺老师"></a>现代光学导论 <em>by</em> <strong>孙恺老师</strong></h5><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第三节的主题是<strong>Cameras and Photography</strong>（相机与成像），主要就衔接上节课简要介绍了<strong>lenses</strong>（光学镜片）相较于<strong>pinhole</strong>（小孔成像）的优劣，接着从光学基础对于相机几个主要参数：<strong>shutter speed</strong>（快门速度）、<strong>aperture</strong>（光圈）与<strong>ISO</strong>（感光程度）进行了分析~</p>
 <p><strong>**Related</strong> Source：**<a href="http://pan.baidu.com/s/1qYNWZwS" target="_blank" rel="external">课件链接</a>（Password：n6r5）</p>
 <p>&nbsp;</p>
-<h5 id="控制工程基础-by-熊肖磊老师"><a href="#控制工程基础-by-熊肖磊老师" class="headerlink" title="控制工程基础 by 熊肖磊老师"></a>控制工程基础 <em>by</em> <strong>熊肖磊老师</strong></h5><p>​    开学第二周的课，老师在结束绪论之后，开始了飞速点PPT模式——两课时简要概述了拉式变换的诸多定理以及给传递函数开了一个头，总体功课还是需要靠自己勤加练习，毕竟开始的<strong>数学基础</strong>决定了最后考试这一<strong>上层建筑</strong>！</p>
+<h5 id="控制工程基础-by-熊肖磊老师"><a href="#控制工程基础-by-熊肖磊老师" class="headerlink" title="控制工程基础 by 熊肖磊老师"></a>控制工程基础 <em>by</em> <strong>熊肖磊老师</strong></h5><p>​    开学第四周的课，是一节实验课，分为六个小组轮流完成六个实验，主要是用远古版本的<em>matlab</em>进行操作，没有预习可能会感到无趣，但是当算法的实现便会感到“<strong>控制玄学</strong>”的魔力</p>
 <p><strong>Related Source：</strong><a href="http://pan.baidu.com/s/1dFo18a9" target="_blank" rel="external">课件链接</a>（Password：0eeu）</p>
 <p>&nbsp;</p>
 <h5 id="其他专业课件"><a href="#其他专业课件" class="headerlink" title="其他专业课件"></a>其他专业课件</h5><ul>
@@ -1013,9 +1014,9 @@ coursera-dl --help
         
         <tags>
             
-            <tag> 集合汇总 </tag>
-            
             <tag> 工具推荐 </tag>
+            
+            <tag> 集合汇总 </tag>
             
         </tags>
         
@@ -1440,12 +1441,6 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
   
     
     <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[gallery]]></title>
       <url>/gallery.html</url>
       <content type="html"></content>
@@ -1455,16 +1450,6 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
       <title><![CDATA[links]]></title>
       <url>/links.html</url>
       <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[小站历史]]></title>
-      <url>/timeline.html</url>
-      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
-<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
-<li>2017.08.15 确定了以Material为主题</li>
-</ul>
-]]></content>
     </entry>
     
     <entry>
@@ -1521,6 +1506,22 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <blockquote>
 <p>以上为近期待办事项，若为<code>o</code>为未完成，<code>i</code>为正在进行中，<code>x</code>则为已完成。</p>
 </blockquote>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[tags]]></title>
+      <url>/tags.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[小站历史]]></title>
+      <url>/timeline.html</url>
+      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
+<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
+<li>2017.08.15 确定了以Material为主题</li>
+</ul>
 ]]></content>
     </entry>
     
