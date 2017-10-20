@@ -79,7 +79,7 @@
       <title><![CDATA[自建博客不专业入门指北]]></title>
       <url>/2017/10/14/a-layman-s-guide-to-self-constructed-blog/</url>
       <content type="html"><![CDATA[<blockquote>
-<p>本文首发于公众号<strong>『去冰』</strong>2017年10月14日的推送，感谢支持关注！</p>
+<p>本文首发于公众号<strong>『去冰』</strong>2017年10月14日的<a href="http://mp.weixin.qq.com/s/Jprg8AFxZJG7nV3qx2HZLQ" target="_blank" rel="external">推送</a>，感谢支持关注！</p>
 </blockquote>
 <a id="more"></a>
 <center><font size="5"><strong>自建博客不专业入门指北</strong> </font></center> 
@@ -156,15 +156,29 @@
 <p>  支持有Markdown带来的沉浸式的创作体验，随时随地可以进行创作，同时支持离线保存</p>
 </blockquote>
 <p>&nbsp;<strong><a href="http://www.jianshu.com/p/1ce820dc4112" target="_blank" rel="external">简书 Markdown 教程</a>一文介绍了markdown编辑模式的开启过程，当你慢慢掌握</strong>markdown**操作后，就可以自由地在上面“随时随地可以进行创作”！</p>
+<p><strong><em>相关网站</em></strong>：<a href="http://www.jianshu.com/" target="_blank" rel="external">官网</a></p>
 <p>&nbsp;</p>
 <h4 id="Bitcron"><a href="#Bitcron" class="headerlink" title="Bitcron"></a>Bitcron</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;对于<strong>Bitcorn</strong>的使用可以看这篇文章：<a href="https://sspai.com/post/40675" target="_blank" rel="external">用 Bitcron 搭博客：你只管写作，它负责呈现</a></p>
 <blockquote>
 <p>  Bitcron 是一个可作为博客使用的互联网渲染引擎，只需网页即能工作，支持 Markdown 语法，通过 Web、微信、Dropbox 一键发布博客，让用户专注于写作本身。</p>
 </blockquote>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;总结一句话：Bitcorn在上述自建博客与简书平台发布之间找到了一个恰当的平衡点：它把自建博客时掉坑的几率降到最小，封装了<strong>安装Hexo框架与使用github pages的中间过程</strong>，用户既可以选择付费购买主题、专注产出，富有创造力的<strong>geek</strong>也可以在成熟的框架下“<u>带着镣铐跳出不俗的舞蹈</u>”，值得选择！</p>
+<p><strong><em>相关网站</em></strong>：<a href="https://bitcron.com/" target="_blank" rel="external">官网</a></p>
+<p>&nbsp;</p>
+<h4 id="蚂蚁笔记Leanote"><a href="#蚂蚁笔记Leanote" class="headerlink" title="蚂蚁笔记Leanote"></a>蚂蚁笔记Leanote</h4><p>在本月（2017.10）浏览<a href="https://amazing-apps.gitbooks.io/windows-apps-that-amaze-us/content/zh-CN/" target="_blank" rel="external">《Windows 绝赞应用》</a>的过程中我发现了这款有极客范的云笔记！这份产品在其官网这样写道：</p>
+<blockquote>
+<p>  前所未有的文档体验，近乎完美的平台覆盖，支持团队协同，企业级私有云</p>
+<p>  蚂蚁笔记 = 笔记 + 博客 + 协作 + 私有云</p>
+</blockquote>
+<p>支持 Markdown 的开源笔记，也可以搭建个人博客，但是云同步需付费，我认为它和上述提到的Bitcron一样成为一款“进可搭博客，退可写笔记”上佳之作！</p>
+<p><strong><em>相关网站</em></strong>：<a href="https://leanote.com/" target="_blank" rel="external">官网</a>｜<a href="http://app.leanote.com/" target="_blank" rel="external">下载页面</a></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>（最后更新于<em>2017.10.14</em>）</p>
+<blockquote>
+<p>  171014 文章首发于微信公众平台<a href="http://mp.weixin.qq.com/s/Jprg8AFxZJG7nV3qx2HZLQ" target="_blank" rel="external">【去冰】</a></p>
+<p>  171020 更新“同类推荐”下相关链接，增加“蚂蚁笔记Leanote”</p>
+</blockquote>
+<p>（最后更新于<em>2017.10.20</em>）</p>
 ]]></content>
       
         <categories>
@@ -1442,6 +1456,34 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
   
     
     <entry>
+      <title><![CDATA[gallery]]></title>
+      <url>/gallery.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[links]]></title>
+      <url>/links.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[tags]]></title>
+      <url>/tags.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[小站历史]]></title>
+      <url>/timeline.html</url>
+      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
+<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
+<li>2017.08.15 确定了以Material为主题</li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[关于]]></title>
       <url>/about.html</url>
       <content type="html"><![CDATA[<blockquote>
@@ -1495,34 +1537,6 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <blockquote>
 <p>以上为近期待办事项，若为<code>o</code>为未完成，<code>i</code>为正在进行中，<code>x</code>则为已完成。</p>
 </blockquote>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[gallery]]></title>
-      <url>/gallery.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[小站历史]]></title>
-      <url>/timeline.html</url>
-      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
-<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
-<li>2017.08.15 确定了以Material为主题</li>
-</ul>
 ]]></content>
     </entry>
     
