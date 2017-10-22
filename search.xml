@@ -3,7 +3,7 @@
   
     
     <entry>
-      <title><![CDATA[fifth-week-summary-in-first-half-junior]]></title>
+      <title><![CDATA[大三上·第五周]]></title>
       <url>/2017/10/22/fifth-week-summary-in-first-half-junior/</url>
       <content type="html"><![CDATA[<center><font size="5"><strong>大三上·第五周</strong></font></center> 
 
@@ -1300,9 +1300,9 @@ coursera-dl --help
         
         <tags>
             
-            <tag> 集合汇总 </tag>
-            
             <tag> 工具推荐 </tag>
+            
+            <tag> 集合汇总 </tag>
             
         </tags>
         
@@ -1727,34 +1727,6 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
   
     
     <entry>
-      <title><![CDATA[gallery]]></title>
-      <url>/gallery.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[小站历史]]></title>
-      <url>/timeline.html</url>
-      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
-<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
-<li>2017.08.15 确定了以Material为主题</li>
-</ul>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[关于]]></title>
       <url>/about.html</url>
       <content type="html"><![CDATA[<blockquote>
@@ -1810,6 +1782,34 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <p>以上为近期待办事项，若为<code>o</code>为未完成，<code>i</code>为正在进行中，<code>x</code>则为已完成。</p>
 </blockquote>
 ]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[tags]]></title>
+      <url>/tags.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[links]]></title>
+      <url>/links.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[小站历史]]></title>
+      <url>/timeline.html</url>
+      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
+<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
+<li>2017.08.15 确定了以Material为主题</li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[gallery]]></title>
+      <url>/gallery.html</url>
+      <content type="html"></content>
     </entry>
     
   
