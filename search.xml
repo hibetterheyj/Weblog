@@ -73,7 +73,6 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>（有意评论者请翻墙，最后更新于<em>2017.10.22</em>）</p>
-<p>&nbsp;<br>&nbsp;<br>&nbsp;<br>（最后更新于<em>XXXX.XX.XX</em>）</p>
 ]]></content>
       
         
@@ -1300,9 +1299,9 @@ coursera-dl --help
         
         <tags>
             
-            <tag> 工具推荐 </tag>
-            
             <tag> 集合汇总 </tag>
+            
+            <tag> 工具推荐 </tag>
             
         </tags>
         
@@ -1785,6 +1784,12 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
     </entry>
     
     <entry>
+      <title><![CDATA[gallery]]></title>
+      <url>/gallery.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[tags]]></title>
       <url>/tags.html</url>
       <content type="html"></content>
@@ -1804,12 +1809,6 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <li>2017.08.15 确定了以Material为主题</li>
 </ul>
 ]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[gallery]]></title>
-      <url>/gallery.html</url>
-      <content type="html"></content>
     </entry>
     
   
