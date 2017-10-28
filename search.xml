@@ -62,13 +62,10 @@
 <li><a href="https://github.com/hibetterheyj/Learning_Python_as_Main_Language" target="_blank" rel="external"><strong>github repo_Learning_Python_as_Main_Language</strong></a></li>
 <li><strong>在线浏览笔记</strong>可见：<a href="https://nbviewer.jupyter.org/github/hibetterheyj/Learning_Python_as_Main_Language/blob/master/Reptile/Python%E7%AC%94%E8%AE%B0%E2%80%94%E2%80%94%E7%88%AC%E8%99%AB%E4%B9%8B%E8%A7%84%E5%88%99.ipynb" target="_blank" rel="external">Python笔记——爬虫之规则.ipynb</a></li>
 </ul>
-<blockquote>
-<p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-</blockquote>
 <p>&nbsp;</p>
 <h5 id="1029"><a href="#1029" class="headerlink" title="1029"></a>1029</h5><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1029即将以志愿者的身份参加<u>第二届上海国际10公里精英赛</u>，清晨4点出发，主要做检查岗的工作。（明日更新现场图片：）</p>
 <p>&nbsp;</p>
-<p>&nbsp;<br>&nbsp;<br>&nbsp;<br>（有意评论者请翻墙，最后更新于<em>2017.10.28</em>）</p>
+<p>&nbsp;<br>&nbsp;<br>（有意评论者请翻墙，最后更新于<em>2017.10.28</em>）</p>
 ]]></content>
       
         <categories>
@@ -735,9 +732,9 @@
         
         <tags>
             
-            <tag> TeX </tag>
-            
             <tag> 控制工程 </tag>
+            
+            <tag> TeX </tag>
             
         </tags>
         
@@ -1211,9 +1208,9 @@ $ \LaTeX $
         
         <tags>
             
-            <tag> English_learning </tag>
-            
             <tag> newsletter </tag>
+            
+            <tag> English_learning </tag>
             
         </tags>
         
@@ -1822,34 +1819,6 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
   
     
     <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[gallery]]></title>
-      <url>/gallery.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[小站历史]]></title>
-      <url>/timeline.html</url>
-      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
-<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
-<li>2017.08.15 确定了以Material为主题</li>
-</ul>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[关于]]></title>
       <url>/about.html</url>
       <content type="html"><![CDATA[<blockquote>
@@ -1873,7 +1842,7 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <li>2017.08.15 确定了以Material为主题，并且逐渐细化整体网页框架</li>
 <li>2017.08.16 增加了Gallery与Timeline界面</li>
 <li>2017.08.17 增加了【时光】、【映像】、【关于】分页，并将google搜索改变为本地搜索，开始丰富小站内容</li>
-<li>2017.08.20 增加了『技术·小见闻』、『每日·精进』分类，更新相关文章</li>
+<li>2017.08.20 增加了『技术·小见』、『每日·精进』分类，更新相关文章</li>
 <li>2017.09.08 增加了Hexo-Prism-Plugin插件，形成<a href="https://github.com/ele828/hexo-prism-plugin" target="_blank" rel="external">代码高亮样式</a></li>
 <li>2017.09.26 生日前夜误将<code>node_modules</code>文件夹删除，导致本地更新无法同步。由于学业，数日后重建本地博客文件夹修复！</li>
 <li>2017.09.27 增加在<coding.net>上的新备份，此处为<a href="http://philhe.coding.me/PhilHE/" target="_blank" rel="external">coding pages</a></coding.net></li>
@@ -1904,6 +1873,34 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <blockquote>
 <p>以上为近期待办事项，若为<code>o</code>为未完成，<code>i</code>为正在进行中，<code>x</code>则为已完成。</p>
 </blockquote>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[tags]]></title>
+      <url>/tags.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[links]]></title>
+      <url>/links.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[gallery]]></title>
+      <url>/gallery.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[小站历史]]></title>
+      <url>/timeline.html</url>
+      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
+<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
+<li>2017.08.15 确定了以Material为主题</li>
+</ul>
 ]]></content>
     </entry>
     
