@@ -85,6 +85,10 @@
 
     <!-- RSS -->
     
+        
+            <link rel=alternate type="application/atom+xml" href="//hibetterheyj.github.io/atom.xml">
+        
+    
 
     <!--[if lte IE 9]>
         <link rel="stylesheet" href="/css/ie-blocker.css">
@@ -218,9 +222,10 @@
     <link href="https://fonts.proxy.ustclug.org/css?family=Roboto:300,400,500" rel="stylesheet">
 
 
-<!-- Import Material Icon -->
+<!-- Import Material Icons -->
 
-    <link rel="stylesheet" href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+
+    <style id="material_icons"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_icons","/css/material-icons.css?psS5wgdKLHto0UU8SFe9Dg==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
 
 
 
@@ -432,7 +437,8 @@
     
 
     <!-- Share -->
-    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
     <i class="material-icons" role="presentation">share</i>
     <span class="visuallyhidden">share</span>
 </button>
@@ -492,6 +498,7 @@
     
 </ul>
 
+    
 </div>
 
                 
@@ -565,12 +572,13 @@
             box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
             color: #fff;
             background-color: #757575;
-            text-shadow: 0
+            text-shadow: 0;
+            display: none
         }
 </style>
 	
 <div class="btn_click_load"> 
-    <button class="disqus_click_btn" style="display: none">阅读评论（请确保 disqus 可以正常加载）</button>
+    <button class="disqus_click_btn">阅读评论（请确保 disqus 可以正常加载）</button>
 </div>
 
 <script type="text/javascript">
@@ -591,10 +599,10 @@
             s.src = '//philhe.disqus.com/embed.js';
             s.setAttribute('data-timestamp', + new Date());
             (d.head || d.body).appendChild(s);
-            $('.btn_click_load').css('display','none');
+            $('.disqus_click_btn').css('display','none');
         })(),
         error: function() {
-          $('.btn_click_load').css('display','block');
+          $('.disqus_click_btn').css('display','block');
         }
     });
     $('.btn_click_load').click(function() {  //click to load comments
@@ -605,7 +613,7 @@
             s.setAttribute('data-timestamp', + new Date());
             (d.head || d.body).appendChild(s);
         })();
-        $('.btn_click_load').css('display','none');
+        $('.disqus_click_btn').css('display','none');
     });
 </script>
   	
