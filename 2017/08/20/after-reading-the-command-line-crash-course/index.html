@@ -508,14 +508,13 @@ The only piece of advice I am going to give you is this: Shut up and type all th
 </blockquote>
 <p>作者这一条建议延续了之前Learn XX the hard way的风格思路，强调了练习的重要性——虽然枯燥、但是必要。</p>
 <hr>
-<ul>
-<li><h2 id="练习部分"><a href="#练习部分" class="headerlink" title="练习部分"></a>练习部分</h2></li>
-</ul>
-<h3 id="Exercise-1-The-Setup"><a href="#Exercise-1-The-Setup" class="headerlink" title="Exercise 1: The Setup"></a>Exercise 1: The Setup</h3><ul>
+<p>&nbsp;</p>
+<h2 id="练习部分"><a href="#练习部分" class="headerlink" title="练习部分"></a>练习部分</h2><h3 id="Exercise-1-The-Setup"><a href="#Exercise-1-The-Setup" class="headerlink" title="Exercise 1: The Setup"></a>Exercise 1: The Setup</h3><ul>
 <li>For Linux, we can use the Terminal; for Windows, w can use the Powershell.</li>
 <li>Remember, some command lines in Linux are different from the ones in Windows Powershell.</li>
 <li>在Linux系统中我们可以通过终端来进行命令行操作，在Windows中，我们则可使用内置的PowerShell（其实Win10系统更推荐WSL这一Linux内置测试版本来进行练习操作！）。</li>
 </ul>
+<p>&nbsp;</p>
 <h3 id="Exercise-2-Paths-Folders-Directories-pwd"><a href="#Exercise-2-Paths-Folders-Directories-pwd" class="headerlink" title="Exercise 2: Paths, Folders, Directories ( pwd )"></a>Exercise 2: Paths, Folders, Directories ( <em>pwd</em> )</h3><ul>
 <li><code>pwd</code> means “printing working directory”.<br>“directory” is another name for “folder”.</li>
 <li>打印工作所在文件夹位置</li>
@@ -523,6 +522,7 @@ The only piece of advice I am going to give you is this: Shut up and type all th
 <pre class="line-numbers language-bash"><code class="language-bash">$ <span class="token function">pwd</span>
 /home/hibetterhyj
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p>&nbsp;</p>
 <h3 id="Exercise-3-If-You-Get-Lost"><a href="#Exercise-3-If-You-Get-Lost" class="headerlink" title="Exercise 3: If You Get Lost"></a>Exercise 3: If You Get Lost</h3><ul>
 <li>Whenever you get lost, it is most likely because you were typing commands and have no idea where you’ve ended up. The next thing is you need to have a way of getting back to where you are safe, your home.</li>
 <li>当在文件夹路径中迷路时，可以用一下的方法回到主目录。</li>
@@ -532,6 +532,7 @@ The only piece of advice I am going to give you is this: Shut up and type all th
 <span class="token function">pwd</span>
 /home/hibetterhyj
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>&nbsp;</p>
 <h3 id="Exercise-4-Make-a-Directory-mkdir"><a href="#Exercise-4-Make-a-Directory-mkdir" class="headerlink" title="Exercise 4: Make a Directory ( mkdir )"></a>Exercise 4: Make a Directory ( <em>mkdir</em> )</h3><ul>
 <li><code>mkdir</code> means “make dircetory”</li>
 <li>新建文件夹</li>
@@ -543,6 +544,7 @@ $ <span class="token function">mkdir</span> -p temp/stuff/things/frank/joe/alex/
 $ <span class="token function">mkdir</span> “I have fun”
 <span class="token comment" spellcheck="true"># 建立一个叫做 I have fun 的文件夹，使用双引号的原因在于新建的文件名中含有空格。</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>&nbsp;</p>
 <h3 id="Exercise-5-Change-Directory-cd"><a href="#Exercise-5-Change-Directory-cd" class="headerlink" title="Exercise 5: Change Directory ( cd )"></a>Exercise 5: Change Directory ( <em>cd</em> )</h3><ul>
 <li><code>cd</code>  means “Change directory ”</li>
 <li>打开文件夹</li>
@@ -558,6 +560,7 @@ $ <span class="token function">cd</span> ~
 $ <span class="token function">cd</span> -
 <span class="token comment" spellcheck="true"># 返回上次工作所在目录</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>&nbsp;</p>
 <h3 id="Exercise-6-List-Directory-ls"><a href="#Exercise-6-List-Directory-ls" class="headerlink" title="Exercise 6: List Directory ( ls )"></a>Exercise 6: List Directory ( <em>ls</em> )</h3><ul>
 <li><code>ls</code>  means “list directory”</li>
 <li>列出所在文件内的文件与文件夹</li>
@@ -569,6 +572,7 @@ $ <span class="token function">ls</span> <span class="token operator">&lt;</span
 $ <span class="token function">ls</span> -lR
 <span class="token comment" spellcheck="true"># 列出本文件夹及子文件夹内的文件的详细信息</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>&nbsp;</p>
 <h3 id="Exercise-7-Remove-Directory-rmdir"><a href="#Exercise-7-Remove-Directory-rmdir" class="headerlink" title="Exercise 7: Remove Directory ( rmdir )"></a>Exercise 7: Remove Directory ( <em>rmdir</em> )</h3><ul>
 <li><code>rmdir</code> means “remove directory”</li>
 <li>移除文件夹</li>
@@ -578,6 +582,7 @@ $ <span class="token function">ls</span> -lR
 $ <span class="token function">rm</span> -rf <span class="token operator">&lt;</span>dir<span class="token operator">></span>
 <span class="token comment" spellcheck="true"># 移除包含文件的文件夹</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>&nbsp;</p>
 <h3 id="Exercise-8-Move-Around-pushd-popd"><a href="#Exercise-8-Move-Around-pushd-popd" class="headerlink" title="Exercise 8: Move Around ( pushd, popd )"></a>Exercise 8: Move Around ( <em>pushd</em>, <em>popd</em> )</h3><ul>
 <li><code>pushd</code> means “save the current location and go to a new location”</li>
 <li>保存当前的目录，并转到指定目录</li>
@@ -591,6 +596,7 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <span class="token comment" spellcheck="true"># 改变当前目录，跳转到堆栈顶端保存的目录，并将堆栈顶端的目录删除，可以多配合 pwd 命令行</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p><strong>PS:</strong> this cannot work in <u>PowerShell</u> !</p>
+<p>&nbsp;</p>
 <h3 id="Exercise-9-Make-Empty-Files-touch-new-item"><a href="#Exercise-9-Make-Empty-Files-touch-new-item" class="headerlink" title="Exercise 9: Make Empty Files ( touch, new-item )"></a>Exercise 9: Make Empty Files ( <em>touch</em>, <em>new-item</em> )</h3><ul>
 <li><code>touch</code> means “make an empty file”（or <code>new-item</code> on <u>Windows</u>）</li>
 <li>新建一个文件</li>
@@ -598,20 +604,21 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <pre class="line-numbers language-bash"><code class="language-bash">$ <span class="token function">touch</span> <span class="token operator">&lt;</span>file_name<span class="token operator">></span>
 <span class="token comment" spellcheck="true"># 新建一个文件，一般以txt为主，可以通过 ls 查看</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p>&nbsp;</p>
 <h3 id="Exercise-10-Copy-a-File-cp"><a href="#Exercise-10-Copy-a-File-cp" class="headerlink" title="Exercise 10: Copy a File ( cp )"></a>Exercise 10: Copy a File ( <em>cp</em> )</h3><ul>
 <li><code>cp</code> means “copy s file from one location to another”</li>
 <li>复制一个文件</li>
 </ul>
-<p>### </p>
+<p>&nbsp;</p>
 <p><strong><em>（未完待续……）</em></strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <ul>
 <li><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2></li>
 </ul>
 <p>[1]：<strong>Learn Python the Hard Way·Appendix</strong> <a href="https://learnpythonthehardway.org/python3/appendixa.html" target="_blank" rel="external">https://learnpythonthehardway.org/python3/appendixa.html</a></p>
-<font color="#ffffff" size="4">color=此段为放空</font>
-
-
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
         
                 <blockquote style="margin: 2em 0 0;padding: 0.5em 1em;border-left: 3px solid #F44336;background-color: #F5F5F5;list-style: none;">
@@ -725,7 +732,7 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2017/08/21/necessary-websites-tricks/" id="post_nav-newer" class="prev-content">
+        <a href="/2017/08/21/necessary-pc-tricks/" id="post_nav-newer" class="prev-content">
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
                 <i class="material-icons">arrow_back</i>
             </button>

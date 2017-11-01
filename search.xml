@@ -639,56 +639,44 @@
 <p>  类似的，傅里叶变换$ \int_{-\infty}^{\infty} x(t)e^{-j\omega t} dt $</p>
 <p>  拉式反变换（一般少用$ x(t)=L^{-1}[X(s)] = \dfrac{1}{2\pi j}\displaystyle\int_{\sigma-j\infty}^{\sigma+j\infty} X(s)e^{st}  dt \quad t\in(0,+\infty) $</p>
 </blockquote>
-<font color="#ffffff" size="5">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <h3 id="八种典型函数"><a href="#八种典型函数" class="headerlink" title="八种典型函数"></a>八种典型函数</h3><p>1）   <strong>单位阶跃</strong>函数 $ L[1(t)]=\int_0^{\infty} 1(t)e^{-st} dt=\dfrac{1}{s} $</p>
 <p>2）   <strong>指数</strong>函数 $ L[e^{-at}] =\int_0^{\infty} e^{-at} \cdot e^{-st} dt = \int_0^{\infty} e^{-(x+a)t} dt = \dfrac{1}{s+a}$</p>
-<font color="#ffffff" size="1">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <p>3）   <strong>正弦</strong>函数 $ L[sin(wt)]=\dfrac{\omega}{\omega^2 + s^2} $</p>
 <p>4）  <strong>余弦</strong>函数 $ L[cos(wt)]=\dfrac{s}{\omega^2 + s^2} $</p>
-<font color="#ffffff" size="1">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <p>5）   <strong>单位脉冲</strong>函数，作用时间短，冲量正好为1</p>
 <p>$ \delta(t)=\begin{cases} 0, \quad (others) \ \lim_\limits{\epsilon \to0} \dfrac{1}{\epsilon},\quad (0&lt;t&lt;\epsilon)  \end{cases} $</p>
 <p>对应拉氏变换 $ L[\delta(t)]=1 $（利用<strong>洛必达法则</strong>）</p>
-<font color="#ffffff" size="1">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <p>6）   <strong>幂函数</strong> $ t^n $的象函数$ L[x(t)]=\dfrac{n!}{s^{n+1}} $</p>
-<font color="#ffffff" size="1">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <p>7）   幂函数<strong>变式一</strong>：<strong>单位速度</strong>函数（斜坡函数）</p>
 <p>$ x(t)=\begin{cases} 0 \quad t&lt;0\t \quad t\ge0 \end{cases} $</p>
 <p>对应拉氏变换 $ L[x(t)]=\dfrac{1!}{s^2}=\dfrac{1}{s^2} $，即可表示为 $ x(t)\xrightarrow{L} \dfrac{1}{s^2} $</p>
-<font color="#ffffff" size="1">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <p>8）   幂函数<strong>变式二</strong>：<strong>单位加速度</strong>函数</p>
 <p>$ f(t)=\begin{cases} 0 \quad t&lt;0 \ \dfrac{1}{2}t^2 \quad t\geq 0 \end{cases} $</p>
 <p>对应变换$ L[x(t)]=\dfrac{1}{2}\times\dfrac{2!}{s^3}=\dfrac{1}{s^3} $，即可表示为$ x(t)\xrightarrow{L} \dfrac{1}{s^3} $</p>
-<font color="#ffffff" size="5">color=此段为放空</font>
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <h3 id="相关定理"><a href="#相关定理" class="headerlink" title="相关定理"></a>相关定理</h3><p>1）   <strong>叠加</strong>定理：齐次性、叠加性</p>
 <p>2）   <strong>（重点）</strong>微分**定理：</p>
 <p>$ L\bigg[\dfrac{d}{dt} x(t)\bigg]=sX(s)-x(0^+) $</p>
 <p>$ L \bigg[\dfrac{d^2x(t)}{dt^2} \bigg]=s^2X(s)-sx(0^+)-x’(0^+) $</p>
 <p>$ L\bigg[\dfrac{d^nx(t)}{dt^n} \bigg]=s^nX(s)-s^{n-1}x(0^+)-s^{n-2}x’(0^+)-\cdots-x^{n-1}(0^+) $</p>
 <p>因此，当初始条件全为0是，则$ \dfrac{d^n}{dt^n}x(t)\Leftrightarrow s^nX(s) $ </p>
-<font color="#ffffff" size="1">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <p>3）   <strong>积分</strong>定理 </p>
 <p>$L\bigg[\displaystyle\int x(t)dt\bigg] = \dfrac{X(s)}{s} + \dfrac{x^{-1}(0^+)}{s} ​$</p>
 <p>$L\bigg[\displaystyle\idotsint x(t)(dt)^n \bigg] = \dfrac{X(s)}{s^n} + \dfrac{x^{-1}(0^+)}{s^n} + \dfrac{x^{-2}(0^+)}{s^{n-1}} + \cdots + \dfrac{x^{-n}(0^+)}{s} $</p>
 <blockquote>
 <p>当我读到<strong>传递函数环节</strong>时看到了积分定理的重要性！</p>
 </blockquote>
-<font color="#ffffff" size="1">color=此段为放空</font>
-
-
+<p>&nbsp;</p>
 <p>4）   拉式<strong>反变换</strong> $ x(t)=\dfrac{1}{2\pi j} \displaystyle\int_{a-j\infty}^{a+j\infty} X(s)e^{st}ds $，一般使用较少</p>
-<font color="#ffffff" size="1">color=此段为放空</font>
-
-<p>5） <strong>卷积</strong>定理$L[f(t)*g(t)]=F(s)G(s)$</p>
-<p>其中$f(t)*g(t)$即为两函数的卷积，必须符合条件：当$t&lt;0$时，$f(t)=g(t)=0$，则卷积可以表示为</p>
+<p>&nbsp;</p>
 <p>5） <strong>卷积</strong>定理$L[f(t)*g(t)]=F(s)G(s)$</p>
 <p>其中$f(t)*g(t)$即为两函数的卷积，必须符合条件：当$t&lt;0$时，$f(t)=g(t)=0$，则卷积可以表示为</p>
 <p>$$ f(t)*g(t)=\displaystyle\int_0^t f(t-\tau)g(\tau)d\tau = \displaystyle\int_0^t f(\tau)g(t-\tau)d\tau $$</p>
@@ -699,28 +687,28 @@
 <p>所以$ \mathcal{L}(\dfrac{1}{12}t^4)=\dfrac{1}{12}\cdot\dfrac{4!}{s^5} =\dfrac{2}{s^5}$</p>
 <p>而由$ \mathcal{L}(t) = \dfrac{1}{s^2} $，$ \mathcal{L}(t^2) = \dfrac{2}{s^3} $可知卷积公式成立！</p>
 <hr>
-<font color="#ffffff" size="2">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <p>6）  $ f(\dfrac{t}{a}) $的<strong>象函数</strong></p>
 <p>$L\bigg[f(\dfrac{t}{a})\bigg]=aF(as) \quad     其中 a=costant&gt;0$</p>
 <p><strong><em>举例</em></strong></p>
 <hr>
 <p>$L[e^{-t}] = F(s) = \dfrac{1}{s+1} $，则$ L[e^{-t/a}] = aF(as)=\dfrac{a}{as+1} $</p>
 <hr>
-<font color="#ffffff" size="3">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <p>7）   <strong>复微分</strong>定理（少数场合可能使用）</p>
 <p>若$ L[f(t)]=F(s) $，则除了$ F(s) $的极点之外，有：</p>
 <p>$ \dfrac{d}{ds}F(s)=-L[tf(t)] $</p>
 <p>$  \dfrac{d^2}{ds^2}F(s)=L[t^2f(t)]  $</p>
 <p>$  \dfrac{d^n}{ds^n}F(s)=(-1)^n L\bigg[t^n f(t)\bigg]  \quad(n=1,2,3,\cdots)$</p>
-<pre><code>  &lt;font color=#ffffff size=2&gt;color=此段为放空&lt;/font&gt;
-</code></pre><p>8）   $ \dfrac{x(t)}{t} $的<strong>象函数</strong> $ L\bigg[\dfrac{x(t)}{t}\bigg]=\displaystyle\int_t^{\infty} X(s) ds $</p>
+<p>&nbsp;</p>
+<p>8）   $ \dfrac{x(t)}{t} $的<strong>象函数</strong> $ L\bigg[\dfrac{x(t)}{t}\bigg]=\displaystyle\int_t^{\infty} X(s) ds $</p>
 <blockquote>
 <p>手机端对于MathJax的优化不好，建议在<strong>PC端</strong>阅读！</p>
 <p>本文暂缺<strong>初值定理</strong>与<strong>终值定理</strong>，原因在于LaTeX与markdown之间在于<code>_公式_</code>渲染的不同，具体在<a href="http://pan.baidu.com/s/1bKgpCM" target="_blank" rel="external">网盘</a>（pass: wxpl）可以下载</p>
 </blockquote>
-<p><font color="#ffffff" size="4">color=此段为放空</font><br>（最后更新于<em>2017.10.12</em>）</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>（最后更新于<em>2017.10.12</em>）</p>
 ]]></content>
       
         <categories>
@@ -753,8 +741,7 @@
 </blockquote>
 <a id="more"></a>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;开学第二周，课有点少，人有点闲，心有点慌。或许只有“忙”的状态才能带着人逃离现实而不去想“迷雾般”的未来吧，但是要拒绝成为一个<a href="http://music.163.com/#/m/song?id=292260&amp;userid=110673834" target="_blank" rel="external"><em>假忙的人</em></a>！</p>
-<font color="#ffffff" size="3">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <h4 id="课程相关"><a href="#课程相关" class="headerlink" title="课程相关"></a>课程相关</h4><h5 id="现代光学导论-by-孙恺老师"><a href="#现代光学导论-by-孙恺老师" class="headerlink" title="现代光学导论 by 孙恺老师"></a>现代光学导论 <em>by</em> <strong>孙恺老师</strong></h5><p>​&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第二节转眼成为一堂英语版<strong>初高中光学基础课</strong>，简要的介绍了<strong>Reflection</strong>（反射）、<strong>Refraction</strong>（折射），<strong>Focal Point</strong>（焦点）、<strong>Pinhole image</strong>（小孔成像）等概念，让我见识到了专业英语生僻！！！</p>
 <p>​&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;留下了第一次作业（Due on Oct 16)，正好是车队比赛结束的那天，国庆得自己学习一番了！以下则是本次的作业，下一篇也会放出自己的解答~</p>
 <hr>
@@ -767,23 +754,20 @@
 </ol>
 <hr>
 <p><strong>Related Source：</strong><a href="http://pan.baidu.com/s/1qYNWZwS" target="_blank" rel="external">课件链接</a>（Password：n6r5）</p>
-<font color="#ffffff" size="3">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <h5 id="控制工程基础-by-熊肖磊老师"><a href="#控制工程基础-by-熊肖磊老师" class="headerlink" title="控制工程基础 by 熊肖磊老师"></a>控制工程基础 <em>by</em> <strong>熊肖磊老师</strong></h5><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;开学第二周的课，老师在结束绪论之后，开始了飞速点PPT模式——两课时简要概述了拉式变换的诸多定理以及给传递函数开了一个头，总体功课还是需要靠自己勤加练习，毕竟开始的<strong>数学基础</strong>决定了最后考试这一<strong>上层建筑</strong>！</p>
 <p><strong>Related Source：</strong><a href="http://pan.baidu.com/s/1dFo18a9" target="_blank" rel="external">课件链接</a>（Password：0eeu）</p>
-<font color="#ffffff" size="3">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <h5 id="材料成型-by-王昆老师"><a href="#材料成型-by-王昆老师" class="headerlink" title="材料成型 by 王昆老师"></a>材料成型 <em>by</em> <strong>王昆老师</strong></h5><p>​&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在第一周水课之后一切开始进入正题——本周主题是“<strong>凝固</strong>”理论，为后期的<strong>焊接</strong>工艺与<strong>铸造</strong>工艺打下坚实的基础，有点重回<strong><em>工程材料</em></strong>这一神课（关键是过去没有认真对待！）的感觉了~</p>
 <p><strong>Related Source：</strong><a href="http://pan.baidu.com/s/1c1X8Ht2" target="_blank" rel="external">课件链接</a>（Password：9d8m）</p>
-<font color="#ffffff" size="3">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <h5 id="其他专业课件"><a href="#其他专业课件" class="headerlink" title="其他专业课件"></a>其他专业课件</h5><ul>
 <li><strong>制造基础</strong>：<a href="http://pan.baidu.com/s/1miutcFm" target="_blank" rel="external">课件链接</a>（Password：ckiv）</li>
 <li><strong>互换性</strong>：<a href="http://pan.baidu.com/s/1miywF7i" target="_blank" rel="external">课件链接</a>（Password：efx9）</li>
 <li><strong>热力学：</strong>：<a href="http://pan.baidu.com/s/1miNzFtA" target="_blank" rel="external">课件链接</a>（Password：lah3）</li>
 </ul>
-<font color="#ffffff" size="5">color=此段为放空</font>
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <h4 id="近期更新"><a href="#近期更新" class="headerlink" title="近期更新"></a>近期更新</h4><ul>
 <li><p>1001 <a href="https://hibetterheyj.github.io/2017/10/01/automotive-control-engineering-related-resources/"><strong>控制工程相关整理</strong></a></p>
 </li>
@@ -792,41 +776,33 @@
 <li><p>0820 <a href="https://hibetterheyj.github.io/2017/08/20/after-reading-the-command-line-crash-course/"><strong>命令行入门整理</strong></a></p>
 </li>
 </ul>
-<font color="#ffffff" size="5">color=此段为放空</font>
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <h4 id="其他信息"><a href="#其他信息" class="headerlink" title="其他信息"></a>其他信息</h4><p><strong>0929</strong> </p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;进了城和若冰学姐一起参观了《大英博物馆百物展》，虽不能拍照，但感触良多，几日过后烙印于心中；不过更让我心水的或许是那朋辈间的言语交流，让人很是欢喜呀~</p>
 <p>几张<strong>照片</strong></p>
 <p><img src="https://i.loli.net/2017/10/02/59d25b0a3c1ab.jpg" alt="IMG20170929095919.jpg](https://i.loli.net/2017/10/02/59d25b0a3c1ab.jpg)"></p>
 <center><font size="2">那日上博外景，天蓝蓝的甚是舒服</font></center>
 
-<font color="#ffffff" size="2">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <p><img src="https://i.loli.net/2017/10/02/59d25bc029a74.jpg" alt="IMG_20170929_181231_174.jpg](https://i.loli.net/2017/10/02/59d25bc029a74.jpg)"></p>
 <center><font size="2">展厅内照片墙</font></center>
 
-<font color="#ffffff" size="2">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <p><img src="https://i.loli.net/2017/10/02/59d25b7fb176a.jpg" alt="IMG_20170929_181437_269.jpg](https://i.loli.net/2017/10/02/59d25b7fb176a.jpg)"></p>
 <center><font size="2">精心选择的第101件展品：二维码，这小小黑白正好对应着前100件展品！</font></center>
 
-<font color="#ffffff" size="2">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <p><img src="https://i.loli.net/2017/10/02/59d25abf9eae6.jpg" alt="IMG_20170929_180908_441.jpg](https://i.loli.net/2017/10/02/59d25abf9eae6.jpg)"></p>
 <center><font size="2">一口吃了我济！</font></center>
 
-<font color="#ffffff" size="2">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;她的文字功底比我好多了，推荐阅读：<a href="http://www.jianshu.com/p/977edd47e52e" target="_blank" rel="external">《20170929 我写故我在》by<strong>林若冰</strong>于<em>简书</em></a></p>
-<font color="#ffffff" size="4">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <blockquote>
 <p><a href="http://pan.baidu.com/s/1pL6y9Hh" target="_blank" rel="external">此处</a>可获取优化pdf全文！<br>感谢阅读，还望指正！（有意评论者请翻墙哈）</p>
 </blockquote>
-<font color="#ffffff" size="4">color=此段为放空</font>
-
-
-
+<p>&nbsp;</p>
 <p>（最后更新于<em>2017.10.02</em>）</p>
 ]]></content>
       
@@ -861,30 +837,21 @@
 <li><a href="https://ocw.mit.edu/courses/mechanical-engineering/2-14-analysis-and-design-of-feedback-control-systems-spring-2014/index.htm" target="_blank" rel="external">2.14Analysis and Design of Feedback Control Systems-MIT OpenCourseWare</a><br>Related Textbook: <a href="http://textbooksearch.mit.edu/class/2.14" target="_blank" rel="external">Click Here</a></li>
 <li><a href="http://fast.scripts.mit.edu/dronecontrol/" target="_blank" rel="external">16.30 Feedback Control Systems-MIT CourseWeb</a> Including some codes in <em>GitHub</em> which is related to the <strong>drone control</strong></li>
 </ul>
-<font color="#ffffff" size="3">color=此段为放空</font>
-
-
-
+<p>&nbsp;</p>
 <h3 id="疑问解答"><a href="#疑问解答" class="headerlink" title="疑问解答"></a>疑问解答</h3><ul>
 <li><a href="http://www.fuzihao.org/blog/2014/07/21/%E6%8B%89%E6%99%AE%E6%8B%89%E6%96%AF%E5%8F%98%E6%8D%A2%E4%B8%AD%E7%9A%84s%E6%98%AF%E4%BB%80%E4%B9%88/" target="_blank" rel="external">拉普拉斯变换中的s是什么 - 切问录（个人博客）</a></li>
 <li><a href="https://www.zhihu.com/question/24086239" target="_blank" rel="external">传递函数的零点、极点怎么解释，有什么用？- 知乎</a></li>
 <li><a href="https://zhuanlan.zhihu.com/p/28397745" target="_blank" rel="external">梅逊公式求传递函数 - 知乎专栏</a></li>
 <li><a href="https://hibetterheyj.github.io/2017/10/07/basic-notes-of-Laplace-transform-under-LaTeX/">LaTeX之下的控制工程拉式变换 - 我的博客</a></li>
 </ul>
-<font color="#ffffff" size="3">color=此段为放空</font>
-
-
-
+<p>&nbsp;</p>
 <h3 id="基础增补"><a href="#基础增补" class="headerlink" title="基础增补"></a>基础增补</h3><ul>
 <li><a href="http://open.163.com/special/opencourse/equations.html" target="_blank" rel="external">麻省理工学院公开课：微分方程</a>，<u>着重在于理解拉氏变换</u></li>
 <li><a href="http://open.163.com/special/Khan/differential.html" target="_blank" rel="external">可汗学院公开课：微分方程</a></li>
 </ul>
-<font color="#ffffff" size="2">color=此段为放空</font>
-
-
-
+<p>&nbsp;</p>
 <p><strong>[未完待续]</strong></p>
-<p><font color="#ffffff" size="4">color=此段为放空</font><br>（最后更新于<em>2017.10.12</em>）</p>
+<p>&nbsp;<br>（最后更新于<em>2017.10.12</em>）</p>
 ]]></content>
       
         <categories>
@@ -1051,8 +1018,7 @@ $ \LaTeX $
 
 <p><strong>考核</strong>：平时四次小作业（4x5%）+期中考试（20%）+期末口头报告or书面英语报告（60%）</p>
 <p><strong>Related Source：</strong><a href="http://pan.baidu.com/s/1qYNWZwS" target="_blank" rel="external">课件链接</a>（Password：n6r5）</p>
-<font color="#ffffff" size="3">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <h5 id="控制工程基础-by-熊肖磊老师"><a href="#控制工程基础-by-熊肖磊老师" class="headerlink" title="控制工程基础 by 熊肖磊老师"></a>控制工程基础 <em>by</em> <strong>熊肖磊老师</strong></h5><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新学期关于机电控制方向的一门专业课，暑假满心期待地把书带回家，结果看到第一章拉式变换莫名懵逼，就把崭新地书带回家了:joy:。老师第一节课比较强调对于<strong>经典控制理论</strong>地应用与考察，还需要<strong>积分变换</strong>以及<strong>复变函数</strong>相关地数学知识，感觉得好好学学了！</p>
 <p><strong>Related Source：</strong><a href="http://pan.baidu.com/s/1dFo18a9" target="_blank" rel="external">课件链接</a>（Password：0eeu）</p>
 <font color="#ffffff" size="3">color=此段为放空</font>
@@ -1062,22 +1028,19 @@ $ \LaTeX $
 <li><strong>制造基础</strong>：<a href="http://pan.baidu.com/s/1miutcFm" target="_blank" rel="external">课件链接</a>（Password：ckiv）</li>
 <li><strong>互换性</strong>：<a href="http://pan.baidu.com/s/1miywF7i" target="_blank" rel="external">课件链接</a>（Password：efx9）</li>
 </ul>
-<font color="#ffffff" size="5">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <h4 id="近期更新"><a href="#近期更新" class="headerlink" title="近期更新"></a>近期更新</h4><ul>
 <li>0922 <a href="https://hibetterheyj.github.io/2017/09/22/Weekly-Summary-from-Newsletter-170918to0924/"><strong>一周英语通讯总结（20170918 ~ 0924）</strong></a></li>
 <li>0831 <a href="https://hibetterheyj.github.io/2017/08/31/my-chrome-extensions-experience/"><strong>无拓展，不Chrome</strong></a></li>
 <li>0820 <a href="https://hibetterheyj.github.io/2017/08/20/after-reading-the-command-line-crash-course/"><strong>命令行入门整理</strong></a></li>
 </ul>
-<font color="#ffffff" size="5">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <h4 id="其他信息"><a href="#其他信息" class="headerlink" title="其他信息"></a>其他信息</h4><p>开学第一周，学校各社团开始招新啦！欢迎我济的学长学姐学弟学妹加入<a href="http://weibo.com/dianracing" target="_blank" rel="external"><strong>@DIANRacing</strong></a>技术部、商业部以及管理部！</p>
-<font color="#ffffff" size="4">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <blockquote>
 <p><a href="http://pan.baidu.com/s/1i46ZY1v" target="_blank" rel="external">此处</a>可获取优化pdf全文！</p>
 </blockquote>
-<p><font color="#ffffff" size="4">color=此段为放空</font><br>（最后更新于<em>2017.09.23</em>）</p>
+<p>&nbsp;<br>（最后更新于<em>2017.09.23</em>）</p>
 ]]></content>
       
         <categories>
@@ -1250,17 +1213,15 @@ $ \LaTeX $
 <p>&#160;&#160;&#160;&#160;&#160;&#160;<strong>DomainFlag</strong>可显示当前网站服务器的国家和 MozRank 或 Alexa 排名等 SEO（Search Engine Optimization，搜索引擎优化） 信息，并在地址栏显示当前网站服务器的所在国家和网站排名（MozRank / Alexa 排名）。还可以实现快速访问关联页面、生成页面二维码、自定义链接模板等紧俏功能。总体而言，这是一个能够满足我好奇心的插件！</p>
 <p>&#160;&#160;&#160;&#160;&#160;&#160;相关文章可阅读：<a href="http://c7sky.com/domainflag.html" target="_blank" rel="external">DomainFlag - 轻量、好用的 Chrome SEO 扩展</a></p>
 <p><strong>下载链接</strong>：<em><a href="https://chrome.google.com/webstore/detail/domainflag/bjkkgiokpelbekeldjbjfklkjhfdbjgk" target="_blank" rel="external">Chrome Web Store – domainflag</a></em></p>
-<font color="#ffffff" size="5">color=此段为放空</font>
-
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <h3 id="搜索相关功能增强"><a href="#搜索相关功能增强" class="headerlink" title="搜索相关功能增强"></a><u><em>搜索相关功能增强</em></u></h3><ul>
 <li><h4 id="Lookup-Companion-for-Wikipedia"><a href="#Lookup-Companion-for-Wikipedia" class="headerlink" title="Lookup Companion for Wikipedia"></a><strong>Lookup Companion for Wikipedia</strong></h4></li>
 </ul>
 <p>&#160;&#160;&#160;&#160;&#160;&#160;我认为它是维基百科用户必备扩展。功能全面：可以保存您最近的维基查询记录，多语种，后退/前进等等……最棒的则是：<strong>可以选择文本然后用右键点击搜索</strong>！</p>
 <p><strong>下载链接</strong>：<em><a href="https://chrome.google.com/webstore/detail/lookup-companion-for-wiki/dhgpkiiipkgmckicafkhcihkcldbdeej" target="_blank" rel="external">Chrome Web Store – lookup-companion-for-wiki</a></em></p>
-<font color="#ffffff" size="5">color=此段为放空</font>
-
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <h3 id="网页效果优化"><a href="#网页效果优化" class="headerlink" title="网页效果优化"></a><u><em>网页效果优化</em></u></h3><ul>
 <li><h4 id="Stylish"><a href="#Stylish" class="headerlink" title="Stylish"></a><strong>Stylish</strong></h4></li>
 </ul>
@@ -1287,21 +1248,22 @@ $ \LaTeX $
 <ul>
 <li><h4 id="Facebook-Flat（已失效）"><a href="#Facebook-Flat（已失效）" class="headerlink" title="Facebook Flat（已失效）"></a><del><strong>Facebook Flat（已失效）</strong></del></h4></li>
 </ul>
-<font color="#ffffff" size="6">color=此段为放空</font>
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ol>
 <li>以上插件同样可以兼容使用于国内的QQ浏览器。方法可见：<a href="http://jingyan.baidu.com/article/e4511cf35c2df92b845eafb3.html" target="_blank" rel="external"><strong>百度经验：Chrome扩展程序crx的下载和安装方法</strong></a></li>
 <li><strong>怎么在谷歌浏览器中安装.crx扩展名的离线Chrome插件？</strong> <a href="http://chromecj.com/utilities/2014-09/181.html" target="_blank" rel="external">http://chromecj.com/utilities/2014-09/181.html</a></li>
 </ol>
-<font color="#ffffff" size="6">color=此段为放空</font>
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p>[1]：<strong>知乎：你极力推荐的 Chrome 扩展有哪些？</strong> <a href="https://www.zhihu.com/question/19594682" target="_blank" rel="external">https://www.zhihu.com/question/19594682</a></p>
 <p>[2]：<strong>Chrome 扩展程序 下载</strong> <a href="http://crx.2333.me/" target="_blank" rel="external">http://crx.2333.me/</a></p>
 <p>[3]：<strong>Chrome插件中国</strong> <a href="http://chromecj.com/" target="_blank" rel="external">http://chromecj.com/</a></p>
 <p>[4]：<strong>Chrome网上应用商城（需翻墙）</strong> <a href="https://chrome.google.com/webstore/category/extensions" target="_blank" rel="external">https://chrome.google.com/webstore/category/extensions</a></p>
 <p>[5]：<strong>少数派：这 11 款 Chrome 扩展，让网页看起来更舒服</strong> <a href="https://sspai.com/post/40492" target="_blank" rel="external">https://sspai.com/post/40492</a></p>
 <p>（未完待续。。。）</p>
-<font color="#ffffff" size="6">color=此段为放空</font>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 ]]></content>
       
         <categories>
@@ -1323,7 +1285,7 @@ $ \LaTeX $
     
     <entry>
       <title><![CDATA[必备工具使用避坑总结（持续更新。。。）]]></title>
-      <url>/2017/08/21/necessary-websites-tricks/</url>
+      <url>/2017/08/21/necessary-pc-tricks/</url>
       <content type="html"><![CDATA[<p>&#160;&#160;&#160;&#160;&#160;&#160;<strong>作为技术小白，遇到电脑上的很多问题不得不度娘，跳坑经历常有，不妨一一总结，以备他人不时之需。</strong></p>
 <a id="more"></a>
 <hr>
@@ -1339,8 +1301,7 @@ $ \LaTeX $
 <p>&#160;&#160;&#160;&#160;&#160;&#160;真正厉害的大神当然推荐其他更高级省心的方法，比如我就十分心水车队高效快速且自带vpn的局域网⁽⁽(ཀ д ཀ)⁾⁾</p>
 <h4 id="相关网址"><a href="#相关网址" class="headerlink" title="相关网址"></a>相关网址</h4><p>[1]：<strong>最新版下载网址：getlantern/forum</strong> <a href="https://github.com/getlantern/forum" target="_blank" rel="external">https://github.com/getlantern/forum</a></p>
 <p>[2]：<strong>百度经验：lantern用后无法上网</strong> <a href="https://jingyan.baidu.com/article/a3761b2bdeb94c1576f9aa99.html" target="_blank" rel="external">https://jingyan.baidu.com/article/a3761b2bdeb94c1576f9aa99.html</a></p>
-<font color="#ffffff" size="5">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <h3 id="国外慕课下载神器：Coursera-dl"><a href="#国外慕课下载神器：Coursera-dl" class="headerlink" title="国外慕课下载神器：Coursera-dl"></a><strong>国外慕课下载神器：Coursera-dl</strong></h3><blockquote>
 <p>&#160;&#160;&#160;&#160;&#160;&#160;现在越来越多的人使用国外的慕课网站尤其由大名鼎鼎的Andrew Ng创办的<strong>Coursera</strong>来自学各类课程。但是毕竟我们在墙内总会遇上问题，而这其中最主要的就是<strong>网站、视频访问速度太慢</strong>，随之而来的解决方法就是利用小技巧<u>将讲义、视频还有字幕文件下载下来</u>。此方法还能方便本地随时查看，减小因网络限制带来的影响！</p>
 </blockquote>
@@ -1375,6 +1336,8 @@ coursera-dl --help
 %Display help:  显示帮助
 </code></pre><p>&#160;&#160;&#160;&#160;&#160;&#160;更多选项请参考项目<a href="https://github.com/coursera-dl/coursera-dl" target="_blank" rel="external">github页面</a></p>
 <p>&#160;&#160;&#160;&#160;&#160;&#160;似乎网上还有另一个外国慕课平台edX的下载工具，我以后会去一探究竟的，此处为<a href="https://github.com/coursera-dl/edx-dl" target="_blank" rel="external">相关github项目页面</a>。</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <h4 id="相关网址-1"><a href="#相关网址-1" class="headerlink" title="相关网址"></a>相关网址</h4><p>[1]：<strong>知乎：如何批量下载 Coursera 视频、字幕、教材？</strong> <a href="https://www.zhihu.com/question/24630418/answer/142576655" target="_blank" rel="external">https://www.zhihu.com/question/24630418/answer/142576655</a></p>
 <p>[2]：<strong>百度经验：Coursera无法观看课程解决方案</strong> <a href="https://jingyan.baidu.com/article/6f2f55a14059eeb5b93e6cab.html" target="_blank" rel="external">https://jingyan.baidu.com/article/6f2f55a14059eeb5b93e6cab.html</a></p>
 <p>[3]：<strong>github repository：coursera-dl/coursera-dl</strong> <a href="https://github.com/coursera-dl/coursera-dl" target="_blank" rel="external">https://github.com/coursera-dl/coursera-dl</a></p>
@@ -1408,14 +1371,13 @@ coursera-dl --help
 </blockquote>
 <p>作者这一条建议延续了之前Learn XX the hard way的风格思路，强调了练习的重要性——虽然枯燥、但是必要。</p>
 <hr>
-<ul>
-<li><h2 id="练习部分"><a href="#练习部分" class="headerlink" title="练习部分"></a>练习部分</h2></li>
-</ul>
-<h3 id="Exercise-1-The-Setup"><a href="#Exercise-1-The-Setup" class="headerlink" title="Exercise 1: The Setup"></a>Exercise 1: The Setup</h3><ul>
+<p>&nbsp;</p>
+<h2 id="练习部分"><a href="#练习部分" class="headerlink" title="练习部分"></a>练习部分</h2><h3 id="Exercise-1-The-Setup"><a href="#Exercise-1-The-Setup" class="headerlink" title="Exercise 1: The Setup"></a>Exercise 1: The Setup</h3><ul>
 <li>For Linux, we can use the Terminal; for Windows, w can use the Powershell.</li>
 <li>Remember, some command lines in Linux are different from the ones in Windows Powershell.</li>
 <li>在Linux系统中我们可以通过终端来进行命令行操作，在Windows中，我们则可使用内置的PowerShell（其实Win10系统更推荐WSL这一Linux内置测试版本来进行练习操作！）。</li>
 </ul>
+<p>&nbsp;</p>
 <h3 id="Exercise-2-Paths-Folders-Directories-pwd"><a href="#Exercise-2-Paths-Folders-Directories-pwd" class="headerlink" title="Exercise 2: Paths, Folders, Directories ( pwd )"></a>Exercise 2: Paths, Folders, Directories ( <em>pwd</em> )</h3><ul>
 <li><code>pwd</code> means “printing working directory”.<br>“directory” is another name for “folder”.</li>
 <li>打印工作所在文件夹位置</li>
@@ -1423,6 +1385,7 @@ coursera-dl --help
 <pre class="line-numbers language-bash"><code class="language-bash">$ <span class="token function">pwd</span>
 /home/hibetterhyj
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p>&nbsp;</p>
 <h3 id="Exercise-3-If-You-Get-Lost"><a href="#Exercise-3-If-You-Get-Lost" class="headerlink" title="Exercise 3: If You Get Lost"></a>Exercise 3: If You Get Lost</h3><ul>
 <li>Whenever you get lost, it is most likely because you were typing commands and have no idea where you’ve ended up. The next thing is you need to have a way of getting back to where you are safe, your home.</li>
 <li>当在文件夹路径中迷路时，可以用一下的方法回到主目录。</li>
@@ -1432,6 +1395,7 @@ coursera-dl --help
 <span class="token function">pwd</span>
 /home/hibetterhyj
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>&nbsp;</p>
 <h3 id="Exercise-4-Make-a-Directory-mkdir"><a href="#Exercise-4-Make-a-Directory-mkdir" class="headerlink" title="Exercise 4: Make a Directory ( mkdir )"></a>Exercise 4: Make a Directory ( <em>mkdir</em> )</h3><ul>
 <li><code>mkdir</code> means “make dircetory”</li>
 <li>新建文件夹</li>
@@ -1443,6 +1407,7 @@ $ <span class="token function">mkdir</span> -p temp/stuff/things/frank/joe/alex/
 $ <span class="token function">mkdir</span> “I have fun”
 <span class="token comment" spellcheck="true"># 建立一个叫做 I have fun 的文件夹，使用双引号的原因在于新建的文件名中含有空格。</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>&nbsp;</p>
 <h3 id="Exercise-5-Change-Directory-cd"><a href="#Exercise-5-Change-Directory-cd" class="headerlink" title="Exercise 5: Change Directory ( cd )"></a>Exercise 5: Change Directory ( <em>cd</em> )</h3><ul>
 <li><code>cd</code>  means “Change directory ”</li>
 <li>打开文件夹</li>
@@ -1458,6 +1423,7 @@ $ <span class="token function">cd</span> ~
 $ <span class="token function">cd</span> -
 <span class="token comment" spellcheck="true"># 返回上次工作所在目录</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>&nbsp;</p>
 <h3 id="Exercise-6-List-Directory-ls"><a href="#Exercise-6-List-Directory-ls" class="headerlink" title="Exercise 6: List Directory ( ls )"></a>Exercise 6: List Directory ( <em>ls</em> )</h3><ul>
 <li><code>ls</code>  means “list directory”</li>
 <li>列出所在文件内的文件与文件夹</li>
@@ -1469,6 +1435,7 @@ $ <span class="token function">ls</span> <span class="token operator">&lt;</span
 $ <span class="token function">ls</span> -lR
 <span class="token comment" spellcheck="true"># 列出本文件夹及子文件夹内的文件的详细信息</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>&nbsp;</p>
 <h3 id="Exercise-7-Remove-Directory-rmdir"><a href="#Exercise-7-Remove-Directory-rmdir" class="headerlink" title="Exercise 7: Remove Directory ( rmdir )"></a>Exercise 7: Remove Directory ( <em>rmdir</em> )</h3><ul>
 <li><code>rmdir</code> means “remove directory”</li>
 <li>移除文件夹</li>
@@ -1478,6 +1445,7 @@ $ <span class="token function">ls</span> -lR
 $ <span class="token function">rm</span> -rf <span class="token operator">&lt;</span>dir<span class="token operator">></span>
 <span class="token comment" spellcheck="true"># 移除包含文件的文件夹</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>&nbsp;</p>
 <h3 id="Exercise-8-Move-Around-pushd-popd"><a href="#Exercise-8-Move-Around-pushd-popd" class="headerlink" title="Exercise 8: Move Around ( pushd, popd )"></a>Exercise 8: Move Around ( <em>pushd</em>, <em>popd</em> )</h3><ul>
 <li><code>pushd</code> means “save the current location and go to a new location”</li>
 <li>保存当前的目录，并转到指定目录</li>
@@ -1491,6 +1459,7 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <span class="token comment" spellcheck="true"># 改变当前目录，跳转到堆栈顶端保存的目录，并将堆栈顶端的目录删除，可以多配合 pwd 命令行</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p><strong>PS:</strong> this cannot work in <u>PowerShell</u> !</p>
+<p>&nbsp;</p>
 <h3 id="Exercise-9-Make-Empty-Files-touch-new-item"><a href="#Exercise-9-Make-Empty-Files-touch-new-item" class="headerlink" title="Exercise 9: Make Empty Files ( touch, new-item )"></a>Exercise 9: Make Empty Files ( <em>touch</em>, <em>new-item</em> )</h3><ul>
 <li><code>touch</code> means “make an empty file”（or <code>new-item</code> on <u>Windows</u>）</li>
 <li>新建一个文件</li>
@@ -1498,20 +1467,21 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <pre class="line-numbers language-bash"><code class="language-bash">$ <span class="token function">touch</span> <span class="token operator">&lt;</span>file_name<span class="token operator">></span>
 <span class="token comment" spellcheck="true"># 新建一个文件，一般以txt为主，可以通过 ls 查看</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p>&nbsp;</p>
 <h3 id="Exercise-10-Copy-a-File-cp"><a href="#Exercise-10-Copy-a-File-cp" class="headerlink" title="Exercise 10: Copy a File ( cp )"></a>Exercise 10: Copy a File ( <em>cp</em> )</h3><ul>
 <li><code>cp</code> means “copy s file from one location to another”</li>
 <li>复制一个文件</li>
 </ul>
-<p>### </p>
+<p>&nbsp;</p>
 <p><strong><em>（未完待续……）</em></strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <ul>
 <li><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2></li>
 </ul>
 <p>[1]：<strong>Learn Python the Hard Way·Appendix</strong> <a href="https://learnpythonthehardway.org/python3/appendixa.html" target="_blank" rel="external">https://learnpythonthehardway.org/python3/appendixa.html</a></p>
-<font color="#ffffff" size="4">color=此段为放空</font>
-
-
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 ]]></content>
       
         <categories>
@@ -1539,7 +1509,7 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 </blockquote>
 <a id="more"></a>
 <ul>
-<li><h3 id="3D打印的定义"><a href="#3D打印的定义" class="headerlink" title="3D打印的定义"></a>3D打印的定义</h3><p>&#160;&#160;&#160;&#160;&#160;&#160;<strong>3D打印（英语：3D printing），又称加法制造、积层制造（Additive Manufacturing，AM），可指任何打印三维物体的过程。3D打印主要是一个不断添加的过程，在计算机控制下层叠原材料。3D打印的内容可以来源于三维模型或其他电子数据，其打印出的三维物体可以拥有任何形状和几何特征。3D打印机属于工业机器人的一种。</strong>[1]<br><br> </p>
+<li><h3 id="3D打印的定义"><a href="#3D打印的定义" class="headerlink" title="3D打印的定义"></a>3D打印的定义</h3><p> &#160;&#160;&#160;&#160;&#160;&#160;<strong>3D打印（英语：3D printing），又称加法制造、积层制造（Additive Manufacturing，AM），可指任何打印三维物体的过程。3D打印主要是一个不断添加的过程，在计算机控制下层叠原材料。3D打印的内容可以来源于三维模型或其他电子数据，其打印出的三维物体可以拥有任何形状和几何特征。3D打印机属于工业机器人的一种。</strong>[1]<br> <br> </p>
 </li>
 <li><h3 id="3D打印的历史"><a href="#3D打印的历史" class="headerlink" title="3D打印的历史"></a>3D打印的历史</h3><p>&#160;&#160;&#160;&#160;&#160;&#160;早期的增量制造设备和材料在20世纪80年代发展起来。[1]</p>
 <ul>
@@ -1557,6 +1527,8 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 </ul>
 <p>&#160;&#160;&#160;&#160;&#160;&#160;“<strong>增量制造程序</strong>”这个雨伞术语在21世纪的头十年逐渐流行，因为各种增量制造程序都在逐渐成熟，金属切削很快将不再是金属加工过程唯一可以使用技术。在这个十年中，为了满足机器制造（金属切削是其永恒的话题）的需求，“减量制造”应运而生。然而，同时期，3D打印在大多数人心中只是一种聚合物工艺，增量制造这一术语可能更多地应用于金属加工制造背景下，而不是聚合物，喷墨打印或是立体平板印刷领域。“减量制造”并没有取代“加工”，而在切削方法方面对“加工”这一术语进行了补充。</p>
 <p>&#160;&#160;&#160;&#160;&#160;&#160;21世纪早期，“3D打印”和“增量制造”在涵义上有所发展，代指所有增量制造技术。尽管这与早期所指代的意义有所区别，但仍反映出3D工作流程在自动化控制下将材料层叠堆积的共同特点。<strong>（其他术语通常被视为增量制造的同义词或上义词，例如“桌面制造技术”、“快速制造技术”和“即时制造技术”（模仿了二维按需印刷技术））</strong>。<br><br> </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <ul>
 <li><h3 id="3D打印技术的分类"><a href="#3D打印技术的分类" class="headerlink" title="3D打印技术的分类"></a>3D打印技术的分类</h3></li>
 </ul>
@@ -1584,6 +1556,8 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 
 <p>&#160;&#160;&#160;&#160;&#160;&#160;丝状材料选择性熔覆的原理如下：加热喷头在计算机的控制下，根据产品零件的截面轮廓信息，作X-Y平面运动，热塑性丝状材料由供丝机构送至热熔喷头，并在喷头中加热和熔化成半液态，然后被挤压出来，有选择性的涂覆在工作台上，快速冷却后形成一层大约0.127mm厚的薄片轮廓。一层截面成型完成后工作台下降一定高度，再进行下一层的熔覆，好像一层层”画出”截面轮廓，如此循环，最终形成三维产品零件。</p>
 <p>&#160;&#160;&#160;&#160;&#160;&#160;这种工艺方法同样有多种材料可供选用，如工程塑料ABS、聚碳酸酯PC、工程塑料PPSF以及ABS与PC的混合料等。这种工艺干净，易于操作，不产生垃圾，并可安全地用于办公环境，没有产生毒气和化学污染的危险。适合于产品设计的概念建模以及产品的形状及功能测试。专门开发的针对医用的材料ABS-i，因为其具有良好的化学稳定性，可采用伽码射线及其他医用方式消毒，特别适合于医用。 （著名代表有RepRap项目、MakerBot和Stratasys公司）<br><br> </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <ul>
 <li><h3 id="3D打印的材料"><a href="#3D打印的材料" class="headerlink" title="3D打印的材料"></a>3D打印的材料</h3><blockquote>
 <p>&#160;&#160;&#160;&#160;&#160;&#160;桌面3D打印机使用的耗材，主要有 <strong>ABS (ABS 树脂，Acrylonitrile Butadiene Styrene)、PLA (聚乳酸，Poly Lactic Acid) 和 PVA (聚乙烯醇，Polyvinyl alcohol)</strong> 三种。其中 ABS 较为便宜，熔点在 215℃ 到 250 ℃ 间。PLA 更为环保，熔点更低。由于桌面3D打印机受专利限制经常不得不采用开放式打印仓的设计，打印仓温度难以保证，所以更加适合使用 PLA。PVA 则经常被用来打印支撑部分。[3]</p>
@@ -1593,16 +1567,7 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <h4 id="PLA"><a href="#PLA" class="headerlink" title="PLA"></a>PLA</h4><p>&#160;&#160;&#160;&#160;&#160;&#160;PLA即聚乳酸，具有多种半透明色和光泽质感。作为一种环保型塑料，聚乳酸可生物降解为活性堆肥。它源于可再生资源—玉米淀粉和甘蔗，而不是非可再生资源——化石燃料，无毒无味。PLA一般情况下不需要加热床，这一点不像ABS，所以PLA容易使用，而且更加适合低端的3D打印机，但PLA的通用性也有待提高。</p>
 <h4 id="ABS"><a href="#ABS" class="headerlink" title="ABS"></a>ABS</h4><p>&#160;&#160;&#160;&#160;&#160;&#160;ABS是FDM最常用的打印材料，是一种通过熔融沉积3D打印的工程塑料，目前有多种颜色可以选择，是消费级3D打印机用户最喜爱的打印材料。ABS材料因具有良好的热熔性、冲击强度，应用范围几乎涵盖了所有日用品、工程用品和部分机械用品。它通常是细丝盘装，通过3D打印喷嘴加热熔解打印。由于喷嘴喷出之后需要立即凝固，喷嘴加热的温度控制在ABS材料热熔点高出1°C到2°C，不同的ABS由于熔点不同，对于不能调节温度的喷嘴，是不能通配的。</p>
 <h4 id="其他材料"><a href="#其他材料" class="headerlink" title="其他材料"></a>其他材料</h4><p>&#160;&#160;&#160;&#160;&#160;&#160;不同的应用领域使用的耗材不同，桌面级3D打印机所常用的材料之外还有包括：<br><img src="https://ooo.0o0.ooo/2017/05/26/59280d801b463.jpg" alt="3D打印材料.jpg" title="3D打印材料.jpg"></p>
-<font size="1">图2 3D打印材料大全</font><br> - 有机玻璃表面光洁度好，可以打印出透明和半透明的产品，目前利用亚力克材质，可以打出牙齿模型用于牙齿矫正的治疗。<br> - 陶瓷(Ceramic)陶瓷粉末采用SLS进行烧结，上釉陶瓷产品可以用来盛食物，很多人用陶瓷来打印个性化的杯子，当然3D打印并不能完成陶瓷的高温烧制，这道手续现在需要在打印完成之后进行高温烧制。<br> - 树脂(Resin)树脂是SLA光固化成型的重要原料，其变化种类很多，有透明的、半固体状的，可以制作中间设计过程模型，由于其成型精度比FDM高，可以作为生物模型或医用模型。<br> - 金属(Metal)较为坚硬，有很强的牢固度,多采用SLS技术进行烧结，可以选用银色、古铜色等多种颜色，可以制作模型、现代艺术品以及很多功能性和装饰性的用品<br><br><br><font color="#ffffff" size="4">color=此段为放空</font>
-
-<ul>
-<li><h3 id="主流桌面3D打印机结构"><a href="#主流桌面3D打印机结构" class="headerlink" title="主流桌面3D打印机结构"></a>主流桌面3D打印机结构</h3><blockquote>
-<p>&#160;&#160;&#160;&#160;&#160;&#160;<strong>桌面3D打印机有两种主流结构，以Kossel为代表的并联臂型、也叫Delta型、三角洲型，和以Makerbot、Prusa为代表的XYZ型，也叫cartesian型、笛卡尔型。还有比较少见的机械臂型和五轴加工中心型。下面将两种主流结构及其分支进行介绍。</strong>[4]</p>
-</blockquote>
-</li>
-</ul>
-<h4 id="笛卡尔坐标系型"><a href="#笛卡尔坐标系型" class="headerlink" title="笛卡尔坐标系型"></a>笛卡尔坐标系型</h4><h5 id="三角架型结构"><a href="#三角架型结构" class="headerlink" title="三角架型结构"></a>三角架型结构</h5><p><img src="https://ooo.0o0.ooo/2017/05/25/5926950196ac0.jpg" alt="三角架型-Reprappro-huxley.jpg" title="三角架型-Reprappro-huxley.jpg" width="200" height="200" align="center"></p>
-<font size="1"><a href="http://reprap.org/wiki/RepRapPro_Huxley" target="_blank" rel="external">图3 三角架型-Reprappro-huxley</a></font>
+<font size="1">图2 3D打印材料大全</font><br> - 有机玻璃表面光洁度好，可以打印出透明和半透明的产品，目前利用亚力克材质，可以打出牙齿模型用于牙齿矫正的治疗。<br><br> - 陶瓷(Ceramic)陶瓷粉末采用SLS进行烧结，上釉陶瓷产品可以用来盛食物，很多人用陶瓷来打印个性化的杯子，当然3D打印并不能完成陶瓷的高温烧制，这道手续现在需要在打印完成之后进行高温烧制。<br><br> - 树脂(Resin)树脂是SLA光固化成型的重要原料，其变化种类很多，有透明的、半固体状的，可以制作中间设计过程模型，由于其成型精度比FDM高，可以作为生物模型或医用模型。<br><br> - 金属(Metal)较为坚硬，有很强的牢固度,多采用SLS技术进行烧结，可以选用银色、古铜色等多种颜色，可以制作模型、现代艺术品以及很多功能性和装饰性的用品<br>  <br><br>  &nbsp;<br><br>  &nbsp;<br><br>- ### 主流桌面3D打印机结构<br>&gt; &#160;&#160;&#160;&#160;&#160;&#160;<strong>桌面3D打印机有两种主流结构，以Kossel为代表的并联臂型、也叫Delta型、三角洲型，和以Makerbot、Prusa为代表的XYZ型，也叫cartesian型、笛卡尔型。还有比较少见的机械臂型和五轴加工中心型。下面将两种主流结构及其分支进行介绍。</strong>[4]<br><br>#### 笛卡尔坐标系型<br><br>##### 三角架型结构<br><img src="https://ooo.0o0.ooo/2017/05/25/5926950196ac0.jpg" alt="三角架型-Reprappro-huxley.jpg" title="三角架型-Reprappro-huxley.jpg" width="200" height="200" align="center"><br><br><font size="1"><a href="http://reprap.org/wiki/RepRapPro_Huxley" target="_blank" rel="external">图3 三角架型-Reprappro-huxley</a></font>
 
 <p><img src="https://ooo.0o0.ooo/2017/05/25/5926bd85b3db0.jpg" alt="三角架型-prusa-mendel.jpg" title="三角架型-prusa-mendel.jpg" width="200" height="200" align="center"></p>
 <font size="1"><a href="http://reprap.org/wiki/Prusa_Mendel" target="_blank" rel="external">图4 三角架型-prusa-mendel</a></font>
@@ -1661,6 +1626,8 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <li>初期固件调试复杂，需要保持喷头平稳</li>
 <li>整机体积较大，上层浪费过多安装喷头的空间</li>
 </ol>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <ul>
 <li><h3 id="相关3D打印机网站"><a href="#相关3D打印机网站" class="headerlink" title="相关3D打印机网站"></a>相关3D打印机网站</h3></li>
 </ul>
@@ -1680,6 +1647,8 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <li><a href="https://www.makerbot.com/" target="_blank" rel="external"><strong>MakeBot</strong></a></li>
 </ol>
 <p><br> </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <ul>
 <li><h3 id="3D打印的未来"><a href="#3D打印的未来" class="headerlink" title="3D打印的未来"></a>3D打印的未来</h3></li>
 </ul>
@@ -1687,9 +1656,8 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <p>&#160;&#160;&#160;&#160;&#160;&#160;3D技术的一个发展方向是往规模更大的零部件方向扩展，如大型钛合金构件技术，如2012年1月18日，北京航空航天大学航空材料专家王华明教授主持的“飞机钛合金大型复杂整体构件激光成形技术”项目获得国家技术发明一等奖。</p>
 <p>&#160;&#160;&#160;&#160;&#160;&#160;3D技术的另一个重要发展方向是个性化定制。技术的发展使得个性化定制零部件与产品具有更多的可能性，也许未来我们可以在网购时通过3D技术来设计属于自己的家具，风格和颜色都由客户自行设计决定。</p>
 <p>&#160;&#160;&#160;&#160;&#160;&#160;3D打印同时可能产生的消极后果也愈发突显，譬如生物印刷，美国康奈尔大学曾打印了人类的耳朵，它在外观和功能上都和人类的耳朵十分相像；苏格兰的科学家也曾对打印胚胎干细胞的技术进行过研发。</p>
-<p>&#160;&#160;&#160;&#160;&#160;&#160;生物打印变得越来越普遍，这将不可避免地导致一场关于伦理、道德与法律的战争。 安全隐患也是可能造成的消极后果之一，第一支成功打印出来的3D枪支已是旧闻，但是该事件影响力依旧。不过可见，3D打印技术可能造成的安全隐患值得关注。[5]<br><br> </p>
-<font color="#ffffff" size="4">color=此段为放空</font>
-
+<p>&#160;&#160;&#160;&#160;&#160;&#160;生物打印变得越来越普遍，这将不可避免地导致一场关于伦理、道德与法律的战争。 安全隐患也是可能造成的消极后果之一，第一支成功打印出来的3D枪支已是旧闻，但是该事件影响力依旧。不过可见，3D打印技术可能造成的安全隐患值得关注。[5]<br><br><br>&nbsp;</p>
+<p>&nbsp;</p>
 <ul>
 <li><h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3></li>
 </ul>
@@ -1698,7 +1666,8 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <p>[3]：<strong>知乎-3D打印用常用的材料是什么？</strong> <a href="https://www.zhihu.com/question/21211287" target="_blank" rel="external">https://www.zhihu.com/question/21211287</a></p>
 <p>[4]：<strong>主流3D打印机结构对比</strong> <a href="https://wenku.baidu.com/view/d8b32f786c85ec3a87c2c5fd.html" target="_blank" rel="external">https://wenku.baidu.com/view/d8b32f786c85ec3a87c2c5fd.html</a></p>
 <p>[5]：<strong>3D打印的昨天，今天与明天（上）：技术篇</strong> <a href="http://weibo.com/p/1001603962379451939439" target="_blank" rel="external">http://weibo.com/p/1001603962379451939439</a></p>
-<font color="#ffffff" size="4">color=此段为放空</font>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 ]]></content>
       
         <categories>
@@ -1819,6 +1788,34 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
   
     
     <entry>
+      <title><![CDATA[gallery]]></title>
+      <url>/gallery.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[小站历史]]></title>
+      <url>/timeline.html</url>
+      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
+<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
+<li>2017.08.15 确定了以Material为主题</li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[links]]></title>
+      <url>/links.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[tags]]></title>
+      <url>/tags.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[关于]]></title>
       <url>/about.html</url>
       <content type="html"><![CDATA[<blockquote>
@@ -1873,34 +1870,6 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <blockquote>
 <p>以上为近期待办事项，若为<code>o</code>为未完成，<code>i</code>为正在进行中，<code>x</code>则为已完成。</p>
 </blockquote>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[gallery]]></title>
-      <url>/gallery.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[小站历史]]></title>
-      <url>/timeline.html</url>
-      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
-<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
-<li>2017.08.15 确定了以Material为主题</li>
-</ul>
 ]]></content>
     </entry>
     

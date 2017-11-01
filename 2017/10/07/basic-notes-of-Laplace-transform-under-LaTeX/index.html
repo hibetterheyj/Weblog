@@ -521,56 +521,44 @@
 <p>  类似的，傅里叶变换$ \int_{-\infty}^{\infty} x(t)e^{-j\omega t} dt $</p>
 <p>  拉式反变换（一般少用$ x(t)=L^{-1}[X(s)] = \dfrac{1}{2\pi j}\displaystyle\int_{\sigma-j\infty}^{\sigma+j\infty} X(s)e^{st}  dt \quad t\in(0,+\infty) $</p>
 </blockquote>
-<font color="#ffffff" size="5">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <h3 id="八种典型函数"><a href="#八种典型函数" class="headerlink" title="八种典型函数"></a>八种典型函数</h3><p>1）   <strong>单位阶跃</strong>函数 $ L[1(t)]=\int_0^{\infty} 1(t)e^{-st} dt=\dfrac{1}{s} $</p>
 <p>2）   <strong>指数</strong>函数 $ L[e^{-at}] =\int_0^{\infty} e^{-at} \cdot e^{-st} dt = \int_0^{\infty} e^{-(x+a)t} dt = \dfrac{1}{s+a}$</p>
-<font color="#ffffff" size="1">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <p>3）   <strong>正弦</strong>函数 $ L[sin(wt)]=\dfrac{\omega}{\omega^2 + s^2} $</p>
 <p>4）  <strong>余弦</strong>函数 $ L[cos(wt)]=\dfrac{s}{\omega^2 + s^2} $</p>
-<font color="#ffffff" size="1">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <p>5）   <strong>单位脉冲</strong>函数，作用时间短，冲量正好为1</p>
 <p>$ \delta(t)=\begin{cases} 0, \quad (others) \ \lim_\limits{\epsilon \to0} \dfrac{1}{\epsilon},\quad (0&lt;t&lt;\epsilon)  \end{cases} $</p>
 <p>对应拉氏变换 $ L[\delta(t)]=1 $（利用<strong>洛必达法则</strong>）</p>
-<font color="#ffffff" size="1">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <p>6）   <strong>幂函数</strong> $ t^n $的象函数$ L[x(t)]=\dfrac{n!}{s^{n+1}} $</p>
-<font color="#ffffff" size="1">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <p>7）   幂函数<strong>变式一</strong>：<strong>单位速度</strong>函数（斜坡函数）</p>
 <p>$ x(t)=\begin{cases} 0 \quad t&lt;0\t \quad t\ge0 \end{cases} $</p>
 <p>对应拉氏变换 $ L[x(t)]=\dfrac{1!}{s^2}=\dfrac{1}{s^2} $，即可表示为 $ x(t)\xrightarrow{L} \dfrac{1}{s^2} $</p>
-<font color="#ffffff" size="1">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <p>8）   幂函数<strong>变式二</strong>：<strong>单位加速度</strong>函数</p>
 <p>$ f(t)=\begin{cases} 0 \quad t&lt;0 \ \dfrac{1}{2}t^2 \quad t\geq 0 \end{cases} $</p>
 <p>对应变换$ L[x(t)]=\dfrac{1}{2}\times\dfrac{2!}{s^3}=\dfrac{1}{s^3} $，即可表示为$ x(t)\xrightarrow{L} \dfrac{1}{s^3} $</p>
-<font color="#ffffff" size="5">color=此段为放空</font>
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <h3 id="相关定理"><a href="#相关定理" class="headerlink" title="相关定理"></a>相关定理</h3><p>1）   <strong>叠加</strong>定理：齐次性、叠加性</p>
 <p>2）   <strong>（重点）</strong>微分**定理：</p>
 <p>$ L\bigg[\dfrac{d}{dt} x(t)\bigg]=sX(s)-x(0^+) $</p>
 <p>$ L \bigg[\dfrac{d^2x(t)}{dt^2} \bigg]=s^2X(s)-sx(0^+)-x’(0^+) $</p>
 <p>$ L\bigg[\dfrac{d^nx(t)}{dt^n} \bigg]=s^nX(s)-s^{n-1}x(0^+)-s^{n-2}x’(0^+)-\cdots-x^{n-1}(0^+) $</p>
 <p>因此，当初始条件全为0是，则$ \dfrac{d^n}{dt^n}x(t)\Leftrightarrow s^nX(s) $ </p>
-<font color="#ffffff" size="1">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <p>3）   <strong>积分</strong>定理 </p>
 <p>$L\bigg[\displaystyle\int x(t)dt\bigg] = \dfrac{X(s)}{s} + \dfrac{x^{-1}(0^+)}{s} ​$</p>
 <p>$L\bigg[\displaystyle\idotsint x(t)(dt)^n \bigg] = \dfrac{X(s)}{s^n} + \dfrac{x^{-1}(0^+)}{s^n} + \dfrac{x^{-2}(0^+)}{s^{n-1}} + \cdots + \dfrac{x^{-n}(0^+)}{s} $</p>
 <blockquote>
 <p>当我读到<strong>传递函数环节</strong>时看到了积分定理的重要性！</p>
 </blockquote>
-<font color="#ffffff" size="1">color=此段为放空</font>
-
-
+<p>&nbsp;</p>
 <p>4）   拉式<strong>反变换</strong> $ x(t)=\dfrac{1}{2\pi j} \displaystyle\int_{a-j\infty}^{a+j\infty} X(s)e^{st}ds $，一般使用较少</p>
-<font color="#ffffff" size="1">color=此段为放空</font>
-
-<p>5） <strong>卷积</strong>定理$L[f(t)*g(t)]=F(s)G(s)$</p>
-<p>其中$f(t)*g(t)$即为两函数的卷积，必须符合条件：当$t&lt;0$时，$f(t)=g(t)=0$，则卷积可以表示为</p>
+<p>&nbsp;</p>
 <p>5） <strong>卷积</strong>定理$L[f(t)*g(t)]=F(s)G(s)$</p>
 <p>其中$f(t)*g(t)$即为两函数的卷积，必须符合条件：当$t&lt;0$时，$f(t)=g(t)=0$，则卷积可以表示为</p>
 <p>$$ f(t)*g(t)=\displaystyle\int_0^t f(t-\tau)g(\tau)d\tau = \displaystyle\int_0^t f(\tau)g(t-\tau)d\tau $$</p>
@@ -581,28 +569,28 @@
 <p>所以$ \mathcal{L}(\dfrac{1}{12}t^4)=\dfrac{1}{12}\cdot\dfrac{4!}{s^5} =\dfrac{2}{s^5}$</p>
 <p>而由$ \mathcal{L}(t) = \dfrac{1}{s^2} $，$ \mathcal{L}(t^2) = \dfrac{2}{s^3} $可知卷积公式成立！</p>
 <hr>
-<font color="#ffffff" size="2">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <p>6）  $ f(\dfrac{t}{a}) $的<strong>象函数</strong></p>
 <p>$L\bigg[f(\dfrac{t}{a})\bigg]=aF(as) \quad     其中 a=costant&gt;0$</p>
 <p><strong><em>举例</em></strong></p>
 <hr>
 <p>$L[e^{-t}] = F(s) = \dfrac{1}{s+1} $，则$ L[e^{-t/a}] = aF(as)=\dfrac{a}{as+1} $</p>
 <hr>
-<font color="#ffffff" size="3">color=此段为放空</font>
-
+<p>&nbsp;</p>
 <p>7）   <strong>复微分</strong>定理（少数场合可能使用）</p>
 <p>若$ L[f(t)]=F(s) $，则除了$ F(s) $的极点之外，有：</p>
 <p>$ \dfrac{d}{ds}F(s)=-L[tf(t)] $</p>
 <p>$  \dfrac{d^2}{ds^2}F(s)=L[t^2f(t)]  $</p>
 <p>$  \dfrac{d^n}{ds^n}F(s)=(-1)^n L\bigg[t^n f(t)\bigg]  \quad(n=1,2,3,\cdots)$</p>
-<pre><code>  &lt;font color=#ffffff size=2&gt;color=此段为放空&lt;/font&gt;
-</code></pre><p>8）   $ \dfrac{x(t)}{t} $的<strong>象函数</strong> $ L\bigg[\dfrac{x(t)}{t}\bigg]=\displaystyle\int_t^{\infty} X(s) ds $</p>
+<p>&nbsp;</p>
+<p>8）   $ \dfrac{x(t)}{t} $的<strong>象函数</strong> $ L\bigg[\dfrac{x(t)}{t}\bigg]=\displaystyle\int_t^{\infty} X(s) ds $</p>
 <blockquote>
 <p>手机端对于MathJax的优化不好，建议在<strong>PC端</strong>阅读！</p>
 <p>本文暂缺<strong>初值定理</strong>与<strong>终值定理</strong>，原因在于LaTeX与markdown之间在于<code>_公式_</code>渲染的不同，具体在<a href="http://pan.baidu.com/s/1bKgpCM" target="_blank" rel="external">网盘</a>（pass: wxpl）可以下载</p>
 </blockquote>
-<p><font color="#ffffff" size="4">color=此段为放空</font><br>（最后更新于<em>2017.10.12</em>）</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>（最后更新于<em>2017.10.12</em>）</p>
 
         
                 <blockquote style="margin: 2em 0 0;padding: 0.5em 1em;border-left: 3px solid #F44336;background-color: #F5F5F5;list-style: none;">
