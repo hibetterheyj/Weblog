@@ -27,23 +27,25 @@
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在听了几期之后，我就被两位主播——“文坛溪畔东瀛居”Eric与“黄浦江边清蒸鱼”钱争予——主播风格所吸引，他们真正地做到了他们所坚持与实践的“畅谈”与“用听觉扯视觉”两点。作为TIB的两位编辑：首先是<a href="">Eric</a>，旅居日本多年，参与了思源宋体这一开源项目的中方工作，曾经翻译过书，还曾经做过诸多日本字体设计师访华的翻译顾问；另一位是<a href="">钱争予</a>，曾经就读于北大中文系，目前主要做平面设计与字体排版等工作</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<h3 id="纪录片"><a href="#纪录片" class="headerlink" title="纪录片"></a>纪录片</h3><ul>
+<h3 id="纪录片"><a href="#纪录片" class="headerlink" title="纪录片"></a>纪录片</h3><blockquote>
+<p>  欢迎关注我的豆列：<a href="https://www.douban.com/doulist/46312786/" target="_blank" rel="external"><strong>Typography（影视）</strong></a>，我会不断分享影评并不时增补！</p>
+</blockquote>
+<ul>
 <li>Helvetica</li>
 </ul>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这部纪录片期待通过对于不同国家、不同理念的设计师的访谈去审视、剖析Helvetica这一经久不衰、实用耐看的老牌字体。（<a href="">豆瓣</a>）</p>
 <p>&nbsp;</p>
 <ul>
-<li>筑紫明朝体</li>
+<li>NHK・行家本色-字体设计师・藤田重信</li>
 </ul>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中国传统的宋体是在后世不断发展完善之后传入日本与朝鲜地区，在当地被称为明朝体。</p>
 <p>&nbsp;</p>
 <ul>
-<li>思源宋体发布视频</li>
+<li>Adobe的开源泛CJK字体—思源宋体简介</li>
 </ul>
-<ul>
-<li>待补充</li>
-</ul>
-<p>欢迎关注我的b站<a href="">字体合集</a></p>
+<p>对于</p>
+<p>&nbsp;</p>
+<p><del>欢迎关注我的b站字体合集</del>（b站收藏夹似乎难以分享）</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <h3 id="专有名词"><a href="#专有名词" class="headerlink" title="专有名词"></a>专有名词</h3><ul>
@@ -56,6 +58,10 @@
 <li><a href="https://www.typeisbeautiful.com" target="_blank" rel="external">Type is Beautiful</a></li>
 </ul>
 <p>&nbsp;</p>
+<ul>
+<li><a href="http://typeji.com/" target="_blank" rel="external">Type</a></li>
+</ul>
+<p>一个中国设计师的portfolio式网站，期待给出不同字体中西混排的最佳方案</p>
 <ul>
 <li><a href="http://ryanlau.design/" target="_blank" rel="external">RYAN LAU｜刘昱晖</a></li>
 </ul>
@@ -1456,9 +1462,9 @@ $ \LaTeX $
         
         <tags>
             
-            <tag> English_learning </tag>
-            
             <tag> newsletter </tag>
+            
+            <tag> English_learning </tag>
             
         </tags>
         
@@ -2079,6 +2085,28 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
     </entry>
     
     <entry>
+      <title><![CDATA[links]]></title>
+      <url>/links.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[tags]]></title>
+      <url>/tags.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[小站历史]]></title>
+      <url>/timeline.html</url>
+      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
+<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
+<li>2017.08.15 确定了以Material为主题</li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[关于]]></title>
       <url>/about.html</url>
       <content type="html"><![CDATA[<blockquote>
@@ -2134,28 +2162,6 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <p>以上为近期待办事项，若为<code>o</code>为未完成，<code>i</code>为正在进行中，<code>x</code>则为已完成。</p>
 </blockquote>
 ]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[小站历史]]></title>
-      <url>/timeline.html</url>
-      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
-<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
-<li>2017.08.15 确定了以Material为主题</li>
-</ul>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags.html</url>
-      <content type="html"></content>
     </entry>
     
   
