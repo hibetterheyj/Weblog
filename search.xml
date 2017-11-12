@@ -1640,9 +1640,9 @@ coursera-dl --help
         
         <tags>
             
-            <tag> 工具推荐 </tag>
-            
             <tag> 集合汇总 </tag>
+            
+            <tag> 工具推荐 </tag>
             
         </tags>
         
@@ -2073,6 +2073,12 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
   
     
     <entry>
+      <title><![CDATA[gallery]]></title>
+      <url>/gallery.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[关于]]></title>
       <url>/about.html</url>
       <content type="html"><![CDATA[<blockquote>
@@ -2128,12 +2134,6 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <p>以上为近期待办事项，若为<code>o</code>为未完成，<code>i</code>为正在进行中，<code>x</code>则为已完成。</p>
 </blockquote>
 ]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[gallery]]></title>
-      <url>/gallery.html</url>
-      <content type="html"></content>
     </entry>
     
     <entry>
