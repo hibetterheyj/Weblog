@@ -27,9 +27,10 @@
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们先是早晨八点半从襄阳出发到达了汉口（孤陋寡闻恕我第一次知道其实就是<strong>武汉</strong>）。到达后我便随手在高中宿舍的群里分享了位置。没想到一会儿时间，在<strong>同济医学院</strong>就读的老同桌就微信电话联系上我，说是难得离家千里难得相会，便乘着动车转乘短短的两小时内，奇妙的在汉口火车站前的热干面店点了<u>面与蛋酒</u>奇妙而又令我感动的相聚了！</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;晚上近八点，一群人回校包了一辆大巴，有一幕场景至今难忘：</p>
 <blockquote>
-<p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在和身边人谈论着蔚来策划了的纪录片《大圣的最后一战》之后，坐在我前面的队长，一边嘴里喃喃自语道“这是最后一届FSEC”，一边焦虑而随意地画着起雾的窗玻璃上的水雾。</p>
+<p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>在和身边人谈论着蔚来策划了的纪录片《大圣的最后一战》之后，坐在我前面的队长，一边嘴里喃喃自语道“这是最后一届FSEC”，一边焦虑而随意地画着起雾的窗玻璃上的水雾。</strong></p>
+<p>  <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;而与此同时，有几个人在玩着农药，大声的呼喊着我不懂的黑话！</strong></p>
 </blockquote>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;那一刻地我真是莫名心痛，也让我想起去年双十一FSEC2016结束地那个黄昏，学长学姐们因为25分而痛失冠军地那个下午呀！</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;那一刻地我真是莫名心痛呀，也让我想起去年双十一FSEC2016结束地那个黄昏，学长学姐们因为25分而痛失冠军地那个下午呀！</p>
 <p>&nbsp;</p>
 <h4 id="11-19（周日）"><a href="#11-19（周日）" class="headerlink" title="11.19（周日）"></a>11.19（周日）</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;或许正如我在自己微博里写的那样——“ <strong>焦虑地想记录些什么，不想让它随风而逝</strong> ​​​”，希望这段有着美好的笑与苦涩的无言的记忆能够永远镌刻有所记录！</p>
 <p>&nbsp;</p>
@@ -1063,9 +1064,9 @@
         
         <tags>
             
-            <tag> 控制工程 </tag>
-            
             <tag> TeX </tag>
+            
+            <tag> 控制工程 </tag>
             
         </tags>
         
@@ -1514,9 +1515,9 @@ $ \LaTeX $
         
         <tags>
             
-            <tag> English_learning </tag>
-            
             <tag> newsletter </tag>
+            
+            <tag> English_learning </tag>
             
         </tags>
         
@@ -2092,9 +2093,9 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
         
         <tags>
             
-            <tag> Economist </tag>
-            
             <tag> English_learning </tag>
+            
+            <tag> Economist </tag>
             
         </tags>
         
@@ -2129,34 +2130,6 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
     
   
   
-    
-    <entry>
-      <title><![CDATA[gallery]]></title>
-      <url>/gallery.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[小站历史]]></title>
-      <url>/timeline.html</url>
-      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
-<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
-<li>2017.08.15 确定了以Material为主题</li>
-</ul>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags.html</url>
-      <content type="html"></content>
-    </entry>
     
     <entry>
       <title><![CDATA[关于]]></title>
@@ -2214,6 +2187,34 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <p>以上为近期待办事项，若为<code>o</code>为未完成，<code>i</code>为正在进行中，<code>x</code>则为已完成。</p>
 </blockquote>
 ]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[gallery]]></title>
+      <url>/gallery.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[tags]]></title>
+      <url>/tags.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[小站历史]]></title>
+      <url>/timeline.html</url>
+      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
+<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
+<li>2017.08.15 确定了以Material为主题</li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[links]]></title>
+      <url>/links.html</url>
+      <content type="html"></content>
     </entry>
     
   
