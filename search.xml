@@ -3,6 +3,52 @@
   
     
     <entry>
+      <title><![CDATA[写给DIAN的心里话]]></title>
+      <url>/2017/12/03/my-humble-opinion-on-DIAN/</url>
+      <content type="html"><![CDATA[<blockquote>
+<p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;既偶然又惭愧地当上了车队核心，成了组长，最近也倾注了很多心思在上面。偶然与学长交流，头脑发热，速成一文，发电邮至在外留学老队长，有些不吐不快！望一年后能够有机会回首今日，心生无悔之感慨。</p>
+</blockquote>
+<a id="more"></a>
+<p>To 学长：</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;不知道能否就整车的布置说说心里话，老实说自己投入车队的时间不多，也很有愧没人我就当了如今的动力组长。有些愚见，但或许没办法对最终设计做什么影响，但还是希望说出来。</p>
+<p>&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;您应该是有看到现在新车的总布局方案：由老学长主笔，就amz（国外某知名车队）学着把控制器布置在车身前部，然后改掉现有电池的安装方式，打算从驾驶舱取入取出，相比于16，17又是比较大的改动。</p>
+<p>&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这一周我也每天去看，每天去讨论反馈，但是拉拉扯扯很多天没有什么很好的解决方案，（<u>作为一名合格的工程师是应该硬着头皮去解决些东西，而不是轻言放弃，</u>）但感觉控制器放在前面就很难处理——最大的问题主要在电机控制器的布置走线、走水路，这个目前对于车身设计、悬架设计带来难点，也将可能为后期的维护带来些意想不到的问题。此外，我们还得就这方面的设计跟电驱动提些相对不能确定的需求与改进。</p>
+<p>&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>其实我不是很明白规则规定所谓的第一年车和第二年车的要求，得有多处比较大的改动是怎么去评判的。</strong>但在我看来，像DRe17这种方案，我们或许可以吸收这辆车上面很多弱点缺陷：比如说单体壳做的太软，比如说一些水道散热等各方面的布置不是很完善等等。在这之中，又比如说电池箱从下面取放对整个单体壳的强度削弱很大这个问题——就18的设计，目前电池箱整体尺寸变窄了，单体壳强度应该有提升空间(去年KIT似乎也是从车身下取放)；或者大胆的想，改回16电池箱往后抽出拿出电池箱的方式又何尝不可（或许可能影响空套与举升杆的布置），或许我们都相对有些经验与教训去提升，去打磨！</p>
+<p>&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;学长他们说把控制器放前面或许有这样的一些优点——整车质心降低，提升单体壳刚度以及前后轮的载荷分配更加合理等等，但我跟动力前两任组长聊天之余谈设计，都得出一个结论，<strong>很多新的设计会带来很多新的问题，就很有可能会大大压缩像今年的试车时间</strong>（如果没有延长一个月感觉今年会很糟），更何况计划以及时间节点一般都很美好，然而现实每年都有些延误发生。</p>
+<p>&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我一直相信我们的车肯定是在国内一流的，这也是我加入车队，以及到现在没有因为课业压力很大离开的原因吧！但是真的感觉从心底里觉得我们对车调试不够，车手熟悉的不够，积累的经验不够，进而导致我们今年最后耐久效率不太好。</p>
+<p>&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;因为我来自机械学院，目前大三，待在车队的时间或许是最后一年了，所以说得功利与自私太重。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以上是我的一些浅见，写的有点乱，有点头脑发热，感谢您的阅读！<strong>心底里还是很希望车队能够取得一个好名次！</strong> </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>学弟 宇杰</p>
+<p>17.12.03</p>
+<p>&nbsp;<br>&nbsp;<br>&nbsp;<br>（最后更新于<em>2017.12.03</em>）</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 满嘴·胡言 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 杂记 </tag>
+            
+            <tag> Formula Student </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[大三上·第十周]]></title>
       <url>/2017/11/26/tenth-week-summary-in-first-half-junior/</url>
       <content type="html"><![CDATA[<center><font size="5"><strong>大三上·第十周</strong></font></center> 
@@ -16,7 +62,7 @@
 </blockquote>
 <p>&nbsp;</p>
 <h4 id="课程相关"><a href="#课程相关" class="headerlink" title="课程相关"></a>课程相关</h4><h5 id="热力学-by-安巍老师"><a href="#热力学-by-安巍老师" class="headerlink" title="热力学 by 安巍老师"></a>热力学 <em>by</em> <strong>安巍老师</strong></h5><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;老师依旧讲的有点慢慢吞吞，但是从第十周开始的两节课尤其意味着进度的加快：一节课一章。我请假的一周跳过了第三章前两节——<strong>理想气体的比热容</strong>——的讲解，总体内容理解起来还算简单，不过还是要花费心思去掌握与练习。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;开始为期末复习做了一些小准备，花了三四个下午晚上把前面的内容用<strong>Jupyther Notebook</strong>进行了整理，并上传到github上，欢迎到<a href="https://github.com/hibetterheyj/Course-Notes/tree/master/Thermodynamics%20-%20Heat%20Transfer" target="_blank" rel="external"><strong>此处</strong></a>查阅，并提出指正。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;开始为期末复习做了一些小准备，花了三四个下午晚上把前面的内容用<strong>Jupyter Notebook</strong>进行了整理，并上传到github上，欢迎到<a href="https://github.com/hibetterheyj/Course-Notes/tree/master/Thermodynamics%20-%20Heat%20Transfer" target="_blank" rel="external"><strong>此处</strong></a>查阅，并提出指正。</p>
 <center><br><br><img src="https://ooo.0o0.ooo/2017/11/26/5a1ade43526d7.png" width="500"><br><br><font size="2"><strong>热力学github-repo页面如图</strong></font><br><br></center>
 
 <p><strong>Related Source：</strong><a href="http://pan.baidu.com/s/1miNzFtA" target="_blank" rel="external">课件链接</a>（No Password！）</p>
