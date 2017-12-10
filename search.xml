@@ -1386,6 +1386,7 @@
 <li><a href="https://www.zhihu.com/question/24086239" target="_blank" rel="external">传递函数的零点、极点怎么解释，有什么用？- 知乎</a></li>
 <li><a href="https://zhuanlan.zhihu.com/p/28397745" target="_blank" rel="external">梅逊公式求传递函数 - 知乎专栏</a></li>
 <li><a href="https://hibetterheyj.github.io/2017/10/07/basic-notes-of-Laplace-transform-under-LaTeX/">LaTeX之下的控制工程拉式变换 - 我的博客</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/29663459" target="_blank" rel="external">奈奎斯特稳定判据 - 知乎专栏</a></li>
 </ul>
 <p>&nbsp;</p>
 <h3 id="基础增补"><a href="#基础增补" class="headerlink" title="基础增补"></a>基础增补</h3><ul>
@@ -1394,7 +1395,7 @@
 </ul>
 <p>&nbsp;</p>
 <p><strong>[未完待续]</strong></p>
-<p>&nbsp;<br>（最后更新于<em>2017.10.12</em>）</p>
+<p>&nbsp;<br>（最后更新于<em>2017.12.10</em>）</p>
 ]]></content>
       
         <categories>
@@ -2292,9 +2293,9 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
         
         <tags>
             
-            <tag> Economist </tag>
-            
             <tag> English_learning </tag>
+            
+            <tag> Economist </tag>
             
         </tags>
         
@@ -2329,6 +2330,34 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
     
   
   
+    
+    <entry>
+      <title><![CDATA[gallery]]></title>
+      <url>/gallery.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[links]]></title>
+      <url>/links.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[tags]]></title>
+      <url>/tags.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[小站历史]]></title>
+      <url>/timeline.html</url>
+      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
+<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
+<li>2017.08.15 确定了以Material为主题</li>
+</ul>
+]]></content>
+    </entry>
     
     <entry>
       <title><![CDATA[关于]]></title>
@@ -2386,34 +2415,6 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <p>以上为近期待办事项，若为<code>o</code>为未完成，<code>i</code>为正在进行中，<code>x</code>则为已完成。</p>
 </blockquote>
 ]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[gallery]]></title>
-      <url>/gallery.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[小站历史]]></title>
-      <url>/timeline.html</url>
-      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
-<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
-<li>2017.08.15 确定了以Material为主题</li>
-</ul>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags.html</url>
-      <content type="html"></content>
     </entry>
     
   
