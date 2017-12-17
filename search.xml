@@ -385,9 +385,9 @@
             
             <tag> 杂记 </tag>
             
-            <tag> memory record </tag>
-            
             <tag> 长篇 </tag>
+            
+            <tag> memory record </tag>
             
         </tags>
         
@@ -2535,6 +2535,12 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
     </entry>
     
     <entry>
+      <title><![CDATA[tags]]></title>
+      <url>/tags.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[gallery]]></title>
       <url>/gallery.html</url>
       <content type="html"></content>
@@ -2548,12 +2554,6 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <li>2017.08.15 确定了以Material为主题</li>
 </ul>
 ]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags.html</url>
-      <content type="html"></content>
     </entry>
     
   
