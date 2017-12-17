@@ -78,7 +78,7 @@
 <li>12.18 <a href="https://hibetterheyj.github.io/2017/12/18/study-hall-memory-at-qz5z/"><strong>旧文重发|自习室记忆</strong></a></li>
 <li>12.17 <a href="https://hibetterheyj.github.io/2017/12/17/30-day-classical-music-challenge/"><strong>30天古典音乐挑战计划</strong></a></li>
 <li>12.03 <a href="https://hibetterheyj.github.io/2017/12/03/my-humble-opinion-on-DIAN/"><strong>写给DIAN的心里话</strong></a></li>
-<li>11.19 [<strong>与DIAN</strong>]<a href="https://hibetterheyj.github.io/2017/11/19/ninth-week-summary-in-first-half-junior-with-dianracing/(">https://hibetterheyj.github.io/2017/11/19/ninth-week-summary-in-first-half-junior-with-dianracing/(</a>)</li>
+<li>11.19 <a href="https://hibetterheyj.github.io/2017/11/19/ninth-week-summary-in-first-half-junior-with-dianracing/"><strong>与DIAN</strong></a></li>
 <li>10.01 <a href="https://hibetterheyj.github.io/2017/10/01/automotive-control-engineering-related-resources/"><strong>控制工程相关整理</strong></a></li>
 </ul>
 <p>&nbsp;</p>
@@ -2496,6 +2496,12 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
   
     
     <entry>
+      <title><![CDATA[gallery]]></title>
+      <url>/gallery.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[关于]]></title>
       <url>/about.html</url>
       <content type="html"><![CDATA[<blockquote>
@@ -2556,12 +2562,6 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
     <entry>
       <title><![CDATA[links]]></title>
       <url>/links.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[gallery]]></title>
-      <url>/gallery.html</url>
       <content type="html"></content>
     </entry>
     
