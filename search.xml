@@ -412,9 +412,9 @@
             
             <tag> Formula Student </tag>
             
-            <tag> 长篇 </tag>
-            
             <tag> memory record </tag>
+            
+            <tag> 长篇 </tag>
             
         </tags>
         
@@ -1438,9 +1438,9 @@
         
         <tags>
             
-            <tag> 控制工程 </tag>
-            
             <tag> TeX </tag>
+            
+            <tag> 控制工程 </tag>
             
         </tags>
         
@@ -1890,9 +1890,9 @@ $ \LaTeX $
         
         <tags>
             
-            <tag> newsletter </tag>
-            
             <tag> English_learning </tag>
+            
+            <tag> newsletter </tag>
             
         </tags>
         
@@ -1906,26 +1906,47 @@ $ \LaTeX $
 </blockquote>
 <a id="more"></a>
 <p>&#160;&#160;&#160;&#160;&#160;&#160;到了大学，电脑愈发普及，人们借助浏览器来上网的时间也愈发的增加，一大群极客们借助着Chrome的拓展程序版块使得浏览器的使用体验越发顺畅，工作也得以高效的完成，因此我就秉持着“把工具用好就好”的心态，选出自己喜爱的Chrome插件以飨读者！</p>
+<p><strong>PS:</strong> 以下下载链接均为chrome官方，如若无法下载，访问<a href="http://crx.2333.me/" target="_blank" rel="external"><strong>Chrome 扩展程序下载</strong></a>可以解决相关问题，下载到正常安全的插件。</p>
 <h2 id="插件介绍"><a href="#插件介绍" class="headerlink" title="插件介绍"></a>插件介绍</h2><h3 id="浏览器功能强化"><a href="#浏览器功能强化" class="headerlink" title="浏览器功能强化"></a><u><em>浏览器功能强化</em></u></h3><ul>
+<li><h4 id="Steward"><a href="#Steward" class="headerlink" title="Steward"></a><strong>Steward</strong></h4></li>
+</ul>
+<p>&#160;&#160;&#160;&#160;&#160;&#160;说到启动器（<em>LaunchPad</em>），Windows上较为有名当属Wox。它是由一个命令输入框，以及一个查询结果下拉列表组成，只需要一个命令就能让浏览器去完成一系列操作，如同你的管家一样，自然是很多人心目中的神器。而 Steward 便是 Chrome 浏览器里的类 Alfred 启动器。</p>
+<p>在 Chrome 中，我们通过 Steward 简单地输入某些命令，就能完成扩展、书签、标签页管理等大部分浏览器操作。它之余效率不高还很手贱的而言，便意味着可以一键屏蔽许多网站，火箭般提高使用浏览器的效率。其中的<code>wfs</code>工作流命令是<u>我目前的最爱</u>！</p>
+<p>插件分为原始具有三种模式的 <a href="https://chrome.google.com/webstore/detail/dnkhdiodfglfckibnfcjbgddcgjgkacd" target="_blank" rel="external"><strong>Steward</strong></a> 版本以及省去<em>New Tab</em>功能的 <a href="https://chrome.google.com/webstore/detail/jglmompgeddkbcdamdknmebaimldkkbl" target="_blank" rel="external"><strong>Browser Alfred</strong></a> 版本。</p>
+<p>&#160;&#160;&#160;&#160;&#160;&#160;相关文章可阅读：</p>
+<ul>
+<li><a href="http://oksteward.com/" target="_blank" rel="external">Steward - Gitbook</a></li>
+<li><a href="https://sspai.com/post/42048" target="_blank" rel="external">在 Chrome 里用「Alfred」是什么体验？Steward 把效率启动器带进了浏览器 - 少数派</a></li>
+<li><a href="https://sspai.com/post/42121" target="_blank" rel="external">Chrome 命令启动器 Steward 攻略 – 三种模式各有神通 - 少数派</a></li>
+<li><a href="https://sspai.com/post/42088" target="_blank" rel="external">Chrome 命令启动器 Steward 的进阶用法：Workflow 批量操作 - 少数派</a></li>
+</ul>
+<p><strong>下载链接</strong>：<em><a href="https://chrome.google.com/webstore/detail/dnkhdiodfglfckibnfcjbgddcgjgkacd" target="_blank" rel="external">Chrome Web Store – Steward</a></em></p>
+<p><a href="https://chrome.google.com/webstore/detail/jglmompgeddkbcdamdknmebaimldkkbl" target="_blank" rel="external">Chrome Web Store – Browser Alfred</a><br></p>
+<p>&nbsp;</p>
+<ul>
 <li><h4 id="一键管理所有扩展"><a href="#一键管理所有扩展" class="headerlink" title="一键管理所有扩展"></a><strong>一键管理所有扩展</strong></h4></li>
 </ul>
 <p>&#160;&#160;&#160;&#160;&#160;&#160;当越来越多的 Chrome Extensions 被安装在Chrome上，浏览器的功能不得不被拖慢。这款插件——<strong>一键管理所有扩展</strong>支持包括一键禁用所有扩展、一键开启原有扩展、扩展的逐个禁用和开启、右击扩展等功能。此插件为以前的<a href="https://chrome.google.com/webstore/detail/ejhdjfmkegkpenillofhpmikailkjpkb" target="_blank" rel="external">一键禁用所有扩展-加强版</a>的最新版本。</p>
 <p><strong>下载链接</strong>：<em><a href="https://chrome.google.com/webstore/detail/infinity-new-tab/dbfmnekepjoapopniengjbcpnbljalfg" target="_blank" rel="external">Chrome Web Store – 一键管理所有扩展</a></em></p>
+<p>&nbsp;</p>
 <ul>
 <li><h4 id="OneTab"><a href="#OneTab" class="headerlink" title="OneTab"></a><strong>OneTab</strong></h4></li>
 </ul>
 <p>&#160;&#160;&#160;&#160;&#160;&#160;<strong>OneTab</strong>可以节省内存，并减轻标签页混乱现象。其他人推荐：Chrome这个个吃内存的怪兽啊，有了这个神器，网页打开再多都不怕啦！必装推荐！</p>
 <p><strong>下载链接</strong>：<em><a href="https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall" target="_blank" rel="external">Chrome Web Store – onetab</a></em></p>
+<p>&nbsp;</p>
 <ul>
 <li><h4 id="Infinity新标签页"><a href="#Infinity新标签页" class="headerlink" title="Infinity新标签页"></a><strong>Infinity新标签页</strong></h4></li>
 </ul>
 <p>&#160;&#160;&#160;&#160;&#160;&#160;<strong>Infinity</strong>实现了一个更好用，更强大的新标签页：自由定制chrome新标签页;开启页面添加时代，基于html5的Chrome扩展程序。相比Chrome自带的新标签页，可以通过Infinity自定义添加喜爱的网站，并且集成了天气，待办事项，笔记，插件扩展及历史记录管理、个性化搜索等功能。</p>
 <p><strong>下载链接</strong>：<em><a href="https://chrome.google.com/webstore/detail/infinity-new-tab/dbfmnekepjoapopniengjbcpnbljalfg" target="_blank" rel="external">Chrome Web Store – infinity-new-tab</a></em></p>
+<p>&nbsp;</p>
 <ul>
 <li><h4 id="LastPass-Free-Password-Manager"><a href="#LastPass-Free-Password-Manager" class="headerlink" title="LastPass: Free Password Manager"></a><strong>LastPass: Free Password Manager</strong></h4></li>
 </ul>
 <p>&#160;&#160;&#160;&#160;&#160;&#160;<strong>LastPass</strong>Chrome上最好用的密码管理软件，支持密码自动填充、生成密码。并且可以通过注册账户，多平台保存密码,安全访问计算机以及移动设备。</p>
 <p><strong>下载链接</strong>：<em><a href="https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd" target="_blank" rel="external">Chrome Web Store – lastpass-free-password-ma</a></em></p>
+<p>&nbsp;</p>
 <ul>
 <li><h4 id="DomainFlag"><a href="#DomainFlag" class="headerlink" title="DomainFlag"></a><strong>DomainFlag</strong></h4></li>
 </ul>
@@ -1949,6 +1970,7 @@ $ \LaTeX $
 <p>&#160;&#160;&#160;&#160;&#160;&#160;许多网页的视觉风格是用 CSS 文件进行管理的，替换网页本身的 CSS 可以达到美化的目的。通过安装 CSS，让百度<a href="https://userstyles.org/styles/123858/baidu-lite" target="_blank" rel="external">清爽无比</a><strong>（裂墙推荐！）</strong>，让github变得更宽更美，让 Google 用上动漫特效背景…… Stylish 作为一个 CSS 管理器，可以让替换 CSS 变得简单。</p>
 <p>&#160;&#160;&#160;&#160;&#160;&#160;相关文章可阅读：<a href="https://sspai.com/post/34508" target="_blank" rel="external">少数派：不喜欢某个网站的样子？用 Stylish 给它一键「换肤」</a></p>
 <p><strong>下载链接</strong>：<em><a href="https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe" target="_blank" rel="external">Chrome Web Store – stylish-custom-themes-for</a></em></p>
+<p>&nbsp;</p>
 <ul>
 <li><h4 id="Wikiwand"><a href="#Wikiwand" class="headerlink" title="Wikiwand"></a><strong>Wikiwand</strong></h4></li>
 </ul>
@@ -1957,6 +1979,7 @@ $ \LaTeX $
 <p>&#160;&#160;&#160;&#160;&#160;&#160;多年来，维基百科网页的视觉风格坚定不移地停留在 Web2.0 时代（强烈吐槽！！！）。<strong>Wikiwand</strong> 实现了视觉上的提升，并添加了一些人性化的交互：比如超链接悬浮窗，类似 Kindle 的书签功能，搜索联想，黑色模式等等…</p>
 <p>&#160;&#160;&#160;&#160;&#160;&#160;相关文章可阅读：<a href="https://sspai.com/post/32216" target="_blank" rel="external">少数派：轻、快、美，浏览维基百科的魔杖：Wikiwand</a></p>
 <p><strong>下载链接</strong>：<em><a href="https://chrome.google.com/webstore/detail/wikiwand-wikipedia-modern/emffkefkbkpkgpdeeooapgaicgmcbolj" target="_blank" rel="external">Chrome Web Store – wikiwand-wikipedia-modern</a></em></p>
+<p>&nbsp;</p>
 <ul>
 <li><h4 id="眼不见心不烦（新浪微博）"><a href="#眼不见心不烦（新浪微博）" class="headerlink" title="眼不见心不烦（新浪微博）"></a><strong>眼不见心不烦（新浪微博）</strong></h4></li>
 </ul>
@@ -1964,6 +1987,7 @@ $ \LaTeX $
 
 <p>&#160;&#160;&#160;&#160;&#160;&#160;对于越来越臃肿的微博，我们还是眼不见心不烦吧。「眼不见心不烦」由国人开发，可以高度自定义微博的显示样式。安装成功后在页面右上角的「齿轮」便可打开设置页面。<a href="weibo.com">新浪微博</a>非官方功能增强插件，可以无限制地屏蔽关键词、用户、来源，去除页面广告和推广微博，反刷屏，还您一个清爽干净的微博！</p>
 <p><strong>下载链接</strong>：<em><a href="https://chrome.google.com/webstore/detail/%E7%9C%BC%E4%B8%8D%E8%A7%81%E5%BF%83%E4%B8%8D%E7%83%A6%EF%BC%88%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A%EF%BC%89/aognaapdfnnldnjglanfbbklaakbpejm" target="_blank" rel="external">Chrome Web Store – 眼不见心不烦（新浪微博）</a></em></p>
+<p>&nbsp;</p>
 <ul>
 <li><h4 id="Facebook-Flat（已失效）"><a href="#Facebook-Flat（已失效）" class="headerlink" title="Facebook Flat（已失效）"></a><del><strong>Facebook Flat（已失效）</strong></del></h4></li>
 </ul>
@@ -1980,7 +2004,7 @@ $ \LaTeX $
 <p>[3]：<strong>Chrome插件中国</strong> <a href="http://chromecj.com/" target="_blank" rel="external">http://chromecj.com/</a></p>
 <p>[4]：<strong>Chrome网上应用商城（需翻墙）</strong> <a href="https://chrome.google.com/webstore/category/extensions" target="_blank" rel="external">https://chrome.google.com/webstore/category/extensions</a></p>
 <p>[5]：<strong>少数派：这 11 款 Chrome 扩展，让网页看起来更舒服</strong> <a href="https://sspai.com/post/40492" target="_blank" rel="external">https://sspai.com/post/40492</a></p>
-<p>（未完待续。。。）</p>
+<p>（最后更新于<em>2017.12.22</em>）</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 ]]></content>
@@ -2513,6 +2537,28 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
     </entry>
     
     <entry>
+      <title><![CDATA[links]]></title>
+      <url>/links.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[gallery]]></title>
+      <url>/gallery.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[小站历史]]></title>
+      <url>/timeline.html</url>
+      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
+<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
+<li>2017.08.15 确定了以Material为主题</li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[关于]]></title>
       <url>/about.html</url>
       <content type="html"><![CDATA[<blockquote>
@@ -2567,28 +2613,6 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <blockquote>
 <p>以上为近期待办事项，若为<code>o</code>为未完成，<code>i</code>为正在进行中，<code>x</code>则为已完成。</p>
 </blockquote>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[gallery]]></title>
-      <url>/gallery.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[小站历史]]></title>
-      <url>/timeline.html</url>
-      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
-<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
-<li>2017.08.15 确定了以Material为主题</li>
-</ul>
 ]]></content>
     </entry>
     
