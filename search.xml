@@ -3,6 +3,78 @@
   
     
     <entry>
+      <title><![CDATA[20171222Matlab讲座小记]]></title>
+      <url>/2017/12/26/Matlab-lecture-at-20171222/</url>
+      <content type="html"><![CDATA[<blockquote>
+<p>  本文是对在12.22下午举办的<a href="http://mp.weixin.qq.com/s/_uNAqzblkDMZoC-viJANVw" target="_blank" rel="external">MATLAB&amp;SIMULINK与入门&amp;在汽车领域的应用</a>的简短记录！</p>
+</blockquote>
+<a id="more"></a>
+<h2 id="Matlab学习"><a href="#Matlab学习" class="headerlink" title="Matlab学习"></a>Matlab学习</h2><p>数据类型：int, double, <strong>function handle</strong>（句柄） etc.</p>
+<p>函数/脚步/<a href="https://cn.mathworks.com/products/matlab/live-editor.html?s_tid=acb_live" target="_blank" rel="external"><strong>实时编辑器</strong></a></p>
+<p><strong>相关资源</strong></p>
+<ul>
+<li>帮助文档，<em>help, doc, docsearch</em></li>
+<li><a href="https://cn.mathworks.com/academia.html" target="_blank" rel="external"><strong>学术界面</strong></a></li>
+<li><a href="https://matlabacademy.mathworks.com/?s_tid=acb_tut" target="_blank" rel="external"><strong>MATLAB Courses</strong></a>：尤其是<a href="https://cn.mathworks.com/training-schedule/matlab-onramp" target="_blank" rel="external">Matlab Onramp</a>与<a href="https://cn.mathworks.com/training-schedule/deep-learning-onramp" target="_blank" rel="external">Deep Learning Onramp</a></li>
+<li><a href="https://cn.mathworks.com/matlabcentral/cody/" target="_blank" rel="external"><strong>Cody</strong></a>——在线学习平台</li>
+<li>论坛：www.ilovematlab.cn</li>
+<li><a href="https://cn.mathworks.com/videos/search.html?q=&amp;page=1" target="_blank" rel="external">视频与网上研讨会</a></li>
+<li>比赛与竞赛界面<a href="https://cn.mathworks.com/academia/student-competitions/formula-student-china.html" target="_blank" rel="external">FSC</a>——有相关视频</li>
+</ul>
+<p>&nbsp;</p>
+<hr>
+<h2 id="Matlab-Simulink工具箱"><a href="#Matlab-Simulink工具箱" class="headerlink" title="Matlab/Simulink工具箱"></a>Matlab/Simulink工具箱</h2><h3 id="Powertrain-Blockset"><a href="#Powertrain-Blockset" class="headerlink" title="Powertrain Blockset"></a><a href="https://cn.mathworks.com/help/autoblks/index.html" target="_blank" rel="external">Powertrain Blockset</a></h3><p>模块库与示例应用</p>
+<h4 id="Library-amp-Block"><a href="#Library-amp-Block" class="headerlink" title="Library &amp; Block"></a><a href="https://cn.mathworks.com/help/autoblks/blocklist.html" target="_blank" rel="external">Library &amp; Block</a></h4><ul>
+<li>传动系</li>
+</ul>
+<ul>
+<li><strong><a href="https://cn.mathworks.com/help/autoblks/energy-storage.html" target="_blank" rel="external">能量储存与辅助传动</a></strong>——电池相关</li>
+</ul>
+<ul>
+<li><strong>动力（电驱动）模块</strong>——电机与控制器</li>
+<li>车辆动力学模型和循环工况</li>
+</ul>
+<h4 id="参考应用"><a href="#参考应用" class="headerlink" title="参考应用"></a><a href="https://cn.mathworks.com/help/autoblks/examples.html" target="_blank" rel="external">参考应用</a></h4><ul>
+<li>整车模型——<strong>电动汽车</strong></li>
+<li>行星齿轮模型！</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="Automated-Driving-System-Toolbox"><a href="#Automated-Driving-System-Toolbox" class="headerlink" title="Automated Driving System Toolbox"></a><a href="https://cn.mathworks.com/help/driving/index.html" target="_blank" rel="external">Automated Driving System Toolbox</a></h3><h4 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h4><ul>
+<li>机器学习算法</li>
+<li>传感器</li>
+<li>激光雷达——点云处理、图像处理 etc.</li>
+<li>雷达</li>
+<li>IMU 惯性测量单元（集成GPS与陀螺仪功能）</li>
+</ul>
+<h4 id="应用"><a href="#应用" class="headerlink" title="应用"></a>应用</h4><p>可以分别导入IMU，传感器以及激光雷达的数据，并且手动标注目标</p>
+<p>&nbsp;</p>
+<h3 id="Robotics-Toolbox"><a href="#Robotics-Toolbox" class="headerlink" title="Robotics Toolbox"></a><a href="https://cn.mathworks.com/help/robotics/index.html" target="_blank" rel="external">Robotics Toolbox</a></h3><ul>
+<li>相关：<u>ROS 平台介绍</u></li>
+</ul>
+<ul>
+<li>对于相关<strong>交通标识</strong>，道路图片构建分类器——<strong>机器学习</strong>工具箱</li>
+</ul>
+<p>&nbsp;<br>&nbsp;<br>&nbsp;<br>（最后更新于<em>2017.12.26</em>）</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 技术·小见 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Matlab </tag>
+            
+            <tag> lecture note </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[大三上·第十四周（圣诞快乐啦！）]]></title>
       <url>/2017/12/25/fourteenth-week-summary-in-first-half-junior/</url>
       <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=460871728&auto=1&height=66"></iframe>
@@ -2612,8 +2684,14 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
   
     
     <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links.html</url>
+      <title><![CDATA[gallery]]></title>
+      <url>/gallery.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[tags]]></title>
+      <url>/tags.html</url>
       <content type="html"></content>
     </entry>
     
@@ -2628,14 +2706,8 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
     </entry>
     
     <entry>
-      <title><![CDATA[gallery]]></title>
-      <url>/gallery.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags.html</url>
+      <title><![CDATA[links]]></title>
+      <url>/links.html</url>
       <content type="html"></content>
     </entry>
     
