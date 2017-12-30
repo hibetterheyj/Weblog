@@ -594,11 +594,11 @@
             
             <tag> 一周总结 </tag>
             
-            <tag> Formula Student </tag>
-            
             <tag> 长篇 </tag>
             
             <tag> memory record </tag>
+            
+            <tag> Formula Student </tag>
             
         </tags>
         
@@ -2074,9 +2074,9 @@ $ \LaTeX $
         
         <tags>
             
-            <tag> English_learning </tag>
-            
             <tag> newsletter </tag>
+            
+            <tag> English_learning </tag>
             
         </tags>
         
@@ -2736,9 +2736,8 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <p>&#160;</p>
 <blockquote>
 <h3 id="About-Blog"><a href="#About-Blog" class="headerlink" title="About Blog"></a>About Blog</h3></blockquote>
-<p><script>function secondToDate(e){if(!e)return 0;var t=new Array(0,0,0,0,0);return e&gt;=31536e3&amp;&amp;(t[0]=parseInt(e/31536e3),e%=31536e3),e&gt;=86400&amp;&amp;(t[1]=parseInt(e/86400),e%=86400),e&gt;=3600&amp;&amp;(t[2]=parseInt(e/3600),e%=3600),e&gt;=60&amp;&amp;(t[3]=parseInt(e/60),e%=60),e&gt;0&amp;&amp;(t[4]=e),t}function setTime(){var e=Math.round(new Date(Date.UTC(2017,8,14,21,01,40)).getTime()/1e3),t=Math.round(((new Date).getTime()+288e5)/1e3);currentTime=secondToDate(t-e),currentTimeHtml=currentTime[0]+”年”+currentTime[1]+”天”+currentTime[2]+”时”+currentTime[3]+”分”+currentTime[4]+”秒”,document.getElementById(“htmer_time”).innerHTML=currentTimeHtml}setInterval(setTime,1e3)</script></p><p>本站已运行<strong><span class="sidebar-badge" id="htmer_time"></span></strong></p><p></p>
 <h4 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h4><h5 id="2017-8-12"><a href="#2017-8-12" class="headerlink" title="2017.8~12"></a>2017.8~12</h5><ul>
-<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
+<li>2017.08.14 当日21:01:40，经过了两天的挖坑建站，小站最终成立</li>
 <li>2017.08.15 确定了以Material为主题，并且逐渐细化整体网页框架</li>
 <li>2017.08.16 增加了Gallery与Timeline界面</li>
 <li>2017.08.17 增加了【时光】、【映像】、【关于】分页，并将google搜索改变为本地搜索，开始丰富小站内容</li>
@@ -2778,14 +2777,14 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
     </entry>
     
     <entry>
-      <title><![CDATA[gallery]]></title>
-      <url>/gallery.html</url>
+      <title><![CDATA[links]]></title>
+      <url>/links.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links.html</url>
+      <title><![CDATA[gallery]]></title>
+      <url>/gallery.html</url>
       <content type="html"></content>
     </entry>
     
