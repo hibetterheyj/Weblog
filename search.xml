@@ -2074,9 +2074,9 @@ $ \LaTeX $
         
         <tags>
             
-            <tag> newsletter </tag>
-            
             <tag> English_learning </tag>
+            
+            <tag> newsletter </tag>
             
         </tags>
         
@@ -2715,37 +2715,11 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
   
     
     <entry>
-      <title><![CDATA[gallery]]></title>
-      <url>/gallery.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[小站历史]]></title>
-      <url>/timeline.html</url>
-      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
-<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
-<li>2017.08.15 确定了以Material为主题</li>
-</ul>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[关于]]></title>
       <url>/about.html</url>
-      <content type="html"><![CDATA[<blockquote>
+      <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=306664&auto=0&height=66"></iframe>
+
+<blockquote>
 <h3 id="About-ME"><a href="#About-ME" class="headerlink" title="About ME"></a>About ME</h3></blockquote>
 <p>我是 <strong><em>PhilHE</em></strong> ，名字来源于出于<strong>Philharmonic</strong>（爱乐）以及敝姓<strong>何 - <em>HE</em></strong></p>
 <p>还有一个是常用的英文名 <strong><em>Bertland</em></strong>，来源于大一下时英语课堂的抓耳挠腮，因为仰慕数学哲学界的罗素便顺手拈来。后来才发现 <em>Russell</em> 的原名是 <em>Bertrand</em> 只能将错就错（大误T=T）</p>
@@ -2762,6 +2736,7 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <p>&#160;</p>
 <blockquote>
 <h3 id="About-Blog"><a href="#About-Blog" class="headerlink" title="About Blog"></a>About Blog</h3></blockquote>
+<p><script>function secondToDate(e){if(!e)return 0;var t=new Array(0,0,0,0,0);return e&gt;=31536e3&amp;&amp;(t[0]=parseInt(e/31536e3),e%=31536e3),e&gt;=86400&amp;&amp;(t[1]=parseInt(e/86400),e%=86400),e&gt;=3600&amp;&amp;(t[2]=parseInt(e/3600),e%=3600),e&gt;=60&amp;&amp;(t[3]=parseInt(e/60),e%=60),e&gt;0&amp;&amp;(t[4]=e),t}function setTime(){var e=Math.round(new Date(Date.UTC(2017,8,14,21,01,40)).getTime()/1e3),t=Math.round(((new Date).getTime()+288e5)/1e3);currentTime=secondToDate(t-e),currentTimeHtml=currentTime[0]+”年”+currentTime[1]+”天”+currentTime[2]+”时”+currentTime[3]+”分”+currentTime[4]+”秒”,document.getElementById(“htmer_time”).innerHTML=currentTimeHtml}setInterval(setTime,1e3)</script></p><p>本站已运行<strong><span class="sidebar-badge" id="htmer_time"></span></strong></p><p></p>
 <h4 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h4><h5 id="2017-8-12"><a href="#2017-8-12" class="headerlink" title="2017.8~12"></a>2017.8~12</h5><ul>
 <li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
 <li>2017.08.15 确定了以Material为主题，并且逐渐细化整体网页框架</li>
@@ -2799,6 +2774,34 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <blockquote>
 <p>以上为近期待办事项，若为<code>o</code>为未完成，<code>i</code>为正在进行中，<code>x</code>则为已完成。</p>
 </blockquote>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[gallery]]></title>
+      <url>/gallery.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[links]]></title>
+      <url>/links.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[tags]]></title>
+      <url>/tags.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[小站历史]]></title>
+      <url>/timeline.html</url>
+      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
+<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
+<li>2017.08.15 确定了以Material为主题</li>
+</ul>
 ]]></content>
     </entry>
     
