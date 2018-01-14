@@ -3,16 +3,17 @@
   
     
     <entry>
-      <title><![CDATA[大三上·十七周]]></title>
+      <title><![CDATA[大三上·十七周（考试周一切顺利）]]></title>
       <url>/2018/01/14/seventeenth-week-summary-in-first-half-junior/</url>
-      <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=33739929&auto=1&height=66"></iframe>
+      <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=4412825&auto=0&height=66"></iframe>
+
+
 
 <center><font size="5"><strong>大三上·第十七周</strong></font></center> 
 
 <center><font size="1">Summarized by <strong><em>PhilHE</em></strong> on <u>Jan 14, 2018</u></font></center> 
 
 <a id="more"></a>
-<hr>
 <blockquote>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;今天是新年的第二个周末，没想到一年转眼已经2/52，我还是依旧颓丧。</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;考试周第一周即将到来，而我还在抱佛脚。</p>
@@ -680,9 +681,9 @@
         
         <tags>
             
-            <tag> 杂记 </tag>
-            
             <tag> 一周总结 </tag>
+            
+            <tag> 杂记 </tag>
             
             <tag> Formula Student </tag>
             
@@ -2766,9 +2767,9 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
         
         <tags>
             
-            <tag> Economist </tag>
-            
             <tag> English_learning </tag>
+            
+            <tag> Economist </tag>
             
         </tags>
         
@@ -2803,6 +2804,34 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
     
   
   
+    
+    <entry>
+      <title><![CDATA[gallery]]></title>
+      <url>/gallery.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[tags]]></title>
+      <url>/tags.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[小站历史]]></title>
+      <url>/timeline.html</url>
+      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
+<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
+<li>2017.08.15 确定了以Material为主题</li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[links]]></title>
+      <url>/links.html</url>
+      <content type="html"></content>
+    </entry>
     
     <entry>
       <title><![CDATA[关于]]></title>
@@ -2864,34 +2893,6 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <p>以上为近期待办事项，若为<code>o</code>为未完成，<code>i</code>为正在进行中，<code>x</code>则为已完成。</p>
 </blockquote>
 ]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[gallery]]></title>
-      <url>/gallery.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[小站历史]]></title>
-      <url>/timeline.html</url>
-      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
-<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
-<li>2017.08.15 确定了以Material为主题</li>
-</ul>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links.html</url>
-      <content type="html"></content>
     </entry>
     
   
