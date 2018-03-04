@@ -3,6 +3,155 @@
   
     
     <entry>
+      <title><![CDATA[Keyshot图片渲染自学（一）]]></title>
+      <url>/2018/03/04/learning-keyshot-picture-rendering-the-easy-way-freshman-course-one/</url>
+      <content type="html"><![CDATA[<p>好设计更需好渲染来展现精巧的魅力！</p>
+<a id="more"></a>
+<blockquote>
+<p>相关安装包：链接：<a href="https://pan.baidu.com/s/1i67fnuP" target="_blank" rel="external">https://pan.baidu.com/s/1i67fnuP</a> 密码：u5u3</p>
+<p>使用场景：<em>Keyshot 6.3 Pro</em></p>
+</blockquote>
+<center><br><br><img src="https://i.loli.net/2018/03/04/5a9bfebfc798f.png" alt="keyshot6.3界面.png" title="keyshot6.3界面.png" width="500"><br><br></center>
+
+<p>&nbsp;</p>
+<h3 id="【Keyshot产品渲染教程】自学（4-9）"><a href="#【Keyshot产品渲染教程】自学（4-9）" class="headerlink" title="【Keyshot产品渲染教程】自学（4/9）"></a>【Keyshot产品渲染教程】自学（4/9）</h3><h4 id="第一期：总览"><a href="#第一期：总览" class="headerlink" title="第一期：总览"></a><a href="https://www.bilibili.com/video/av16298347/?from=search&amp;seid=11264629263010868393" target="_blank" rel="external"><strong>第一期：总览</strong></a></h4><p><u>不具体渲染，而是熟悉相关界面；</u></p>
+<ul>
+<li>点击<code>K</code>则会在右方出现快捷键；</li>
+<li>点击<code>H</code>打开实时渲染的状态</li>
+</ul>
+<p>包括<strong>FPS</strong>、<strong>采样值</strong>、<strong>三角形</strong>（渲染时把NURBS转化为MESH）、<strong>资源</strong>、<strong>焦距</strong>等概念。</p>
+<ul>
+<li>调整分辨率：点击<code>图像-分辨率预设-人像/风景</code></li>
+</ul>
+<p>风景：landscape 指的是<strong>横板</strong></p>
+<p>人像：portrait 指的是<strong>竖版</strong></p>
+<p>选择后可以选择<code>锁定分辨率</code>和<code>锁定纵横比</code>两种。</p>
+<ul>
+<li>限制CPU使用率</li>
+</ul>
+<p>点击左上方空间可以调整，一般调整为50~75%，可以边渲染，边做其他工作</p>
+<ul>
+<li>采样值的不同</li>
+</ul>
+<p>类似建模软件，调整光线角度，所使用的采样值会有所不同，因而渲染的长短会有所不同；</p>
+<ul>
+<li>暂停/重启实时渲染</li>
+</ul>
+<p>与此同时Keyshot是一个实时渲染的软件（点击<code>||</code>会暂停实时渲染）</p>
+<p>快捷键是<code>Crtl+P</code>，离开软件的时候可以考虑暂停渲染以提升使用其他软件的响应速度。</p>
+<ul>
+<li>新增功能”照明“</li>
+</ul>
+<p>一般只用<strong>产品</strong>和<strong>性能模式</strong>两种。</p>
+<p>性能模式：没有渲染阴影和过多的折射，一定上加快渲染</p>
+<ul>
+<li>库 | Library</li>
+</ul>
+<p>包括<strong>材质</strong>、<strong>颜色</strong>、<strong>环境</strong>、<strong>背景</strong>和<strong>纹理</strong>，常用的元素可以收藏</p>
+<ul>
+<li>全屏模式<code>F</code></li>
+</ul>
+<p>&nbsp;</p>
+<h4 id="第二期：导入和NURBS"><a href="#第二期：导入和NURBS" class="headerlink" title="第二期：导入和NURBS"></a><a href="https://www.bilibili.com/video/av16299194/" target="_blank" rel="external"><strong>第二期：导入和NURBS</strong></a></h4><ul>
+<li>导入选项</li>
+</ul>
+<p>包括<strong>位置</strong>、<strong>向上</strong>、<strong>环境和相机</strong>、<strong>材质和结构</strong>、<strong>几何图形</strong></p>
+<p>位置中的”保留原始状态“不建议勾选；</p>
+<p>向上即是建模的状态，一般为z轴向上；</p>
+<ul>
+<li>几何图形中的”导入NURBS”数据</li>
+</ul>
+<p>3D的矢量就可以理解为NURBS，高质量的渲染建议保留NURBS导入</p>
+<ul>
+<li>NURBS 与 MESH 的区别</li>
+</ul>
+<p>NURBS 可以理解为解析的数据</p>
+<p>而MESH就是用微小几何体拼接出来的显示</p>
+<p>核心区别在<strong>曲面和曲线的渲染实现上</strong></p>
+<ul>
+<li>NURBS模式</li>
+</ul>
+<p>使用原有数据，实现完美的渲染效果，点击<code>NURMS模式</code>按钮，采样值会增长的特别慢，因此适合较为精细的渲染</p>
+<p>&nbsp;</p>
+<h4 id="第三期：场景中的平移旋转和缩放"><a href="#第三期：场景中的平移旋转和缩放" class="headerlink" title="第三期：场景中的平移旋转和缩放"></a><a href="https://www.bilibili.com/video/av16299324/" target="_blank" rel="external"><strong>第三期：场景中的平移旋转和缩放</strong></a></h4><ul>
+<li>移动零件</li>
+</ul>
+<p>点击模型树可以看到具体的各个部件，之后下方会出现<strong>移动工具</strong>几个字。</p>
+<p>可以使用移动工具拖动或者输入坐标值进行<strong>平移、旋转、缩放</strong>等等</p>
+<ul>
+<li>旋转零件</li>
+</ul>
+<p>Keyshot在最新版本中，不仅可以根据自身进行多自由度的旋转，还可以依赖其他部件作为旋转中心进行旋转。</p>
+<ul>
+<li>锁定零件</li>
+</ul>
+<p>右击模型树上的零件可以选择<code>锁定并隐藏</code>的按钮来实现对于渲染过程的保护</p>
+<ul>
+<li>场景中的材质</li>
+</ul>
+<p>对于不同零件所赋予的材质进行集中的显示，方便对于材质进行更改与替换</p>
+<p>&nbsp;</p>
+<h4 id="第四期：-材质和色彩"><a href="#第四期：-材质和色彩" class="headerlink" title="第四期： 材质和色彩"></a><a href="https://www.bilibili.com/video/av16299464/" target="_blank" rel="external"><strong>第四期： 材质和色彩</strong></a></h4><ul>
+<li>材质的赋予</li>
+</ul>
+<p>直接拖取<strong>材质</strong>库中的材料即可，种类较为丰富</p>
+<ul>
+<li>环境的选取</li>
+</ul>
+<p>较为建议选择“3-Panal-Straight-2k”</p>
+<ul>
+<li>对于同一零件不同面的材质赋予</li>
+</ul>
+<p>右击会显示<code>接触链接材质</code>，然后对于所需表面进行二次赋予。</p>
+<ul>
+<li>复制/粘贴材质</li>
+</ul>
+<p>对于不同材质可以使用右击复制某一零件的材质，粘贴到预期改变零件之上；</p>
+<p>另一种的方法则是使用 <code>shift+</code>左击 代替<strong>复制</strong>，而 <code>shift+</code>右击 代替粘贴</p>
+<ul>
+<li>多部件赋予材质</li>
+</ul>
+<p>对于比较复杂的表面和情况需要去赋予材质，可以<strong>边赋予边隐藏</strong>，实现较为有条理、不遗漏的材质赋予和渲染</p>
+<ul>
+<li>颜色的改变</li>
+</ul>
+<p>除了<strong>直接操作<code>library-材质</code>拖取不同颜色的材料</strong>和<strong>操作<code>项目-材质</code>来进行颜色的改变</strong>之外，还可以通过点击<code>library-颜色</code>来选取丧心病狂超多颜色中的一种。</p>
+<p>有些材质修改颜色后可以修改透明度、折射率与粗糙度等等；有的修改到如金属材质后无法修改颜色，因为其本身可能是一张无法修改颜色的贴图。</p>
+<p><code>学习笔记未完待续</code></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h4 id="后话"><a href="#后话" class="headerlink" title="后话"></a>后话</h4><p>先拿了一个<strong>Souriau</strong>接插件练练手：</p>
+<center><br><br><img src="https://i.loli.net/2018/03/04/5a9bfec085808.png" alt="Souriau.png" title="Souriau.png" width="500"><br><br></center>
+
+<p>希望有一天我也能渲染出像官网所展示那样的令人震撼吧！</p>
+<center><br><br><img src="https://i.loli.net/2018/03/04/5a9bfebfc9474.jpg" alt="epic-aircraft-jamie-klopp-keyshot-01.jpg" title="epic-aircraft-jamie-klopp-keyshot-01.jpg" width="500"><br><br><strong><a href="https://www.keyshot.com/c/epic-aircraft/" target="_blank" rel="external">Epic Aircraft</a></strong><br><br></center>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>（最后更新于<em>2018.3.4</em>）</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 技术·小见 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> keyshot </tag>
+            
+            <tag> 渲染 </tag>
+            
+            <tag> self-learning </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[大三上·十七周（考试周一切顺利）]]></title>
       <url>/2018/01/14/seventeenth-week-summary-in-first-half-junior/</url>
       <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=4412825&auto=0&height=66"></iframe>
@@ -681,9 +830,9 @@
         
         <tags>
             
-            <tag> 一周总结 </tag>
-            
             <tag> 杂记 </tag>
+            
+            <tag> 一周总结 </tag>
             
             <tag> Formula Student </tag>
             
@@ -2812,28 +2961,6 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
     </entry>
     
     <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[小站历史]]></title>
-      <url>/timeline.html</url>
-      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
-<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
-<li>2017.08.15 确定了以Material为主题</li>
-</ul>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[关于]]></title>
       <url>/about.html</url>
       <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=306664&auto=0&height=66"></iframe>
@@ -2892,6 +3019,28 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <blockquote>
 <p>以上为近期待办事项，若为<code>o</code>为未完成，<code>i</code>为正在进行中，<code>x</code>则为已完成。</p>
 </blockquote>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[tags]]></title>
+      <url>/tags.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[links]]></title>
+      <url>/links.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[小站历史]]></title>
+      <url>/timeline.html</url>
+      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
+<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
+<li>2017.08.15 确定了以Material为主题</li>
+</ul>
 ]]></content>
     </entry>
     

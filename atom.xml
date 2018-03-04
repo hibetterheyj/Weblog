@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hibetterheyj.github.io/"/>
-  <updated>2018-01-14T15:23:36.000Z</updated>
+  <updated>2018-03-04T13:34:37.000Z</updated>
   <id>https://hibetterheyj.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Keyshot图片渲染自学（一）</title>
+    <link href="https://hibetterheyj.github.io/2018/03/04/learning-keyshot-picture-rendering-the-easy-way-freshman-course-one/"/>
+    <id>https://hibetterheyj.github.io/2018/03/04/learning-keyshot-picture-rendering-the-easy-way-freshman-course-one/</id>
+    <published>2018-03-04T13:34:37.000Z</published>
+    <updated>2018-03-04T13:34:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>好设计更需好渲染来展现精巧的魅力！</p><a id="more"></a><blockquote><p>相关安装包：链接：<a href="https://pan.baidu.com/s/1i67fnuP" target="_blank" rel="external">https://pan.baidu.com/s/1i67fnuP</a> 密码：u5u3</p><p>使用场景：<em>Keyshot 6.3 Pro</em></p></blockquote><center><br><br><img src="https://i.loli.net/2018/03/04/5a9bfebfc798f.png" alt="keyshot6.3界面.png" title="keyshot6.3界面.png" width="500"><br><br></center><p>&nbsp;</p><h3 id="【Keyshot产品渲染教程】自学（4-9）"><a href="#【Keyshot产品渲染教程】自学（4-9）" class="headerlink" title="【Keyshot产品渲染教程】自学（4/9）"></a>【Keyshot产品渲染教程】自学（4/9）</h3><h4 id="第一期：总览"><a href="#第一期：总览" class="headerlink" title="第一期：总览"></a><a href="https://www.bilibili.com/video/av16298347/?from=search&amp;seid=11264629263010868393" target="_blank" rel="external"><strong>第一期：总览</strong></a></h4><p><u>不具体渲染，而是熟悉相关界面；</u></p><ul><li>点击<code>K</code>则会在右方出现快捷键；</li><li>点击<code>H</code>打开实时渲染的状态</li></ul><p>包括<strong>FPS</strong>、<strong>采样值</strong>、<strong>三角形</strong>（渲染时把NURBS转化为MESH）、<strong>资源</strong>、<strong>焦距</strong>等概念。</p><ul><li>调整分辨率：点击<code>图像-分辨率预设-人像/风景</code></li></ul><p>风景：landscape 指的是<strong>横板</strong></p><p>人像：portrait 指的是<strong>竖版</strong></p><p>选择后可以选择<code>锁定分辨率</code>和<code>锁定纵横比</code>两种。</p><ul><li>限制CPU使用率</li></ul><p>点击左上方空间可以调整，一般调整为50~75%，可以边渲染，边做其他工作</p><ul><li>采样值的不同</li></ul><p>类似建模软件，调整光线角度，所使用的采样值会有所不同，因而渲染的长短会有所不同；</p><ul><li>暂停/重启实时渲染</li></ul><p>与此同时Keyshot是一个实时渲染的软件（点击<code>||</code>会暂停实时渲染）</p><p>快捷键是<code>Crtl+P</code>，离开软件的时候可以考虑暂停渲染以提升使用其他软件的响应速度。</p><ul><li>新增功能”照明“</li></ul><p>一般只用<strong>产品</strong>和<strong>性能模式</strong>两种。</p><p>性能模式：没有渲染阴影和过多的折射，一定上加快渲染</p><ul><li>库 | Library</li></ul><p>包括<strong>材质</strong>、<strong>颜色</strong>、<strong>环境</strong>、<strong>背景</strong>和<strong>纹理</strong>，常用的元素可以收藏</p><ul><li>全屏模式<code>F</code></li></ul><p>&nbsp;</p><h4 id="第二期：导入和NURBS"><a href="#第二期：导入和NURBS" class="headerlink" title="第二期：导入和NURBS"></a><a href="https://www.bilibili.com/video/av16299194/" target="_blank" rel="external"><strong>第二期：导入和NURBS</strong></a></h4><ul><li>导入选项</li></ul><p>包括<strong>位置</strong>、<strong>向上</strong>、<strong>环境和相机</strong>、<strong>材质和结构</strong>、<strong>几何图形</strong></p><p>位置中的”保留原始状态“不建议勾选；</p><p>向上即是建模的状态，一般为z轴向上；</p><ul><li>几何图形中的”导入NURBS”数据</li></ul><p>3D的矢量就可以理解为NURBS，高质量的渲染建议保留NURBS导入</p><ul><li>NURBS 与 MESH 的区别</li></ul><p>NURBS 可以理解为解析的数据</p><p>而MESH就是用微小几何体拼接出来的显示</p><p>核心区别在<strong>曲面和曲线的渲染实现上</strong></p><ul><li>NURBS模式</li></ul><p>使用原有数据，实现完美的渲染效果，点击<code>NURMS模式</code>按钮，采样值会增长的特别慢，因此适合较为精细的渲染</p><p>&nbsp;</p><h4 id="第三期：场景中的平移旋转和缩放"><a href="#第三期：场景中的平移旋转和缩放" class="headerlink" title="第三期：场景中的平移旋转和缩放"></a><a href="https://www.bilibili.com/video/av16299324/" target="_blank" rel="external"><strong>第三期：场景中的平移旋转和缩放</strong></a></h4><ul><li>移动零件</li></ul><p>点击模型树可以看到具体的各个部件，之后下方会出现<strong>移动工具</strong>几个字。</p><p>可以使用移动工具拖动或者输入坐标值进行<strong>平移、旋转、缩放</strong>等等</p><ul><li>旋转零件</li></ul><p>Keyshot在最新版本中，不仅可以根据自身进行多自由度的旋转，还可以依赖其他部件作为旋转中心进行旋转。</p><ul><li>锁定零件</li></ul><p>右击模型树上的零件可以选择<code>锁定并隐藏</code>的按钮来实现对于渲染过程的保护</p><ul><li>场景中的材质</li></ul><p>对于不同零件所赋予的材质进行集中的显示，方便对于材质进行更改与替换</p><p>&nbsp;</p><h4 id="第四期：-材质和色彩"><a href="#第四期：-材质和色彩" class="headerlink" title="第四期： 材质和色彩"></a><a href="https://www.bilibili.com/video/av16299464/" target="_blank" rel="external"><strong>第四期： 材质和色彩</strong></a></h4><ul><li>材质的赋予</li></ul><p>直接拖取<strong>材质</strong>库中的材料即可，种类较为丰富</p><ul><li>环境的选取</li></ul><p>较为建议选择“3-Panal-Straight-2k”</p><ul><li>对于同一零件不同面的材质赋予</li></ul><p>右击会显示<code>接触链接材质</code>，然后对于所需表面进行二次赋予。</p><ul><li>复制/粘贴材质</li></ul><p>对于不同材质可以使用右击复制某一零件的材质，粘贴到预期改变零件之上；</p><p>另一种的方法则是使用 <code>shift+</code>左击 代替<strong>复制</strong>，而 <code>shift+</code>右击 代替粘贴</p><ul><li>多部件赋予材质</li></ul><p>对于比较复杂的表面和情况需要去赋予材质，可以<strong>边赋予边隐藏</strong>，实现较为有条理、不遗漏的材质赋予和渲染</p><ul><li>颜色的改变</li></ul><p>除了<strong>直接操作<code>library-材质</code>拖取不同颜色的材料</strong>和<strong>操作<code>项目-材质</code>来进行颜色的改变</strong>之外，还可以通过点击<code>library-颜色</code>来选取丧心病狂超多颜色中的一种。</p><p>有些材质修改颜色后可以修改透明度、折射率与粗糙度等等；有的修改到如金属材质后无法修改颜色，因为其本身可能是一张无法修改颜色的贴图。</p><p><code>学习笔记未完待续</code></p><p>&nbsp;</p><p>&nbsp;</p><h4 id="后话"><a href="#后话" class="headerlink" title="后话"></a>后话</h4><p>先拿了一个<strong>Souriau</strong>接插件练练手：</p><center><br><br><img src="https://i.loli.net/2018/03/04/5a9bfec085808.png" alt="Souriau.png" title="Souriau.png" width="500"><br><br></center><p>希望有一天我也能渲染出像官网所展示那样的令人震撼吧！</p><center><br><br><img src="https://i.loli.net/2018/03/04/5a9bfebfc9474.jpg" alt="epic-aircraft-jamie-klopp-keyshot-01.jpg" title="epic-aircraft-jamie-klopp-keyshot-01.jpg" width="500"><br><br><strong><a href="https://www.keyshot.com/c/epic-aircraft/" target="_blank" rel="external">Epic Aircraft</a></strong><br><br></center><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>（最后更新于<em>2018.3.4</em>）</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;好设计更需好渲染来展现精巧的魅力！&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="技术·小见" scheme="https://hibetterheyj.github.io/categories/%E6%8A%80%E6%9C%AF%C2%B7%E5%B0%8F%E8%A7%81/"/>
+    
+    
+      <category term="keyshot" scheme="https://hibetterheyj.github.io/tags/keyshot/"/>
+    
+      <category term="渲染" scheme="https://hibetterheyj.github.io/tags/%E6%B8%B2%E6%9F%93/"/>
+    
+      <category term="self-learning" scheme="https://hibetterheyj.github.io/tags/self-learning/"/>
+    
+  </entry>
   
   <entry>
     <title>大三上·十七周（考试周一切顺利）</title>
@@ -281,9 +307,9 @@
       <category term="每周·点滴" scheme="https://hibetterheyj.github.io/categories/%E6%AF%8F%E5%91%A8%C2%B7%E7%82%B9%E6%BB%B4/"/>
     
     
-      <category term="一周总结" scheme="https://hibetterheyj.github.io/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
-    
       <category term="杂记" scheme="https://hibetterheyj.github.io/tags/%E6%9D%82%E8%AE%B0/"/>
+    
+      <category term="一周总结" scheme="https://hibetterheyj.github.io/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
     
       <category term="Formula Student" scheme="https://hibetterheyj.github.io/tags/Formula-Student/"/>
     
@@ -532,32 +558,6 @@
     
     
       <category term="blog" scheme="https://hibetterheyj.github.io/tags/blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>LaTeX之下的控制工程拉式变换</title>
-    <link href="https://hibetterheyj.github.io/2017/10/07/basic-notes-of-Laplace-transform-under-LaTeX/"/>
-    <id>https://hibetterheyj.github.io/2017/10/07/basic-notes-of-Laplace-transform-under-LaTeX/</id>
-    <published>2017-10-07T15:06:33.000Z</published>
-    <updated>2017-10-07T15:06:33.000Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>第一次尝试用LaTeX与Markdown的结合来做控工笔记！<br>10.12更新了增加了复微分定理与相关函数的象函数</p></blockquote><a id="more"></a><center><font size="5"><strong>$\LaTeX$</strong>之下的<strong>控制工程</strong>拉式变换</font></center> <center><font size="1">Summarized by <strong><em>PhilHE</em></strong> on <u>Oct 7, 2017</u></font></center><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><blockquote><p>  函数$ x(t) $的<strong>拉式变换</strong>：$ L[x(t)]=X(s)=\displaystyle\int_0^{\infty} x(t)e^{-st} dt $，其中$ s=\sigma+j\omega $</p><p>  类似的，傅里叶变换$ \int_{-\infty}^{\infty} x(t)e^{-j\omega t} dt $</p><p>  拉式反变换（一般少用$ x(t)=L^{-1}[X(s)] = \dfrac{1}{2\pi j}\displaystyle\int_{\sigma-j\infty}^{\sigma+j\infty} X(s)e^{st}  dt \quad t\in(0,+\infty) $</p></blockquote><p>&nbsp;</p><h3 id="八种典型函数"><a href="#八种典型函数" class="headerlink" title="八种典型函数"></a>八种典型函数</h3><p>1）   <strong>单位阶跃</strong>函数 $ L[1(t)]=\int_0^{\infty} 1(t)e^{-st} dt=\dfrac{1}{s} $</p><p>2）   <strong>指数</strong>函数 $ L[e^{-at}] =\int_0^{\infty} e^{-at} \cdot e^{-st} dt = \int_0^{\infty} e^{-(x+a)t} dt = \dfrac{1}{s+a}$</p><p>&nbsp;</p><p>3）   <strong>正弦</strong>函数 $ L[sin(wt)]=\dfrac{\omega}{\omega^2 + s^2} $</p><p>4）  <strong>余弦</strong>函数 $ L[cos(wt)]=\dfrac{s}{\omega^2 + s^2} $</p><p>&nbsp;</p><p>5）   <strong>单位脉冲</strong>函数，作用时间短，冲量正好为1</p><p>$ \delta(t)=\begin{cases} 0, \quad (others) \ \lim_\limits{\epsilon \to0} \dfrac{1}{\epsilon},\quad (0&lt;t&lt;\epsilon)  \end{cases} $</p><p>对应拉氏变换 $ L[\delta(t)]=1 $（利用<strong>洛必达法则</strong>）</p><p>&nbsp;</p><p>6）   <strong>幂函数</strong> $ t^n $的象函数$ L[x(t)]=\dfrac{n!}{s^{n+1}} $</p><p>&nbsp;</p><p>7）   幂函数<strong>变式一</strong>：<strong>单位速度</strong>函数（斜坡函数）</p><p>$ x(t)=\begin{cases} 0 \quad t&lt;0\t \quad t\ge0 \end{cases} $</p><p>对应拉氏变换 $ L[x(t)]=\dfrac{1!}{s^2}=\dfrac{1}{s^2} $，即可表示为 $ x(t)\xrightarrow{L} \dfrac{1}{s^2} $</p><p>&nbsp;</p><p>8）   幂函数<strong>变式二</strong>：<strong>单位加速度</strong>函数</p><p>$ f(t)=\begin{cases} 0 \quad t&lt;0 \ \dfrac{1}{2}t^2 \quad t\geq 0 \end{cases} $</p><p>对应变换$ L[x(t)]=\dfrac{1}{2}\times\dfrac{2!}{s^3}=\dfrac{1}{s^3} $，即可表示为$ x(t)\xrightarrow{L} \dfrac{1}{s^3} $</p><p>&nbsp;</p><p>&nbsp;</p><h3 id="相关定理"><a href="#相关定理" class="headerlink" title="相关定理"></a>相关定理</h3><p>1）   <strong>叠加</strong>定理：齐次性、叠加性</p><p>2）   <strong>（重点）</strong>微分**定理：</p><p>$ L\bigg[\dfrac{d}{dt} x(t)\bigg]=sX(s)-x(0^+) $</p><p>$ L \bigg[\dfrac{d^2x(t)}{dt^2} \bigg]=s^2X(s)-sx(0^+)-x’(0^+) $</p><p>$ L\bigg[\dfrac{d^nx(t)}{dt^n} \bigg]=s^nX(s)-s^{n-1}x(0^+)-s^{n-2}x’(0^+)-\cdots-x^{n-1}(0^+) $</p><p>因此，当初始条件全为0是，则$ \dfrac{d^n}{dt^n}x(t)\Leftrightarrow s^nX(s) $ </p><p>&nbsp;</p><p>3）   <strong>积分</strong>定理 </p><p>$L\bigg[\displaystyle\int x(t)dt\bigg] = \dfrac{X(s)}{s} + \dfrac{x^{-1}(0^+)}{s} ​$</p><p>$L\bigg[\displaystyle\idotsint x(t)(dt)^n \bigg] = \dfrac{X(s)}{s^n} + \dfrac{x^{-1}(0^+)}{s^n} + \dfrac{x^{-2}(0^+)}{s^{n-1}} + \cdots + \dfrac{x^{-n}(0^+)}{s} $</p><blockquote><p>当我读到<strong>传递函数环节</strong>时看到了积分定理的重要性！</p></blockquote><p>&nbsp;</p><p>4）   拉式<strong>反变换</strong> $ x(t)=\dfrac{1}{2\pi j} \displaystyle\int_{a-j\infty}^{a+j\infty} X(s)e^{st}ds $，一般使用较少</p><p>&nbsp;</p><p>5） <strong>卷积</strong>定理$L[f(t)*g(t)]=F(s)G(s)$</p><p>其中$f(t)*g(t)$即为两函数的卷积，必须符合条件：当$t&lt;0$时，$f(t)=g(t)=0$，则卷积可以表示为</p><p>$$ f(t)*g(t)=\displaystyle\int_0^t f(t-\tau)g(\tau)d\tau = \displaystyle\int_0^t f(\tau)g(t-\tau)d\tau $$</p><p><strong><em>举例</em></strong></p><hr><p>已知$f(t)=t$，$g(t)=t^2$</p><p>则$ f(t)*g(t)=\displaystyle\int_0^t (t-\tau)\cdot{\tau}^2 d\tau = \dfrac{1}{3}\tau^3 t-\dfrac{1}{4}\tau^4 \bigg|_0^t = \dfrac{1}{12}t^4$</p><p>所以$ \mathcal{L}(\dfrac{1}{12}t^4)=\dfrac{1}{12}\cdot\dfrac{4!}{s^5} =\dfrac{2}{s^5}$</p><p>而由$ \mathcal{L}(t) = \dfrac{1}{s^2} $，$ \mathcal{L}(t^2) = \dfrac{2}{s^3} $可知卷积公式成立！</p><hr><p>&nbsp;</p><p>6）  $ f(\dfrac{t}{a}) $的<strong>象函数</strong></p><p>$L\bigg[f(\dfrac{t}{a})\bigg]=aF(as) \quad     其中 a=costant&gt;0$</p><p><strong><em>举例</em></strong></p><hr><p>$L[e^{-t}] = F(s) = \dfrac{1}{s+1} $，则$ L[e^{-t/a}] = aF(as)=\dfrac{a}{as+1} $</p><hr><p>&nbsp;</p><p>7）   <strong>复微分</strong>定理（少数场合可能使用）</p><p>若$ L[f(t)]=F(s) $，则除了$ F(s) $的极点之外，有：</p><p>$ \dfrac{d}{ds}F(s)=-L[tf(t)] $</p><p>$  \dfrac{d^2}{ds^2}F(s)=L[t^2f(t)]  $</p><p>$  \dfrac{d^n}{ds^n}F(s)=(-1)^n L\bigg[t^n f(t)\bigg]  \quad(n=1,2,3,\cdots)$</p><p>&nbsp;</p><p>8）   $ \dfrac{x(t)}{t} $的<strong>象函数</strong> $ L\bigg[\dfrac{x(t)}{t}\bigg]=\displaystyle\int_t^{\infty} X(s) ds $</p><blockquote><p>手机端对于MathJax的优化不好，建议在<strong>PC端</strong>阅读！</p><p>本文暂缺<strong>初值定理</strong>与<strong>终值定理</strong>，原因在于LaTeX与markdown之间在于<code>_公式_</code>渲染的不同，具体在<a href="http://pan.baidu.com/s/1bKgpCM" target="_blank" rel="external">网盘</a>（pass: wxpl）可以下载</p></blockquote><p>&nbsp;</p><p>&nbsp;</p><p>（最后更新于<em>2017.10.12</em>）</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;第一次尝试用LaTeX与Markdown的结合来做控工笔记！&lt;br&gt;10.12更新了增加了复微分定理与相关函数的象函数&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="学业·积累" scheme="https://hibetterheyj.github.io/categories/%E5%AD%A6%E4%B8%9A%C2%B7%E7%A7%AF%E7%B4%AF/"/>
-    
-    
-      <category term="控制工程" scheme="https://hibetterheyj.github.io/tags/%E6%8E%A7%E5%88%B6%E5%B7%A5%E7%A8%8B/"/>
-    
-      <category term="TeX" scheme="https://hibetterheyj.github.io/tags/TeX/"/>
     
   </entry>
   
