@@ -3066,14 +3066,6 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
     </entry>
     
     <entry>
-      <title><![CDATA[项目]]></title>
-      <url>/project.html</url>
-      <content type="html"><![CDATA[<p>等待上线</p>
-<p><code>To be continued</code></p>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[关于]]></title>
       <url>/about.html</url>
       <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=306664&auto=0&height=66"></iframe>
@@ -3136,6 +3128,20 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
     </entry>
     
     <entry>
+      <title><![CDATA[tags]]></title>
+      <url>/tags.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[项目]]></title>
+      <url>/project.html</url>
+      <content type="html"><![CDATA[<p>等待上线</p>
+<p><code>To be continued</code></p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[小站历史]]></title>
       <url>/timeline.html</url>
       <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
@@ -3143,12 +3149,6 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <li>2017.08.15 确定了以Material为主题</li>
 </ul>
 ]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags.html</url>
-      <content type="html"></content>
     </entry>
     
   
