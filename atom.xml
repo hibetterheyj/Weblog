@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>PhilHE</title>
+  <title>PhilHE&#39;s Weblog</title>
   
   <subtitle>既济惕未济</subtitle>
   <link href="/atom.xml" rel="self"/>
@@ -335,9 +335,9 @@
       <category term="每周·点滴" scheme="https://hibetterheyj.github.io/categories/%E6%AF%8F%E5%91%A8%C2%B7%E7%82%B9%E6%BB%B4/"/>
     
     
-      <category term="杂记" scheme="https://hibetterheyj.github.io/tags/%E6%9D%82%E8%AE%B0/"/>
-    
       <category term="一周总结" scheme="https://hibetterheyj.github.io/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
+    
+      <category term="杂记" scheme="https://hibetterheyj.github.io/tags/%E6%9D%82%E8%AE%B0/"/>
     
       <category term="Formula Student" scheme="https://hibetterheyj.github.io/tags/Formula-Student/"/>
     
