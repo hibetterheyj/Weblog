@@ -3,11 +3,11 @@
   <title>PhilHE&#39;s Weblog</title>
   
   <subtitle>既济惕未济</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="/weblog/atom.xml" rel="self"/>
   
-  <link href="https://hibetterheyj.github.io/"/>
-  <updated>2018-03-25T11:30:21.000Z</updated>
-  <id>https://hibetterheyj.github.io/</id>
+  <link href="https://hibetterheyj.github.io/weblog/"/>
+  <updated>2018-04-29T08:24:23.000Z</updated>
+  <id>https://hibetterheyj.github.io/weblog/</id>
   
   <author>
     <name>PhilHE</name>
@@ -17,9 +17,27 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>second-month-summary-in-second-half-junior</title>
+    <link href="https://hibetterheyj.github.io/weblog/2018/04/29/second-month-summary-in-second-half-junior/"/>
+    <id>https://hibetterheyj.github.io/weblog/2018/04/29/second-month-summary-in-second-half-junior/</id>
+    <published>2018-04-29T08:24:23.000Z</published>
+    <updated>2018-04-29T08:24:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>这里是首页可见</p><a id="more"></a><p>&nbsp;<br>&nbsp;<br>&nbsp;<br>（最后更新于<em>XXXX.XX.XX</em>）</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这里是首页可见&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>大三下·第一月很多周</title>
-    <link href="https://hibetterheyj.github.io/2018/03/25/first-month-summary-in-first-second-junior/"/>
-    <id>https://hibetterheyj.github.io/2018/03/25/first-month-summary-in-first-second-junior/</id>
+    <link href="https://hibetterheyj.github.io/weblog/2018/03/25/first-month-summary-in-second-half-junior/"/>
+    <id>https://hibetterheyj.github.io/weblog/2018/03/25/first-month-summary-in-second-half-junior/</id>
     <published>2018-03-25T11:30:21.000Z</published>
     <updated>2018-03-25T11:30:21.000Z</updated>
     
@@ -39,17 +57,17 @@
     
     </summary>
     
-      <category term="每周·点滴" scheme="https://hibetterheyj.github.io/categories/%E6%AF%8F%E5%91%A8%C2%B7%E7%82%B9%E6%BB%B4/"/>
+      <category term="每周·点滴" scheme="https://hibetterheyj.github.io/weblog/categories/%E6%AF%8F%E5%91%A8%C2%B7%E7%82%B9%E6%BB%B4/"/>
     
     
-      <category term="一周总结" scheme="https://hibetterheyj.github.io/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
+      <category term="一周总结" scheme="https://hibetterheyj.github.io/weblog/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
   <entry>
     <title>Keyshot图片渲染自学（一）</title>
-    <link href="https://hibetterheyj.github.io/2018/03/04/learning-keyshot-picture-rendering-the-easy-way-freshman-course-one/"/>
-    <id>https://hibetterheyj.github.io/2018/03/04/learning-keyshot-picture-rendering-the-easy-way-freshman-course-one/</id>
+    <link href="https://hibetterheyj.github.io/weblog/2018/03/04/learning-keyshot-picture-rendering-the-easy-way-freshman-course-one/"/>
+    <id>https://hibetterheyj.github.io/weblog/2018/03/04/learning-keyshot-picture-rendering-the-easy-way-freshman-course-one/</id>
     <published>2018-03-04T13:34:37.000Z</published>
     <updated>2018-03-04T13:34:37.000Z</updated>
     
@@ -61,21 +79,21 @@
     
     </summary>
     
-      <category term="技术·小见" scheme="https://hibetterheyj.github.io/categories/%E6%8A%80%E6%9C%AF%C2%B7%E5%B0%8F%E8%A7%81/"/>
+      <category term="技术·小见" scheme="https://hibetterheyj.github.io/weblog/categories/%E6%8A%80%E6%9C%AF%C2%B7%E5%B0%8F%E8%A7%81/"/>
     
     
-      <category term="keyshot" scheme="https://hibetterheyj.github.io/tags/keyshot/"/>
+      <category term="keyshot" scheme="https://hibetterheyj.github.io/weblog/tags/keyshot/"/>
     
-      <category term="渲染" scheme="https://hibetterheyj.github.io/tags/%E6%B8%B2%E6%9F%93/"/>
+      <category term="渲染" scheme="https://hibetterheyj.github.io/weblog/tags/%E6%B8%B2%E6%9F%93/"/>
     
-      <category term="self-learning" scheme="https://hibetterheyj.github.io/tags/self-learning/"/>
+      <category term="self-learning" scheme="https://hibetterheyj.github.io/weblog/tags/self-learning/"/>
     
   </entry>
   
   <entry>
     <title>大三上·十七周（考试周一切顺利）</title>
-    <link href="https://hibetterheyj.github.io/2018/01/14/seventeenth-week-summary-in-first-half-junior/"/>
-    <id>https://hibetterheyj.github.io/2018/01/14/seventeenth-week-summary-in-first-half-junior/</id>
+    <link href="https://hibetterheyj.github.io/weblog/2018/01/14/seventeenth-week-summary-in-first-half-junior/"/>
+    <id>https://hibetterheyj.github.io/weblog/2018/01/14/seventeenth-week-summary-in-first-half-junior/</id>
     <published>2018-01-14T15:23:36.000Z</published>
     <updated>2018-01-14T15:23:36.000Z</updated>
     
@@ -91,17 +109,17 @@
     
     </summary>
     
-      <category term="每周·点滴" scheme="https://hibetterheyj.github.io/categories/%E6%AF%8F%E5%91%A8%C2%B7%E7%82%B9%E6%BB%B4/"/>
+      <category term="每周·点滴" scheme="https://hibetterheyj.github.io/weblog/categories/%E6%AF%8F%E5%91%A8%C2%B7%E7%82%B9%E6%BB%B4/"/>
     
     
-      <category term="一周总结" scheme="https://hibetterheyj.github.io/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
+      <category term="一周总结" scheme="https://hibetterheyj.github.io/weblog/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
   <entry>
     <title>俗套的2017总结</title>
-    <link href="https://hibetterheyj.github.io/2017/12/31/a-year-review-of-2017/"/>
-    <id>https://hibetterheyj.github.io/2017/12/31/a-year-review-of-2017/</id>
+    <link href="https://hibetterheyj.github.io/weblog/2017/12/31/a-year-review-of-2017/"/>
+    <id>https://hibetterheyj.github.io/weblog/2017/12/31/a-year-review-of-2017/</id>
     <published>2017-12-30T16:31:01.000Z</published>
     <updated>2017-12-30T16:31:01.000Z</updated>
     
@@ -117,19 +135,19 @@
     
     </summary>
     
-      <category term="满嘴·胡言" scheme="https://hibetterheyj.github.io/categories/%E6%BB%A1%E5%98%B4%C2%B7%E8%83%A1%E8%A8%80/"/>
+      <category term="满嘴·胡言" scheme="https://hibetterheyj.github.io/weblog/categories/%E6%BB%A1%E5%98%B4%C2%B7%E8%83%A1%E8%A8%80/"/>
     
     
-      <category term="blog" scheme="https://hibetterheyj.github.io/tags/blog/"/>
+      <category term="blog" scheme="https://hibetterheyj.github.io/weblog/tags/blog/"/>
     
-      <category term="杂记" scheme="https://hibetterheyj.github.io/tags/%E6%9D%82%E8%AE%B0/"/>
+      <category term="杂记" scheme="https://hibetterheyj.github.io/weblog/tags/%E6%9D%82%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>20171222Matlab讲座小记</title>
-    <link href="https://hibetterheyj.github.io/2017/12/26/Matlab-lecture-at-20171222/"/>
-    <id>https://hibetterheyj.github.io/2017/12/26/Matlab-lecture-at-20171222/</id>
+    <link href="https://hibetterheyj.github.io/weblog/2017/12/26/Matlab-lecture-at-20171222/"/>
+    <id>https://hibetterheyj.github.io/weblog/2017/12/26/Matlab-lecture-at-20171222/</id>
     <published>2017-12-26T11:24:33.000Z</published>
     <updated>2017-12-26T11:24:33.000Z</updated>
     
@@ -143,19 +161,19 @@
     
     </summary>
     
-      <category term="技术·小见" scheme="https://hibetterheyj.github.io/categories/%E6%8A%80%E6%9C%AF%C2%B7%E5%B0%8F%E8%A7%81/"/>
+      <category term="技术·小见" scheme="https://hibetterheyj.github.io/weblog/categories/%E6%8A%80%E6%9C%AF%C2%B7%E5%B0%8F%E8%A7%81/"/>
     
     
-      <category term="Matlab" scheme="https://hibetterheyj.github.io/tags/Matlab/"/>
+      <category term="Matlab" scheme="https://hibetterheyj.github.io/weblog/tags/Matlab/"/>
     
-      <category term="lecture note" scheme="https://hibetterheyj.github.io/tags/lecture-note/"/>
+      <category term="lecture note" scheme="https://hibetterheyj.github.io/weblog/tags/lecture-note/"/>
     
   </entry>
   
   <entry>
     <title>大三上·第十四周（圣诞快乐啦！）</title>
-    <link href="https://hibetterheyj.github.io/2017/12/25/fourteenth-week-summary-in-first-half-junior/"/>
-    <id>https://hibetterheyj.github.io/2017/12/25/fourteenth-week-summary-in-first-half-junior/</id>
+    <link href="https://hibetterheyj.github.io/weblog/2017/12/25/fourteenth-week-summary-in-first-half-junior/"/>
+    <id>https://hibetterheyj.github.io/weblog/2017/12/25/fourteenth-week-summary-in-first-half-junior/</id>
     <published>2017-12-24T19:32:04.000Z</published>
     <updated>2017-12-24T19:32:04.000Z</updated>
     
@@ -171,17 +189,17 @@
     
     </summary>
     
-      <category term="每周·点滴" scheme="https://hibetterheyj.github.io/categories/%E6%AF%8F%E5%91%A8%C2%B7%E7%82%B9%E6%BB%B4/"/>
+      <category term="每周·点滴" scheme="https://hibetterheyj.github.io/weblog/categories/%E6%AF%8F%E5%91%A8%C2%B7%E7%82%B9%E6%BB%B4/"/>
     
     
-      <category term="一周总结" scheme="https://hibetterheyj.github.io/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
+      <category term="一周总结" scheme="https://hibetterheyj.github.io/weblog/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
   <entry>
     <title>旧文重发|自习室记忆</title>
-    <link href="https://hibetterheyj.github.io/2017/12/18/study-hall-memory-at-qz5z/"/>
-    <id>https://hibetterheyj.github.io/2017/12/18/study-hall-memory-at-qz5z/</id>
+    <link href="https://hibetterheyj.github.io/weblog/2017/12/18/study-hall-memory-at-qz5z/"/>
+    <id>https://hibetterheyj.github.io/weblog/2017/12/18/study-hall-memory-at-qz5z/</id>
     <published>2017-12-17T17:15:51.000Z</published>
     <updated>2017-12-17T17:15:51.000Z</updated>
     
@@ -196,21 +214,21 @@
     
     </summary>
     
-      <category term="满嘴·胡言" scheme="https://hibetterheyj.github.io/categories/%E6%BB%A1%E5%98%B4%C2%B7%E8%83%A1%E8%A8%80/"/>
+      <category term="满嘴·胡言" scheme="https://hibetterheyj.github.io/weblog/categories/%E6%BB%A1%E5%98%B4%C2%B7%E8%83%A1%E8%A8%80/"/>
     
     
-      <category term="杂记" scheme="https://hibetterheyj.github.io/tags/%E6%9D%82%E8%AE%B0/"/>
+      <category term="杂记" scheme="https://hibetterheyj.github.io/weblog/tags/%E6%9D%82%E8%AE%B0/"/>
     
-      <category term="memory record" scheme="https://hibetterheyj.github.io/tags/memory-record/"/>
+      <category term="memory record" scheme="https://hibetterheyj.github.io/weblog/tags/memory-record/"/>
     
-      <category term="qz5z" scheme="https://hibetterheyj.github.io/tags/qz5z/"/>
+      <category term="qz5z" scheme="https://hibetterheyj.github.io/weblog/tags/qz5z/"/>
     
   </entry>
   
   <entry>
     <title>大三上·第十三周</title>
-    <link href="https://hibetterheyj.github.io/2017/12/18/thirteenth-week-summary-in-first-half-junior/"/>
-    <id>https://hibetterheyj.github.io/2017/12/18/thirteenth-week-summary-in-first-half-junior/</id>
+    <link href="https://hibetterheyj.github.io/weblog/2017/12/18/thirteenth-week-summary-in-first-half-junior/"/>
+    <id>https://hibetterheyj.github.io/weblog/2017/12/18/thirteenth-week-summary-in-first-half-junior/</id>
     <published>2017-12-17T16:15:58.000Z</published>
     <updated>2017-12-17T18:15:58.000Z</updated>
     
@@ -229,17 +247,17 @@
     
     </summary>
     
-      <category term="每周·点滴" scheme="https://hibetterheyj.github.io/categories/%E6%AF%8F%E5%91%A8%C2%B7%E7%82%B9%E6%BB%B4/"/>
+      <category term="每周·点滴" scheme="https://hibetterheyj.github.io/weblog/categories/%E6%AF%8F%E5%91%A8%C2%B7%E7%82%B9%E6%BB%B4/"/>
     
     
-      <category term="一周总结" scheme="https://hibetterheyj.github.io/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
+      <category term="一周总结" scheme="https://hibetterheyj.github.io/weblog/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
   <entry>
     <title>30天古典音乐挑战计划</title>
-    <link href="https://hibetterheyj.github.io/2017/12/17/30-day-classical-music-challenge/"/>
-    <id>https://hibetterheyj.github.io/2017/12/17/30-day-classical-music-challenge/</id>
+    <link href="https://hibetterheyj.github.io/weblog/2017/12/17/30-day-classical-music-challenge/"/>
+    <id>https://hibetterheyj.github.io/weblog/2017/12/17/30-day-classical-music-challenge/</id>
     <published>2017-12-17T15:48:38.000Z</published>
     <updated>2017-12-17T15:48:38.000Z</updated>
     
@@ -254,19 +272,19 @@
     
     </summary>
     
-      <category term="何处·听说" scheme="https://hibetterheyj.github.io/categories/%E4%BD%95%E5%A4%84%C2%B7%E5%90%AC%E8%AF%B4/"/>
+      <category term="何处·听说" scheme="https://hibetterheyj.github.io/weblog/categories/%E4%BD%95%E5%A4%84%C2%B7%E5%90%AC%E8%AF%B4/"/>
     
     
-      <category term="classical music" scheme="https://hibetterheyj.github.io/tags/classical-music/"/>
+      <category term="classical music" scheme="https://hibetterheyj.github.io/weblog/tags/classical-music/"/>
     
-      <category term="集合汇总" scheme="https://hibetterheyj.github.io/tags/%E9%9B%86%E5%90%88%E6%B1%87%E6%80%BB/"/>
+      <category term="集合汇总" scheme="https://hibetterheyj.github.io/weblog/tags/%E9%9B%86%E5%90%88%E6%B1%87%E6%80%BB/"/>
     
   </entry>
   
   <entry>
     <title>写给DIAN的心里话</title>
-    <link href="https://hibetterheyj.github.io/2017/12/03/my-humble-opinion-on-DIAN/"/>
-    <id>https://hibetterheyj.github.io/2017/12/03/my-humble-opinion-on-DIAN/</id>
+    <link href="https://hibetterheyj.github.io/weblog/2017/12/03/my-humble-opinion-on-DIAN/"/>
+    <id>https://hibetterheyj.github.io/weblog/2017/12/03/my-humble-opinion-on-DIAN/</id>
     <published>2017-12-03T15:38:11.000Z</published>
     <updated>2017-12-03T15:38:11.000Z</updated>
     
@@ -280,19 +298,19 @@
     
     </summary>
     
-      <category term="满嘴·胡言" scheme="https://hibetterheyj.github.io/categories/%E6%BB%A1%E5%98%B4%C2%B7%E8%83%A1%E8%A8%80/"/>
+      <category term="满嘴·胡言" scheme="https://hibetterheyj.github.io/weblog/categories/%E6%BB%A1%E5%98%B4%C2%B7%E8%83%A1%E8%A8%80/"/>
     
     
-      <category term="杂记" scheme="https://hibetterheyj.github.io/tags/%E6%9D%82%E8%AE%B0/"/>
+      <category term="杂记" scheme="https://hibetterheyj.github.io/weblog/tags/%E6%9D%82%E8%AE%B0/"/>
     
-      <category term="Formula Student" scheme="https://hibetterheyj.github.io/tags/Formula-Student/"/>
+      <category term="Formula Student" scheme="https://hibetterheyj.github.io/weblog/tags/Formula-Student/"/>
     
   </entry>
   
   <entry>
     <title>大三上·第十周</title>
-    <link href="https://hibetterheyj.github.io/2017/11/26/tenth-week-summary-in-first-half-junior/"/>
-    <id>https://hibetterheyj.github.io/2017/11/26/tenth-week-summary-in-first-half-junior/</id>
+    <link href="https://hibetterheyj.github.io/weblog/2017/11/26/tenth-week-summary-in-first-half-junior/"/>
+    <id>https://hibetterheyj.github.io/weblog/2017/11/26/tenth-week-summary-in-first-half-junior/</id>
     <published>2017-11-26T15:17:58.000Z</published>
     <updated>2017-11-26T15:17:58.000Z</updated>
     
@@ -306,17 +324,17 @@
     
     </summary>
     
-      <category term="每周·点滴" scheme="https://hibetterheyj.github.io/categories/%E6%AF%8F%E5%91%A8%C2%B7%E7%82%B9%E6%BB%B4/"/>
+      <category term="每周·点滴" scheme="https://hibetterheyj.github.io/weblog/categories/%E6%AF%8F%E5%91%A8%C2%B7%E7%82%B9%E6%BB%B4/"/>
     
     
-      <category term="一周总结" scheme="https://hibetterheyj.github.io/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
+      <category term="一周总结" scheme="https://hibetterheyj.github.io/weblog/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
   <entry>
     <title>大三上·第九周——与DIAN</title>
-    <link href="https://hibetterheyj.github.io/2017/11/19/ninth-week-summary-in-first-half-junior-with-dianracing/"/>
-    <id>https://hibetterheyj.github.io/2017/11/19/ninth-week-summary-in-first-half-junior-with-dianracing/</id>
+    <link href="https://hibetterheyj.github.io/weblog/2017/11/19/ninth-week-summary-in-first-half-junior-with-dianracing/"/>
+    <id>https://hibetterheyj.github.io/weblog/2017/11/19/ninth-week-summary-in-first-half-junior-with-dianracing/</id>
     <published>2017-11-19T03:24:17.000Z</published>
     <updated>2017-11-19T03:24:17.000Z</updated>
     
@@ -332,25 +350,25 @@
     
     </summary>
     
-      <category term="每周·点滴" scheme="https://hibetterheyj.github.io/categories/%E6%AF%8F%E5%91%A8%C2%B7%E7%82%B9%E6%BB%B4/"/>
+      <category term="每周·点滴" scheme="https://hibetterheyj.github.io/weblog/categories/%E6%AF%8F%E5%91%A8%C2%B7%E7%82%B9%E6%BB%B4/"/>
     
     
-      <category term="杂记" scheme="https://hibetterheyj.github.io/tags/%E6%9D%82%E8%AE%B0/"/>
+      <category term="杂记" scheme="https://hibetterheyj.github.io/weblog/tags/%E6%9D%82%E8%AE%B0/"/>
     
-      <category term="一周总结" scheme="https://hibetterheyj.github.io/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
+      <category term="一周总结" scheme="https://hibetterheyj.github.io/weblog/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
     
-      <category term="Formula Student" scheme="https://hibetterheyj.github.io/tags/Formula-Student/"/>
+      <category term="Formula Student" scheme="https://hibetterheyj.github.io/weblog/tags/Formula-Student/"/>
     
-      <category term="长篇" scheme="https://hibetterheyj.github.io/tags/%E9%95%BF%E7%AF%87/"/>
+      <category term="memory record" scheme="https://hibetterheyj.github.io/weblog/tags/memory-record/"/>
     
-      <category term="memory record" scheme="https://hibetterheyj.github.io/tags/memory-record/"/>
+      <category term="长篇" scheme="https://hibetterheyj.github.io/weblog/tags/%E9%95%BF%E7%AF%87/"/>
     
   </entry>
   
   <entry>
     <title>门外汉收集癖|字体相关合集</title>
-    <link href="https://hibetterheyj.github.io/2017/11/12/typography-collections-as-a-layperson/"/>
-    <id>https://hibetterheyj.github.io/2017/11/12/typography-collections-as-a-layperson/</id>
+    <link href="https://hibetterheyj.github.io/weblog/2017/11/12/typography-collections-as-a-layperson/"/>
+    <id>https://hibetterheyj.github.io/weblog/2017/11/12/typography-collections-as-a-layperson/</id>
     <published>2017-11-12T11:27:50.000Z</published>
     <updated>2017-11-12T11:27:50.000Z</updated>
     
@@ -366,21 +384,21 @@
     
     </summary>
     
-      <category term="技术·小见" scheme="https://hibetterheyj.github.io/categories/%E6%8A%80%E6%9C%AF%C2%B7%E5%B0%8F%E8%A7%81/"/>
+      <category term="技术·小见" scheme="https://hibetterheyj.github.io/weblog/categories/%E6%8A%80%E6%9C%AF%C2%B7%E5%B0%8F%E8%A7%81/"/>
     
     
-      <category term="集合汇总" scheme="https://hibetterheyj.github.io/tags/%E9%9B%86%E5%90%88%E6%B1%87%E6%80%BB/"/>
+      <category term="集合汇总" scheme="https://hibetterheyj.github.io/weblog/tags/%E9%9B%86%E5%90%88%E6%B1%87%E6%80%BB/"/>
     
-      <category term="layman‘s collection" scheme="https://hibetterheyj.github.io/tags/layman%E2%80%98s-collection/"/>
+      <category term="layman‘s collection" scheme="https://hibetterheyj.github.io/weblog/tags/layman%E2%80%98s-collection/"/>
     
-      <category term="typography" scheme="https://hibetterheyj.github.io/tags/typography/"/>
+      <category term="typography" scheme="https://hibetterheyj.github.io/weblog/tags/typography/"/>
     
   </entry>
   
   <entry>
     <title>大三上·第八周</title>
-    <link href="https://hibetterheyj.github.io/2017/11/10/eighth-week-summary-in-first-half-junior/"/>
-    <id>https://hibetterheyj.github.io/2017/11/10/eighth-week-summary-in-first-half-junior/</id>
+    <link href="https://hibetterheyj.github.io/weblog/2017/11/10/eighth-week-summary-in-first-half-junior/"/>
+    <id>https://hibetterheyj.github.io/weblog/2017/11/10/eighth-week-summary-in-first-half-junior/</id>
     <published>2017-11-10T14:01:48.000Z</published>
     <updated>2017-11-10T14:01:48.000Z</updated>
     
@@ -396,17 +414,17 @@
     
     </summary>
     
-      <category term="每周·点滴" scheme="https://hibetterheyj.github.io/categories/%E6%AF%8F%E5%91%A8%C2%B7%E7%82%B9%E6%BB%B4/"/>
+      <category term="每周·点滴" scheme="https://hibetterheyj.github.io/weblog/categories/%E6%AF%8F%E5%91%A8%C2%B7%E7%82%B9%E6%BB%B4/"/>
     
     
-      <category term="一周总结" scheme="https://hibetterheyj.github.io/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
+      <category term="一周总结" scheme="https://hibetterheyj.github.io/weblog/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
   <entry>
     <title>大三上·第七周</title>
-    <link href="https://hibetterheyj.github.io/2017/11/05/seventh-week-summary-in-first-half-junior/"/>
-    <id>https://hibetterheyj.github.io/2017/11/05/seventh-week-summary-in-first-half-junior/</id>
+    <link href="https://hibetterheyj.github.io/weblog/2017/11/05/seventh-week-summary-in-first-half-junior/"/>
+    <id>https://hibetterheyj.github.io/weblog/2017/11/05/seventh-week-summary-in-first-half-junior/</id>
     <published>2017-11-05T14:01:48.000Z</published>
     <updated>2017-11-05T14:01:48.000Z</updated>
     
@@ -422,17 +440,17 @@
     
     </summary>
     
-      <category term="每周·点滴" scheme="https://hibetterheyj.github.io/categories/%E6%AF%8F%E5%91%A8%C2%B7%E7%82%B9%E6%BB%B4/"/>
+      <category term="每周·点滴" scheme="https://hibetterheyj.github.io/weblog/categories/%E6%AF%8F%E5%91%A8%C2%B7%E7%82%B9%E6%BB%B4/"/>
     
     
-      <category term="一周总结" scheme="https://hibetterheyj.github.io/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
+      <category term="一周总结" scheme="https://hibetterheyj.github.io/weblog/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
   <entry>
     <title>大三上·第六周</title>
-    <link href="https://hibetterheyj.github.io/2017/10/28/sixth-week-summary-in-first-half-junior/"/>
-    <id>https://hibetterheyj.github.io/2017/10/28/sixth-week-summary-in-first-half-junior/</id>
+    <link href="https://hibetterheyj.github.io/weblog/2017/10/28/sixth-week-summary-in-first-half-junior/"/>
+    <id>https://hibetterheyj.github.io/weblog/2017/10/28/sixth-week-summary-in-first-half-junior/</id>
     <published>2017-10-27T18:10:02.000Z</published>
     <updated>2017-10-27T18:10:02.000Z</updated>
     
@@ -448,17 +466,17 @@
     
     </summary>
     
-      <category term="每周·点滴" scheme="https://hibetterheyj.github.io/categories/%E6%AF%8F%E5%91%A8%C2%B7%E7%82%B9%E6%BB%B4/"/>
+      <category term="每周·点滴" scheme="https://hibetterheyj.github.io/weblog/categories/%E6%AF%8F%E5%91%A8%C2%B7%E7%82%B9%E6%BB%B4/"/>
     
     
-      <category term="一周总结" scheme="https://hibetterheyj.github.io/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
+      <category term="一周总结" scheme="https://hibetterheyj.github.io/weblog/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
   <entry>
     <title>大三上·第五周</title>
-    <link href="https://hibetterheyj.github.io/2017/10/22/fifth-week-summary-in-first-half-junior/"/>
-    <id>https://hibetterheyj.github.io/2017/10/22/fifth-week-summary-in-first-half-junior/</id>
+    <link href="https://hibetterheyj.github.io/weblog/2017/10/22/fifth-week-summary-in-first-half-junior/"/>
+    <id>https://hibetterheyj.github.io/weblog/2017/10/22/fifth-week-summary-in-first-half-junior/</id>
     <published>2017-10-22T09:34:44.000Z</published>
     <updated>2017-10-22T09:34:44.000Z</updated>
     
@@ -474,17 +492,17 @@
     
     </summary>
     
-      <category term="每周·点滴" scheme="https://hibetterheyj.github.io/categories/%E6%AF%8F%E5%91%A8%C2%B7%E7%82%B9%E6%BB%B4/"/>
+      <category term="每周·点滴" scheme="https://hibetterheyj.github.io/weblog/categories/%E6%AF%8F%E5%91%A8%C2%B7%E7%82%B9%E6%BB%B4/"/>
     
     
-      <category term="一周总结" scheme="https://hibetterheyj.github.io/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
+      <category term="一周总结" scheme="https://hibetterheyj.github.io/weblog/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
   <entry>
     <title>记记文摘|十一月上旬新闻通讯回顾</title>
-    <link href="https://hibetterheyj.github.io/2017/10/20/HEre2Talk-newsletter-review-in-early-Oct-2017/"/>
-    <id>https://hibetterheyj.github.io/2017/10/20/HEre2Talk-newsletter-review-in-early-Oct-2017/</id>
+    <link href="https://hibetterheyj.github.io/weblog/2017/10/20/HEre2Talk-newsletter-review-in-early-Oct-2017/"/>
+    <id>https://hibetterheyj.github.io/weblog/2017/10/20/HEre2Talk-newsletter-review-in-early-Oct-2017/</id>
     <published>2017-10-20T04:04:14.000Z</published>
     <updated>2017-10-20T04:04:14.000Z</updated>
     
@@ -500,19 +518,19 @@
     
     </summary>
     
-      <category term="何处·听说" scheme="https://hibetterheyj.github.io/categories/%E4%BD%95%E5%A4%84%C2%B7%E5%90%AC%E8%AF%B4/"/>
+      <category term="何处·听说" scheme="https://hibetterheyj.github.io/weblog/categories/%E4%BD%95%E5%A4%84%C2%B7%E5%90%AC%E8%AF%B4/"/>
     
     
-      <category term="newsletter" scheme="https://hibetterheyj.github.io/tags/newsletter/"/>
+      <category term="newsletter" scheme="https://hibetterheyj.github.io/weblog/tags/newsletter/"/>
     
-      <category term="review" scheme="https://hibetterheyj.github.io/tags/review/"/>
+      <category term="review" scheme="https://hibetterheyj.github.io/weblog/tags/review/"/>
     
   </entry>
   
   <entry>
     <title>大三上·第四周</title>
-    <link href="https://hibetterheyj.github.io/2017/10/15/fourth-week-summary-in-first-half-junior/"/>
-    <id>https://hibetterheyj.github.io/2017/10/15/fourth-week-summary-in-first-half-junior/</id>
+    <link href="https://hibetterheyj.github.io/weblog/2017/10/15/fourth-week-summary-in-first-half-junior/"/>
+    <id>https://hibetterheyj.github.io/weblog/2017/10/15/fourth-week-summary-in-first-half-junior/</id>
     <published>2017-10-15T10:54:04.000Z</published>
     <updated>2017-10-15T10:54:04.000Z</updated>
     
@@ -528,36 +546,10 @@
     
     </summary>
     
-      <category term="每周·点滴" scheme="https://hibetterheyj.github.io/categories/%E6%AF%8F%E5%91%A8%C2%B7%E7%82%B9%E6%BB%B4/"/>
+      <category term="每周·点滴" scheme="https://hibetterheyj.github.io/weblog/categories/%E6%AF%8F%E5%91%A8%C2%B7%E7%82%B9%E6%BB%B4/"/>
     
     
-      <category term="一周总结" scheme="https://hibetterheyj.github.io/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>自建博客不专业入门指北</title>
-    <link href="https://hibetterheyj.github.io/2017/10/14/a-layman-s-guide-to-self-constructed-blog/"/>
-    <id>https://hibetterheyj.github.io/2017/10/14/a-layman-s-guide-to-self-constructed-blog/</id>
-    <published>2017-10-13T17:05:21.000Z</published>
-    <updated>2017-10-13T17:05:21.000Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>本文首发于公众号<strong>『去冰』</strong>2017年10月14日的<a href="http://mp.weixin.qq.com/s/Jprg8AFxZJG7nV3qx2HZLQ" target="_blank" rel="external">推送</a>，感谢支持关注！</p></blockquote><a id="more"></a><center><font size="5"><strong>自建博客不专业入门指北</strong> </font></center> <center><font size="3">Summarized by <strong>PhilHE</strong> on <em>Oct 13, 2017</em></font></center> <hr><p>&nbsp;</p><blockquote><p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;个人建站近两个月以来，感触颇多：既有最初敲门进入<strong>个人博客</strong>这个奇妙世界的懵懂，也经历过生日前夜误删文件的惊慌，还有如今慢慢积累、勤奋更新的些许开心吧！第一次与公众号<strong>『去冰』</strong>的合作，将会简要就<strong>自建博客</strong>作不专业的入门介绍！笔力不足，还望谅解！</p></blockquote><p>&nbsp;</p><h3 id="为什么要自建博客？"><a href="#为什么要自建博客？" class="headerlink" title="为什么要自建博客？"></a>为什么要自建博客？</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在我看来，<strong>人的一生总需要有一些文字来承载</strong>。朋友圈/微博种种局限不适合长篇的叙述与思考的延展；知乎的戾气近年来愈重，装逼，抖机灵不甚喜欢；曾经也做过一段时间的微信公众号（推了两三篇文后弃置），排版花费些许时间并且不时想着变花样，但我理工科的思维追求“简洁高效”，也就没有坚持！</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;直到有一天，我读到了<a href="http://mindhacks.cn/2009/02/15/why-you-should-start-blogging-now/" target="_blank" rel="external"><strong>《为什么你应该（从现在开始就）写博客》from MindHacks|刘未鹏</strong></a>（他的所有博文以及《暗时间》同样值得一读！）——09年的文章，现在看依然很受启发！尤其是开篇的这句“<strong>用博客的形式来记录下你有价值的思考，会带来很多好处，却没有任何明显的坏处</strong>”，也即<u>思考是永恒的，思考是对自己、对世界的认知，博客这个平台提供了将认知写下来的开放平台，不仅可以和大家交流，得到反馈，或许还能促进进一步深入思考，并强化自己表达能力，一举多得</u>——这也深深地触动了我D(zuo）I（si）Y的内心！</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最近也读到<a href="https://lifehacker.com/almost-everyone-needs-a-public-portfolio-1819366275" target="_blank" rel="external"><em>You Probably Need a Public Portfolio Even If You’re Not a Freelancer or a “Creative”</em></a>一文，文章或许可以这样理解，即使不是一个自由职业者或是艺术家，但是每个人应该需要一个的平台去诠释个人能力而不仅仅只是<strong>LinkedIn</strong>或者说是枯燥的<strong>CV</strong>。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;作为一个“万金油”机械方面地工科生，学的课庞杂，慢慢地也学会了“拿来主义”，尽管不是学计算机相关专业的，进而自建博客有时候会遇到很多坑，但整个过程有趣而富有挑战，符合我的胃口！</p><p>&nbsp;&nbsp;</p><p>&nbsp;</p><h3 id="方法论"><a href="#方法论" class="headerlink" title="方法论"></a>方法论</h3><h4 id="组成概述"><a href="#组成概述" class="headerlink" title="组成概述"></a>组成概述</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;首先做个不恰当的比喻，一个自行搭建的博客如果比作人的化，就我的博客体系可以这样说：</p><ul><li>Hexo是骨架， 它为博客整体提供了全方位的布局；</li><li>以Markdown为主，HTML语言为辅的混合文本是血肉，毕竟自建博客的关键在于思考的陈述、观点的表达；</li><li>主题是打扮，不同的主题犹如不同的穿衣风格，有的力求简约，有的追寻时尚；</li><li>插件是技能，插件会对原本主题与框架进行功能的扩充，提升整体博客的相关体验；</li><li>域名是名片，一个简单易记的域名有助于访问的提升与传播</li></ul><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以上的几个部分我会在后续部分进行一一介绍</p><p><img src="https://ooo.0o0.ooo/2017/10/13/59e0c195ba39e.png" alt="个人博客框架.png"></p><center><font size="2">图中的蓝色的小旗是<a href="https://hibetterheyj.github.io/">我的博客</a>目前的选择，我将在后面部分一一道来</font></center><p>&nbsp;</p><h4 id="步骤总览"><a href="#步骤总览" class="headerlink" title="步骤总览"></a>步骤总览</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;对于自建博客的安装步骤，网上教程鱼龙混杂，我在下方精选数个较为靠谱的，但是推荐多个教程对照查看可以避免一些bug的发生！我最后主要根据<strong>第三与第四个教程</strong>进行搭建（我的平台为Win10，MAC版建议主要看<strong>官方文档</strong>）：</p><ul><li><a href="http://baixin.io/2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" target="_blank" rel="external">HEXO搭建个人博客</a>（安装教程较新）</li><li><a href="https://zhuanlan.zhihu.com/p/25471760" target="_blank" rel="external">教你免费搭建个人博客，Hexo&amp;Github - 崔斯特</a>（安装教程较为简洁）</li><li><a href="http://xiaoxuetu.github.io/2015/08/29/hexo-mac-environment/" target="_blank" rel="external">利用Hexo搭建个人博客－环境搭建篇</a>，<a href="http://xiaoxuetu.github.io/2015/08/31/hexo-guide/" target="_blank" rel="external">利用Hexo搭建个人博客－博客初始化篇</a>（安装教程虽然偏旧但是整体思路周密）</li><li><a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="external">Hexo官方文档</a>（官方出品，与时俱进，但是有些小毛病会影响完成速度）</li></ul><blockquote><p>重点推荐来自学妹 Echoleee 细心整理的新教程！</p></blockquote><ul><li><a href="https://echoleee.github.io/2017/12/13/%E7%94%A8Github-Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89/" target="_blank" rel="external"><strong>用Github+Hexo搭建博客（一）</strong></a></li><li><a href="https://echoleee.github.io/2017/12/13/%E7%94%A8Github-Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89/" target="_blank" rel="external"><strong>用Github+Hexo搭建博客（二）</strong></a></li><li><a href="https://echoleee.github.io/2017/12/13/%E7%94%A8Github-Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89/" target="_blank" rel="external"><strong>用Github+Hexo搭建博客（三）</strong></a></li></ul><p>&nbsp;</p><p>&nbsp;</p><h4 id="提前准备"><a href="#提前准备" class="headerlink" title="提前准备"></a>提前准备</h4><h5 id="Markdown——写文章的工具"><a href="#Markdown——写文章的工具" class="headerlink" title="Markdown——写文章的工具"></a>Markdown——写文章的工具</h5><blockquote><p>  <strong>Markdown</strong>是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。<br>  Markdown是为那些需要经常码字或者进行文字排版的、对码字手速和排版顺畅度有要求的人群设计的，他们希望用键盘把文字内容啪啪啪地打出来后就已经排版好了，最好从头到尾都不要使用鼠标。这些人包括经常需要写文档的码农、博客写手、网站小编、出版业人士等等。</p></blockquote><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;强烈推荐我的入门读物，简洁明了的让我见识了Markdown的生气威力：<a href="http://www.jianshu.com/p/q81RER" target="_blank" rel="external"><strong>献给写作者的 Markdown 新手指南 - 简书</strong></a></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这两篇亦可：<a href="https://sspai.com/post/25137" target="_blank" rel="external">认识与入门 Markdown - 少数派</a>，<a href="https://www.zhihu.com/question/20409634" target="_blank" rel="external">怎样引导新手使用 Markdown？ - 知乎</a></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果确定入坑自建博客，可以再考虑阅读考虑以下两篇：<a href="https://sspai.com/post/36610" target="_blank" rel="external">Markdown 完全入门（上） - 少数派</a>，<a href="https://sspai.com/post/36682" target="_blank" rel="external">Markdown 完全入门（下） - 少数派</a>（可能与上面稍有重复，但整体陈述具体而周全！）</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我所使用的Markdown编辑器包括<strong>Typora</strong>以及<strong>WizNote</strong>（大部分笔记软件如印象笔记，有道云都支持了！），如果需要了解更多，上文<em>Markdown 完全入门（下）</em>能够给出不错的答案！但是请记住，重要的还是内容！</p><p>&nbsp;</p><h5 id="github——博客搭建的平台"><a href="#github——博客搭建的平台" class="headerlink" title="github——博客搭建的平台"></a>github——博客搭建的平台</h5><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;说到什么是github，我们先看wikipedia的描述：</p><blockquote><p>  GitHub是一个利用Git进行版本控制、专门用于存放软件代码与内容的共享虚拟主机服务。</p></blockquote><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;同样是我的入门读物，强烈推荐：<a href="https://www.zhihu.com/question/20070065" target="_blank" rel="external"><strong>怎样使用 GitHub？——知乎</strong></a>，结合百科与知乎回答的“说人话”概括就是：github<strong>提供代码托管以及免费博客搭建平台</strong>并附加其他包括社交等功能；如果更习惯中文，<em>coding.net</em>同样也提供了类似的服务。比如这是<a href="https://hibetterheyj.github.io/">我的博客</a>，欢迎访问！</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果确定入坑，可以再考虑阅读考虑以下<a href="https://www.zhihu.com/question/25868778" target="_blank" rel="external"><strong>如何有效利用GitHub student pack中的工具？</strong></a></p><p><img src="https://i.loli.net/2017/10/13/59e0d9aa8d5a5.png" alt="blog简图.png"></p><center><font size="2">九月份初建博客时截图</font></center><p>&nbsp;</p><h5 id="Hexo——博客使用的框架"><a href="#Hexo——博客使用的框架" class="headerlink" title="Hexo——博客使用的框架"></a>Hexo——博客使用的框架</h5><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;同类的博客框架有挺多的，类似的有<em>Jekyll</em>和<em>Octopress</em>等等，这几者最终所呈现的无太大差别——按我浅薄的理解或许是对于markdown的处理与整体博客的布局存在差异。具体配置过程开头方法论部分已经提供！有兴趣可以阅读：</p><ul><li><a href="https://hexo.io/" target="_blank" rel="external">Hexo官网</a></li><li>该框架的作者所写：<a href="https://zespia.tw/blog/2012/10/11/hexo-debut/" target="_blank" rel="external">Hexo 颯爽登場！</a></li></ul><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果想要进一步探索<strong>插件</strong>功能，考虑度娘“hexo+插件+XXX（功能名）”</p><p>&nbsp;</p><h5 id="Material——博客使用的主题"><a href="#Material——博客使用的主题" class="headerlink" title="Material——博客使用的主题"></a>Material——博客使用的主题</h5><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;所有的主题其实都是基于特定框架而开发的，我当初选择Hexo的另一个重要的原因在于其丰富且活跃的开发群体，他们不断带来了各式口味的主题与精妙的插件！对于主题的选用，推荐阅读<a href="https://www.zhihu.com/question/24422335" target="_blank" rel="external">有哪些好看的 Hexo 主题？</a></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我目前使用的主题是<strong>Material</strong>（一种基于时下流行网页设计风格而形成的主题）：他们的<a href="https://material.viosey.com/" target="_blank" rel="external">项目官网</a>有具体的配置过程！同样比较值得关注的还有<a href="http://theme-next.iissnan.com/" target="_blank" rel="external">NexT主题</a>、<a href="http://a-limon.github.io/pacman/hello/introducing-pacman-theme/" target="_blank" rel="external">pacman主题</a>等等。</p><p>&nbsp;</p><p>&nbsp;</p><h3 id="同类推荐"><a href="#同类推荐" class="headerlink" title="同类推荐"></a>同类推荐</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;读到这里你也会说，我可能真的不想太过折腾而影响思考的陈述与网站效果的实现，那么可以推荐两款替代自建博客的服务！分别是前面提到的<strong>简书</strong>与近来流行的<strong>Bitcorn</strong>！</p><h4 id="简书"><a href="#简书" class="headerlink" title="简书"></a>简书</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;首先看看我从他们的官网简介所摘取的片段：</p><blockquote><p>  简书是一个创作社区，任何人均可以在其上进行创作。用户在简书上面可以方便的创作自己的作品，互相交流。简书成为国内优质原创内容输出平台。</p><p>  支持有Markdown带来的沉浸式的创作体验，随时随地可以进行创作，同时支持离线保存</p></blockquote><p>&nbsp;<strong><a href="http://www.jianshu.com/p/1ce820dc4112" target="_blank" rel="external">简书 Markdown 教程</a>一文介绍了markdown编辑模式的开启过程，当你慢慢掌握</strong>markdown**操作后，就可以自由地在上面“随时随地可以进行创作”！</p><p><strong><em>相关网站</em></strong>：<a href="http://www.jianshu.com/" target="_blank" rel="external">官网</a></p><p>&nbsp;</p><h4 id="Bitcron"><a href="#Bitcron" class="headerlink" title="Bitcron"></a>Bitcron</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;对于<strong>Bitcorn</strong>的使用可以看这篇文章：<a href="https://sspai.com/post/40675" target="_blank" rel="external">用 Bitcron 搭博客：你只管写作，它负责呈现</a></p><blockquote><p>  Bitcron 是一个可作为博客使用的互联网渲染引擎，只需网页即能工作，支持 Markdown 语法，通过 Web、微信、Dropbox 一键发布博客，让用户专注于写作本身。</p></blockquote><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;总结一句话：Bitcorn在上述自建博客与简书平台发布之间找到了一个恰当的平衡点：它把自建博客时掉坑的几率降到最小，封装了<strong>安装Hexo框架与使用github pages的中间过程</strong>，用户既可以选择付费购买主题、专注产出，富有创造力的<strong>geek</strong>也可以在成熟的框架下“<u>带着镣铐跳出不俗的舞蹈</u>”，值得选择！</p><p><strong><em>相关网站</em></strong>：<a href="https://bitcron.com/" target="_blank" rel="external">官网</a></p><p>&nbsp;</p><h4 id="蚂蚁笔记Leanote"><a href="#蚂蚁笔记Leanote" class="headerlink" title="蚂蚁笔记Leanote"></a>蚂蚁笔记Leanote</h4><p>在本月（2017.10）浏览<a href="https://amazing-apps.gitbooks.io/windows-apps-that-amaze-us/content/zh-CN/" target="_blank" rel="external">《Windows 绝赞应用》</a>的过程中我发现了这款有极客范的云笔记！这份产品在其官网这样写道：</p><blockquote><p>  前所未有的文档体验，近乎完美的平台覆盖，支持团队协同，企业级私有云</p><p>  蚂蚁笔记 = 笔记 + 博客 + 协作 + 私有云</p></blockquote><p>支持 Markdown 的开源笔记，也可以搭建个人博客，但是云同步需付费，我认为它和上述提到的Bitcron一样成为一款“进可搭博客，退可写笔记”上佳之作！</p><p><strong><em>相关网站</em></strong>：<a href="https://leanote.com/" target="_blank" rel="external">官网</a>｜<a href="http://app.leanote.com/" target="_blank" rel="external">下载页面</a></p><p>&nbsp;</p><p>&nbsp;</p><p><strong>文章日志：</strong></p><blockquote><p>  171014 文章首发于微信公众平台<a href="http://mp.weixin.qq.com/s/Jprg8AFxZJG7nV3qx2HZLQ" target="_blank" rel="external">【去冰】</a></p><p>  171020 更新“同类推荐”下相关链接，增加“蚂蚁笔记Leanote”</p><p>  171221 更新“步骤总览”下相关链接，增加来自学妹<a href="https://echoleee.github.io/" target="_blank" rel="external">Echoleee</a>整理的相关搭建博客的过程！</p></blockquote><p>（最后更新于<em>2017.12.21</em>）</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;本文首发于公众号&lt;strong&gt;『去冰』&lt;/strong&gt;2017年10月14日的&lt;a href=&quot;http://mp.weixin.qq.com/s/Jprg8AFxZJG7nV3qx2HZLQ&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;推送&lt;/a&gt;，感谢支持关注！&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="技术·小见" scheme="https://hibetterheyj.github.io/categories/%E6%8A%80%E6%9C%AF%C2%B7%E5%B0%8F%E8%A7%81/"/>
-    
-    
-      <category term="blog" scheme="https://hibetterheyj.github.io/tags/blog/"/>
-    
-      <category term="工具推荐" scheme="https://hibetterheyj.github.io/tags/%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90/"/>
+      <category term="一周总结" scheme="https://hibetterheyj.github.io/weblog/tags/%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
