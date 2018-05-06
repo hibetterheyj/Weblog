@@ -6,7 +6,7 @@
   <link href="/weblog/atom.xml" rel="self"/>
   
   <link href="https://hibetterheyj.github.io/weblog/"/>
-  <updated>2018-04-29T08:24:23.000Z</updated>
+  <updated>2018-05-06T04:20:29.000Z</updated>
   <id>https://hibetterheyj.github.io/weblog/</id>
   
   <author>
@@ -17,20 +17,28 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>second-month-summary-in-second-half-junior</title>
-    <link href="https://hibetterheyj.github.io/weblog/2018/04/29/second-month-summary-in-second-half-junior/"/>
-    <id>https://hibetterheyj.github.io/weblog/2018/04/29/second-month-summary-in-second-half-junior/</id>
-    <published>2018-04-29T08:24:23.000Z</published>
-    <updated>2018-04-29T08:24:23.000Z</updated>
+    <title>Raspberry Learning Resources | 树莓派学习资源</title>
+    <link href="https://hibetterheyj.github.io/weblog/2018/05/06/raspberry-learning-resources/"/>
+    <id>https://hibetterheyj.github.io/weblog/2018/05/06/raspberry-learning-resources/</id>
+    <published>2018-05-06T04:20:29.000Z</published>
+    <updated>2018-05-06T04:20:29.000Z</updated>
     
-    <content type="html"><![CDATA[<p>这里是首页可见</p><a id="more"></a><p>&nbsp;<br>&nbsp;<br>&nbsp;<br>（最后更新于<em>XXXX.XX.XX</em>）</p>]]></content>
+    <content type="html"><![CDATA[<center><font size="5"><strong>Raspberry Learning Resources | 树莓派学习资源</strong></font></center> <center><font size="1">Summarized by <strong><em>PhilHE</em></strong> on <u>May 4, 2018</u></font></center> <a id="more"></a><pre><code>180504 第一次创建180505 更新重构分类，添加安装系统相关</code></pre><blockquote><p>本文为我关于学习树莓派的资源总结记录帖</p><p>以下将分为6个内容：<strong>教程</strong>、<strong>视频</strong>、<strong>文章</strong>、<strong>项目</strong>、<strong>软件</strong>、<strong>书籍</strong></p><p>树莓派官网：<a href="https://www.raspberrypi.org/" target="_blank" rel="external">https://www.raspberrypi.org/</a></p></blockquote><p>&nbsp;</p><h3 id="Guide-教程"><a href="#Guide-教程" class="headerlink" title="Guide | 教程"></a>Guide | 教程</h3><h4 id="官方文档："><a href="#官方文档：" class="headerlink" title="官方文档："></a>官方文档：</h4><ul><li><a href="https://www.raspberrypi.org/learning/hardware-guide/" target="_blank" rel="external">Raspberry Pi Hardware Guide</a></li><li><a href="https://www.raspberrypi.org/learning/software-guide/" target="_blank" rel="external">Raspberry Pi Software Guide</a></li></ul><h4 id="其他："><a href="#其他：" class="headerlink" title="其他："></a>其他：</h4><ul><li><a href="https://elinux.org/RPi_Tutorials" target="_blank" rel="external">RPi Tutorials</a></li></ul><p>&nbsp;</p><h3 id="Video-视频"><a href="#Video-视频" class="headerlink" title="Video | 视频"></a>Video | 视频</h3><h4 id="B站"><a href="#B站" class="headerlink" title="B站"></a>B站</h4><ul><li>零散视频</li></ul><ol><li><a href="https://www.bilibili.com/video/av12147716?t=319" target="_blank" rel="external">【入门】面对初学者的树莓派教程，来啊，一起买来积灰啊</a></li></ol><ul><li>系列视频</li></ul><ol><li><a href="https://www.bilibili.com/video/av18821107" target="_blank" rel="external">【类型（教程、树莓派）】1.入门前树莓派简单介绍</a></li><li><a href="https://www.bilibili.com/video/av18821200?t=771" target="_blank" rel="external">【类型（教程、树莓派）】2.树莓派装系统，SSH，VNC</a></li></ol><h4 id="MOOC"><a href="#MOOC" class="headerlink" title="MOOC"></a>MOOC</h4><p><code>To be continued</code></p><p>&nbsp;</p><h3 id="Essay-文章"><a href="#Essay-文章" class="headerlink" title="Essay | 文章"></a>Essay | 文章</h3><h4 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h4><ul><li>安装、登陆系统并产生图形化界面</li></ul><ol><li><a href="https://www.bilibili.com/video/av20553871" target="_blank" rel="external">tp-link TL-WDR6300 V4无线路由器设置教程</a></li><li><a href="https://www.cnblogs.com/hqutcy/p/6345163.html" target="_blank" rel="external">树莓派3 B之系统安装与在电脑上用网线直接SSH登录</a></li><li><a href="http://shumeipai.nxez.com/2017/09/13/raspberry-pi-network-configuration-before-boot.html" target="_blank" rel="external">无屏幕和键盘配置树莓派WiFi和SSH</a></li><li><a href="http://shumeipai.nxez.com/2013/09/07/using-putty-to-log-in-to-the-raspberry-pie.html" target="_blank" rel="external">使用PuTTY登录到树莓派</a></li><li><a href="http://shumeipai.nxez.com/2013/09/07/no-screen-unknow-ip-login-pi.html" target="_blank" rel="external">没有显示器且IP未知的情况下登录树莓派</a></li><li><a href="http://www.cnblogs.com/xiaowuyi/p/4012069.html" target="_blank" rel="external">树莓派学习笔记（3）：利用VNC远程控制树莓派</a></li><li><a href="http://www.mamicode.com/info-detail-1720185.html" target="_blank" rel="external">新版树莓派中内置的real-vnc-server</a></li><li><a href="https://www.realvnc.com/en/connect/docs/raspberry-pi.html#raspberry-pi-setup" target="_blank" rel="external">VNC Connect and Raspberry Pi</a></li></ol><ul><li>设置静态IP地址</li></ul><ol><li><a href="https://blog.csdn.net/liang890319/article/details/8639128" target="_blank" rel="external">树莓派 LED含义 扩展口定义 静态IP</a></li></ol><h4 id="观点"><a href="#观点" class="headerlink" title="观点"></a>观点</h4><ol><li><a href="https://www.zhihu.com/question/21045562/answer/30433203" target="_blank" rel="external">Arduino、arm、树莓派、单片机四者有什么不同？</a></li></ol><p>&nbsp;</p><h3 id="Project-项目"><a href="#Project-项目" class="headerlink" title="Project | 项目"></a>Project | 项目</h3><ol><li><a href="https://sspai.com/post/40997" target="_blank" rel="external">如何正确地用树莓派共享打印机</a></li></ol><p><code>To be continued</code></p><p>&nbsp;</p><h3 id="Softwares-软件"><a href="#Softwares-软件" class="headerlink" title="Softwares | 软件"></a>Softwares | 软件</h3><ol><li>SD Formatter</li><li>Win32 Disk Imager</li><li>putty</li><li>ipscan</li><li>VNC Viewer（全客户端）</li></ol><p>&nbsp;</p><h3 id="Books-书籍"><a href="#Books-书籍" class="headerlink" title="Books | 书籍"></a>Books | 书籍</h3><ol><li><a href="https://www.getfreeebooks.com/raspberry-pi-10-sites-various-free-ebooks/" target="_blank" rel="external">RASPBERRY PI: 10 SITES &amp; VARIOUS FREE EBOOKS</a></li></ol><p>&nbsp;<br>&nbsp;<br>（最后更新于<em>2018.5.6</em>）</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;这里是首页可见&lt;/p&gt;
+      &lt;center&gt;&lt;font size=&quot;5&quot;&gt;&lt;strong&gt;Raspberry Learning Resources | 树莓派学习资源&lt;/strong&gt;&lt;/font&gt;&lt;/center&gt; 
+
+&lt;center&gt;&lt;font size=&quot;1&quot;&gt;Summarized by &lt;strong&gt;&lt;em&gt;PhilHE&lt;/em&gt;&lt;/strong&gt; on &lt;u&gt;May 4, 2018&lt;/u&gt;&lt;/font&gt;&lt;/center&gt;
     
     </summary>
     
+      <category term="技术·小见" scheme="https://hibetterheyj.github.io/weblog/categories/%E6%8A%80%E6%9C%AF%C2%B7%E5%B0%8F%E8%A7%81/"/>
+    
+    
+      <category term="raspberry" scheme="https://hibetterheyj.github.io/weblog/tags/raspberry/"/>
+    
+      <category term="资源集合" scheme="https://hibetterheyj.github.io/weblog/tags/%E8%B5%84%E6%BA%90%E9%9B%86%E5%90%88/"/>
     
   </entry>
   
@@ -359,9 +367,9 @@
     
       <category term="Formula Student" scheme="https://hibetterheyj.github.io/weblog/tags/Formula-Student/"/>
     
-      <category term="memory record" scheme="https://hibetterheyj.github.io/weblog/tags/memory-record/"/>
-    
       <category term="长篇" scheme="https://hibetterheyj.github.io/weblog/tags/%E9%95%BF%E7%AF%87/"/>
+    
+      <category term="memory record" scheme="https://hibetterheyj.github.io/weblog/tags/memory-record/"/>
     
   </entry>
   

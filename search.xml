@@ -3,13 +3,100 @@
   
     
     <entry>
-      <title><![CDATA[second-month-summary-in-second-half-junior]]></title>
-      <url>/weblog/2018/04/29/second-month-summary-in-second-half-junior/</url>
-      <content type="html"><![CDATA[<p>这里是首页可见</p>
+      <title><![CDATA[Raspberry Learning Resources | 树莓派学习资源]]></title>
+      <url>/weblog/2018/05/06/raspberry-learning-resources/</url>
+      <content type="html"><![CDATA[<center><font size="5"><strong>Raspberry Learning Resources | 树莓派学习资源</strong></font></center> 
+
+<center><font size="1">Summarized by <strong><em>PhilHE</em></strong> on <u>May 4, 2018</u></font></center> 
+
 <a id="more"></a>
-<p>&nbsp;<br>&nbsp;<br>&nbsp;<br>（最后更新于<em>XXXX.XX.XX</em>）</p>
+<pre><code>180504 第一次创建
+180505 更新重构分类，添加安装系统相关
+</code></pre><blockquote>
+<p>本文为我关于学习树莓派的资源总结记录帖</p>
+<p>以下将分为6个内容：<strong>教程</strong>、<strong>视频</strong>、<strong>文章</strong>、<strong>项目</strong>、<strong>软件</strong>、<strong>书籍</strong></p>
+<p>树莓派官网：<a href="https://www.raspberrypi.org/" target="_blank" rel="external">https://www.raspberrypi.org/</a></p>
+</blockquote>
+<p>&nbsp;</p>
+<h3 id="Guide-教程"><a href="#Guide-教程" class="headerlink" title="Guide | 教程"></a>Guide | 教程</h3><h4 id="官方文档："><a href="#官方文档：" class="headerlink" title="官方文档："></a>官方文档：</h4><ul>
+<li><a href="https://www.raspberrypi.org/learning/hardware-guide/" target="_blank" rel="external">Raspberry Pi Hardware Guide</a></li>
+<li><a href="https://www.raspberrypi.org/learning/software-guide/" target="_blank" rel="external">Raspberry Pi Software Guide</a></li>
+</ul>
+<h4 id="其他："><a href="#其他：" class="headerlink" title="其他："></a>其他：</h4><ul>
+<li><a href="https://elinux.org/RPi_Tutorials" target="_blank" rel="external">RPi Tutorials</a></li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="Video-视频"><a href="#Video-视频" class="headerlink" title="Video | 视频"></a>Video | 视频</h3><h4 id="B站"><a href="#B站" class="headerlink" title="B站"></a>B站</h4><ul>
+<li>零散视频</li>
+</ul>
+<ol>
+<li><a href="https://www.bilibili.com/video/av12147716?t=319" target="_blank" rel="external">【入门】面对初学者的树莓派教程，来啊，一起买来积灰啊</a></li>
+</ol>
+<ul>
+<li>系列视频</li>
+</ul>
+<ol>
+<li><a href="https://www.bilibili.com/video/av18821107" target="_blank" rel="external">【类型（教程、树莓派）】1.入门前树莓派简单介绍</a></li>
+<li><a href="https://www.bilibili.com/video/av18821200?t=771" target="_blank" rel="external">【类型（教程、树莓派）】2.树莓派装系统，SSH，VNC</a></li>
+</ol>
+<h4 id="MOOC"><a href="#MOOC" class="headerlink" title="MOOC"></a>MOOC</h4><p><code>To be continued</code></p>
+<p>&nbsp;</p>
+<h3 id="Essay-文章"><a href="#Essay-文章" class="headerlink" title="Essay | 文章"></a>Essay | 文章</h3><h4 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h4><ul>
+<li>安装、登陆系统并产生图形化界面</li>
+</ul>
+<ol>
+<li><a href="https://www.bilibili.com/video/av20553871" target="_blank" rel="external">tp-link TL-WDR6300 V4无线路由器设置教程</a></li>
+<li><a href="https://www.cnblogs.com/hqutcy/p/6345163.html" target="_blank" rel="external">树莓派3 B之系统安装与在电脑上用网线直接SSH登录</a></li>
+<li><a href="http://shumeipai.nxez.com/2017/09/13/raspberry-pi-network-configuration-before-boot.html" target="_blank" rel="external">无屏幕和键盘配置树莓派WiFi和SSH</a></li>
+<li><a href="http://shumeipai.nxez.com/2013/09/07/using-putty-to-log-in-to-the-raspberry-pie.html" target="_blank" rel="external">使用PuTTY登录到树莓派</a></li>
+<li><a href="http://shumeipai.nxez.com/2013/09/07/no-screen-unknow-ip-login-pi.html" target="_blank" rel="external">没有显示器且IP未知的情况下登录树莓派</a></li>
+<li><a href="http://www.cnblogs.com/xiaowuyi/p/4012069.html" target="_blank" rel="external">树莓派学习笔记（3）：利用VNC远程控制树莓派</a></li>
+<li><a href="http://www.mamicode.com/info-detail-1720185.html" target="_blank" rel="external">新版树莓派中内置的real-vnc-server</a></li>
+<li><a href="https://www.realvnc.com/en/connect/docs/raspberry-pi.html#raspberry-pi-setup" target="_blank" rel="external">VNC Connect and Raspberry Pi</a></li>
+</ol>
+<ul>
+<li>设置静态IP地址</li>
+</ul>
+<ol>
+<li><a href="https://blog.csdn.net/liang890319/article/details/8639128" target="_blank" rel="external">树莓派 LED含义 扩展口定义 静态IP</a></li>
+</ol>
+<h4 id="观点"><a href="#观点" class="headerlink" title="观点"></a>观点</h4><ol>
+<li><a href="https://www.zhihu.com/question/21045562/answer/30433203" target="_blank" rel="external">Arduino、arm、树莓派、单片机四者有什么不同？</a></li>
+</ol>
+<p>&nbsp;</p>
+<h3 id="Project-项目"><a href="#Project-项目" class="headerlink" title="Project | 项目"></a>Project | 项目</h3><ol>
+<li><a href="https://sspai.com/post/40997" target="_blank" rel="external">如何正确地用树莓派共享打印机</a></li>
+</ol>
+<p><code>To be continued</code></p>
+<p>&nbsp;</p>
+<h3 id="Softwares-软件"><a href="#Softwares-软件" class="headerlink" title="Softwares | 软件"></a>Softwares | 软件</h3><ol>
+<li>SD Formatter</li>
+<li>Win32 Disk Imager</li>
+<li>putty</li>
+<li>ipscan</li>
+<li>VNC Viewer（全客户端）</li>
+</ol>
+<p>&nbsp;</p>
+<h3 id="Books-书籍"><a href="#Books-书籍" class="headerlink" title="Books | 书籍"></a>Books | 书籍</h3><ol>
+<li><a href="https://www.getfreeebooks.com/raspberry-pi-10-sites-various-free-ebooks/" target="_blank" rel="external">RASPBERRY PI: 10 SITES &amp; VARIOUS FREE EBOOKS</a></li>
+</ol>
+<p>&nbsp;<br>&nbsp;<br>（最后更新于<em>2018.5.6</em>）</p>
 ]]></content>
       
+        <categories>
+            
+            <category> 技术·小见 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> raspberry </tag>
+            
+            <tag> 资源集合 </tag>
+            
+        </tags>
         
     </entry>
     
@@ -946,9 +1033,9 @@
             
             <tag> Formula Student </tag>
             
-            <tag> memory record </tag>
-            
             <tag> 长篇 </tag>
+            
+            <tag> memory record </tag>
             
         </tags>
         
@@ -3071,33 +3158,9 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
     </entry>
     
     <entry>
-      <title><![CDATA[友链]]></title>
-      <url>/weblog/links.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[tags]]></title>
       <url>/weblog/tags.html</url>
       <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[项目]]></title>
-      <url>/weblog/project.html</url>
-      <content type="html"><![CDATA[<p>等待上线</p>
-<p><code>To be continued</code></p>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[小站历史]]></title>
-      <url>/weblog/timeline.html</url>
-      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
-<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
-<li>2017.08.15 确定了以Material为主题</li>
-</ul>
-]]></content>
     </entry>
     
     <entry>
@@ -3112,17 +3175,17 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <p><strong>97</strong>年生人，<strong>胡建转究郎</strong>（<em>Zayton, also called Quanzhou</em>），目前在<strong>同济大学</strong>就读<strong>机械电子工程</strong>（<em>expected 2019</em>）。</p>
 <p>虽无特长，但爱好不少，希望每日精进，终成一个精神丰富不单调的工程狮(ง •̀_•́)ง </p>
 <p>非常喜欢<a href="http://ipn.li/" target="_blank" rel="external">IPN播客</a>系列的宗旨：<u><strong>理性、不反智与“湿货”多</strong></u>。希望自己能够不断努力输出，把生活越理越明白！</p>
-<p><strong>爱赛车</strong>&#160;&#160;&#160;&#160;有幸在大二加入一个很棒的团体<a href="http://www.weibo.com/dianracing?topnav=1&amp;wvr=6&amp;topsug=1&amp;is_all=1" target="_blank" rel="external">@同济电车队（<em>Tongji DIAN Racing Team</em>）</a>。现在效力于动力组，平时亦关注F1，希望在努力学习与赛场激情之间寻找一种平衡。（界面图片拍于16年电车比赛时空荡的上赛，让人莫名心醉）</p>
-<p><strong>爱古典音乐</strong>&#160;&#160;&#160;&#160;尤其是巴洛克时期以G弦上的咏叹调（<em>Air on G String</em>），无伴奏大提琴组曲（<em>Uncompanied Cello</em>）等著作的巴赫。这份爱好始于高三，发端于大一时候学校的<strong>星期音乐会</strong>。如今涉猎渐广，光顾音乐厅数次，仍是一介小白。</p>
-<p><strong>更爱机器人</strong>&#160;&#160;&#160;&#160;大二浪里个浪，同样加入了学院的Robomaster战队——同济Super Power战队，司职机械组，努力在课堂之余有些创新，有些玩物。正在努力入门嵌入式，希望在不久的将来能够成为一个极富Hacker精神的Robotist！</p>
+<p><strong>爱赛车</strong>&#160;&#160;&#160;&#160;有幸在大二加入一个很棒的团体<a href="http://www.weibo.com/dianracing?topnav=1&amp;wvr=6&amp;topsug=1&amp;is_all=1" target="_blank" rel="external">@同济电车队（<em>Tongji DIAN Racing Team</em>）</a>。现负责动力总成，成为一名Leader，平时亦关注F1，希望在努力学习与赛场激情之间寻找一种平衡。（界面图片拍于16年电车比赛时空荡的上赛，让人莫名心醉）</p>
+<p><strong>爱古典音乐</strong>&#160;&#160;&#160;&#160;尤其是邂逅巴洛克时期以G弦上的咏叹调（<em>Air on G String</em>），无伴奏大提琴组曲（<em>Uncompanied Cello</em>）等著作的巴赫与维瓦尔第，让人身心愉悦。这份爱好始于高三，发端于大一时候学校的<strong>星期音乐会</strong>。如今涉猎渐广，光顾音乐厅数次，仍是一介小白。</p>
+<p><strong>更爱机器人</strong>&#160;&#160;&#160;&#160;大二浪里个浪，同样加入了学院的Robomaster战队——同济Super Power战队，司职机械组，努力在课堂之余有些创新，有些玩物。正在努力入门嵌入式，希望在不久的将来能够成为一名Geeker&amp;Robotist！</p>
 <p><strong>Interest</strong>&#160;&#160;&#160;&#160;听播客（尤其IPN系列与锵锵）/读外文NewsLetter/观鸟小白</p>
 <p><strong>Hobbies</strong>&#160;&#160;&#160;&#160;Postcrossing新手以及Coding&amp;Geek Freshman…</p>
-<p><code>&lt; To be continued... &gt;</code></p>
+<p><code>&lt; Last updated on May 6th,2018 and to be continued... &gt;</code></p>
 <p>&#160;</p>
 <p>&#160;</p>
 <blockquote>
 <h3 id="About-Blog"><a href="#About-Blog" class="headerlink" title="About Blog"></a>About Blog</h3></blockquote>
-<h4 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h4><h5 id="2017-8-12"><a href="#2017-8-12" class="headerlink" title="2017.8~12"></a>2017.8~12</h5><ul>
+<h4 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h4><h5 id="2017-8-2018-5"><a href="#2017-8-2018-5" class="headerlink" title="2017.8~2018.5"></a>2017.8~2018.5</h5><ul>
 <li>2017.08.14 当日21:01:40，经过了两天的挖坑建站，小站最终成立</li>
 <li>2017.08.15 确定了以Material为主题，并且逐渐细化整体网页框架</li>
 <li>2017.08.16 增加了Gallery与Timeline界面</li>
@@ -3136,6 +3199,7 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <li>2017.10.12 增加『何处·听说』新栏目，并更新<a href="https://hibetterheyj.github.io/2017/10/12/a-new-column-HEre2Talk-blog-and-me/">《说说自己，说说博客！》</a>一文</li>
 <li>2017.10.20 尝试接入网易云外链播放器</li>
 <li>2017.12.27 尝试接入<a href="https://tongji.baidu.com/" target="_blank" rel="external">百度统计</a>，并且将原有Disqus评论系统换为无需翻墙的<a href="https://livere.com/" target="_blank" rel="external">来必力</a></li>
+<li>2018.05.01 重置博客所在仓库为 <code>hibetterheyj</code>，更新欢迎界面，增加以<a href="https://github.com/hakimel/reveal.js" target="_blank" rel="external">Reveal.js</a>的页面框架</li>
 </ul>
 <h5 id="预期"><a href="#预期" class="headerlink" title="预期"></a>预期</h5><ul>
 <li><del>“不蒜子”访问量插件的导入</del></li>
@@ -3153,12 +3217,37 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <blockquote>
 <h3 id="About-Schedule"><a href="#About-Schedule" class="headerlink" title="About Schedule"></a>About Schedule</h3></blockquote>
 <ul>
-<li>[ x ] 17.09.14 ~ 17.09.17 数模国赛 @上海嘉定</li>
-<li>[ x ] 17.11.12 ~ 17.11.18 FSCE全国大学生方程式·电车组 @湖北襄阳</li>
+<li>[ o ] 18.05.15 ~ 18.05.20 Robomaster2018中部赛区分区赛 @南京理工学校</li>
+<li>[ x ] 17.09.14 ~ 17.09.17 数模国赛 @上海嘉定校区</li>
+<li>[ x ] 17.11.12 ~ 17.11.18 FSCE全国大学生方程式·电车组 @湖北襄阳梦想方程式赛车场</li>
 </ul>
 <blockquote>
 <p>以上为近期待办事项，若为<code>o</code>为未完成，<code>i</code>为正在进行中，<code>x</code>则为已完成。</p>
 </blockquote>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[项目]]></title>
+      <url>/weblog/project.html</url>
+      <content type="html"><![CDATA[<p>等待上线</p>
+<p><code>To be continued</code></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[友链]]></title>
+      <url>/weblog/links.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[小站历史]]></title>
+      <url>/weblog/timeline.html</url>
+      <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
+<li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
+<li>2017.08.15 确定了以Material为主题</li>
+</ul>
 ]]></content>
     </entry>
     
