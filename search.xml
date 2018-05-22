@@ -2511,9 +2511,9 @@ $ \LaTeX $
         
         <tags>
             
-            <tag> English_learning </tag>
-            
             <tag> newsletter </tag>
+            
+            <tag> English_learning </tag>
             
         </tags>
         
@@ -3152,18 +3152,6 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
   
     
     <entry>
-      <title><![CDATA[照片集]]></title>
-      <url>/weblog/gallery.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/weblog/tags.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[关于]]></title>
       <url>/weblog/about.html</url>
       <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=306664&auto=0&height=66"></iframe>
@@ -3228,17 +3216,29 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
     </entry>
     
     <entry>
+      <title><![CDATA[友链]]></title>
+      <url>/weblog/links.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[tags]]></title>
+      <url>/weblog/tags.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[照片集]]></title>
+      <url>/weblog/gallery.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[项目]]></title>
       <url>/weblog/project.html</url>
       <content type="html"><![CDATA[<p>等待上线</p>
 <p><code>To be continued</code></p>
 ]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[友链]]></title>
-      <url>/weblog/links.html</url>
-      <content type="html"></content>
     </entry>
     
     <entry>
