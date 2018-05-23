@@ -3,6 +3,47 @@
   
     
     <entry>
+      <title><![CDATA[挣扎的求索之路——读《一个定理的诞生》有感]]></title>
+      <url>/weblog/2018/05/23/book-review-Thoughts-on-The-Birth-of-a-Theorem/</url>
+      <content type="html"><![CDATA[<center><font size="5"><strong>挣扎的求索之路——读《一个定理的诞生》有感</strong></font></center> 
+
+<center><font size="1">Written by <strong><em>PhilHE</em></strong> on <u>May 23, 2018</u></font></center> 
+
+<a id="more"></a>
+<pre><code>于180522第一遍读完
+于180523中午在同济大学机械馆兰德书屋突发奇想的记录
+</code></pre><blockquote>
+<p>同发于<a href="https://book.douban.com/review/9388342/" target="_blank" rel="external">豆瓣</a>、<a href="https://zhuanlan.zhihu.com/p/37220463" target="_blank" rel="external">知乎</a></p>
+<p>写的散碎，望海涵！</p>
+</blockquote>
+<p>&nbsp;</p>
+<p>180519去RM中部分区赛南京理工与<a href="http://byte.coffee/" target="_blank" rel="external">Byte.Coffee</a>主播<a href="http://yuezhu.org/" target="_blank" rel="external">MilkShake羊</a>面基，聊到博士，聊到科研，她便推荐了即将在播客：State-of-the-art（可听<a href="http://172.21.0.163/files/3169000000930BAB/byte.coffee/wp-content/uploads/2018/05/Episode-12-State-of-the-art.mp3" target="_blank" rel="external">此处</a>）中讲到的这本书。我便立马在淘宝下单，转眼两天后的周一下午便拿到，我如饥似渴的阅读，以希望了解这当时成名数学家背后的故事。</p>
+<p>从他的文字，可以了解到这是一个风流倜傥的数学家，不似很多文学作品，影视艺术中所描述的nerd一样，他会焦虑，会激动，会嫉妒，会安利LaTeX。。。我和他的区别或许就在于没有成书立名吧（当然这差距很大），在科研路上的反复——修改了几十次的论文，一如现在写课程设计与报告的写照，慢慢的抠细节，期待能够做到state of the art 的状态。不过很幸运的是，他最后成功证明了朗道阻尼的性质，发表了数学学报，获得了菲尔兹奖（真是让人梦寐以求啊）。</p>
+<p>两三个小时的阅读，一打开书便没有停下来，虽然充斥着挺多的公式，但是LaTeX却让人颇为亲切。这学期我也慢慢坚定决心。想要一步步走科研这条道路，关于PhD，关于科研圈这个另类名利场，我也从以前诸如 PhD Grind 或者连载的PhD Comics窥得一二，有种期待，有种向往，当然也有恐惧吧！最后以书中的一句话送给自己：</p>
+<p><strong>「想要变得更强，就必须把自己置于逆境中」</strong></p>
+<p>&nbsp;<br>&nbsp;<br>&nbsp;<br>（最后更新于<em>2018.5.23</em>）</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 何处·听说 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> math </tag>
+            
+            <tag> biography </tag>
+            
+            <tag> book_review </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Raspberry Learning Resources | 树莓派学习资源]]></title>
       <url>/weblog/2018/05/06/raspberry-learning-resources/</url>
       <content type="html"><![CDATA[<center><font size="5"><strong>Raspberry Learning Resources | 树莓派学习资源</strong></font></center> 
@@ -12,10 +53,13 @@
 <a id="more"></a>
 <pre><code>180504 第一次创建
 180505 更新重构分类，添加安装系统相关
+180506 更改【书籍】为【资源】
+180510 不断更新总结
 </code></pre><blockquote>
 <p>本文为我关于学习树莓派的资源总结记录帖</p>
-<p>以下将分为6个内容：<strong>教程</strong>、<strong>视频</strong>、<strong>文章</strong>、<strong>项目</strong>、<strong>软件</strong>、<strong>书籍</strong></p>
+<p>以下将分为6个内容：<strong>教程</strong>、<strong>视频</strong>、<strong>文章</strong>、<strong>项目</strong>、<strong>软件</strong>、<strong>资源</strong></p>
 <p>树莓派官网：<a href="https://www.raspberrypi.org/" target="_blank" rel="external">https://www.raspberrypi.org/</a></p>
+<p>树莓派github：<a href="https://github.com/raspberrypi" target="_blank" rel="external">https://github.com/raspberrypi</a></p>
 </blockquote>
 <p>&nbsp;</p>
 <h3 id="Guide-教程"><a href="#Guide-教程" class="headerlink" title="Guide | 教程"></a>Guide | 教程</h3><h4 id="官方文档："><a href="#官方文档：" class="headerlink" title="官方文档："></a>官方文档：</h4><ul>
@@ -53,12 +97,16 @@
 <li><a href="http://www.cnblogs.com/xiaowuyi/p/4012069.html" target="_blank" rel="external">树莓派学习笔记（3）：利用VNC远程控制树莓派</a></li>
 <li><a href="http://www.mamicode.com/info-detail-1720185.html" target="_blank" rel="external">新版树莓派中内置的real-vnc-server</a></li>
 <li><a href="https://www.realvnc.com/en/connect/docs/raspberry-pi.html#raspberry-pi-setup" target="_blank" rel="external">VNC Connect and Raspberry Pi</a></li>
+<li>笔记本电脑与树莓派：<a href="https://blog.csdn.net/tavox/article/details/70994392" target="_blank" rel="external">树莓派第一次使用（笔记本+网线）</a> 确定配置电脑网络应该选择<strong>以太网</strong>（无其他后缀）</li>
+<li>完全利用SD卡空间：<a href="https://www.ncnynl.com/archives/201612/1154.html" target="_blank" rel="external">树莓派3-配置-根分区扩展到整张SD卡</a> 本文系统版本略有些陈旧，<strong>Expand Filesystem</strong>现在出现在<code>Advanced Options</code>，其他命令都还是正确的</li>
+<li><a href="https://blog.csdn.net/liang890319/article/details/8639128" target="_blank" rel="external">树莓派 LED含义 扩展口定义 静态IP</a></li>
 </ol>
 <ul>
-<li>设置静态IP地址</li>
+<li>相关优化</li>
 </ul>
 <ol>
-<li><a href="https://blog.csdn.net/liang890319/article/details/8639128" target="_blank" rel="external">树莓派 LED含义 扩展口定义 静态IP</a></li>
+<li>中文输入法与系统配置：<a href="https://blog.csdn.net/u012313335/article/details/53519302" target="_blank" rel="external">树莓派(Raspberry Pi 3) - Raspbian中文输入法安装及中文环境配置</a></li>
+<li>git配置：<a href="http://www.cnblogs.com/exmyth/p/7450592.html" target="_blank" rel="external">一起玩树莓派3+使用Gitlab搭建专业Git服务</a></li>
 </ol>
 <h4 id="观点"><a href="#观点" class="headerlink" title="观点"></a>观点</h4><ol>
 <li><a href="https://www.zhihu.com/question/21045562/answer/30433203" target="_blank" rel="external">Arduino、arm、树莓派、单片机四者有什么不同？</a></li>
@@ -66,6 +114,7 @@
 <p>&nbsp;</p>
 <h3 id="Project-项目"><a href="#Project-项目" class="headerlink" title="Project | 项目"></a>Project | 项目</h3><ol>
 <li><a href="https://sspai.com/post/40997" target="_blank" rel="external">如何正确地用树莓派共享打印机</a></li>
+<li><a href="http://shumeipai.nxez.com/2014/02/15/git-build-private-server-raspberry-pi.html" target="_blank" rel="external">用树莓派搭建Git私有服务器</a></li>
 </ol>
 <p><code>To be continued</code></p>
 <p>&nbsp;</p>
@@ -77,10 +126,15 @@
 <li>VNC Viewer（全客户端）</li>
 </ol>
 <p>&nbsp;</p>
-<h3 id="Books-书籍"><a href="#Books-书籍" class="headerlink" title="Books | 书籍"></a>Books | 书籍</h3><ol>
+<ol>
+<li><h3 id="Resources-资源"><a href="#Resources-资源" class="headerlink" title="Resources | 资源"></a>Resources | 资源</h3><ol>
+<li><a href="https://github.com/flyhigher139/awesome-github-repo/blob/master/raspberrypi.md" target="_blank" rel="external">github repo: GitHub Starred Projects | RaspberryPi</a></li>
+<li><a href="https://www.jianshu.com/p/b6414311c82e" target="_blank" rel="external">Github上关于树莓派的一些资源</a></li>
 <li><a href="https://www.getfreeebooks.com/raspberry-pi-10-sites-various-free-ebooks/" target="_blank" rel="external">RASPBERRY PI: 10 SITES &amp; VARIOUS FREE EBOOKS</a></li>
 </ol>
-<p>&nbsp;<br>&nbsp;<br>（最后更新于<em>2018.5.6</em>）</p>
+</li>
+</ol>
+<p>&nbsp;<br>&nbsp;<br>（最后更新于<em>2018.5.23</em>）</p>
 ]]></content>
       
         <categories>
@@ -1031,11 +1085,11 @@
             
             <tag> 一周总结 </tag>
             
-            <tag> Formula Student </tag>
-            
             <tag> 长篇 </tag>
             
             <tag> memory record </tag>
+            
+            <tag> Formula Student </tag>
             
         </tags>
         
@@ -3152,6 +3206,12 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
   
     
     <entry>
+      <title><![CDATA[照片集]]></title>
+      <url>/weblog/gallery.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[关于]]></title>
       <url>/weblog/about.html</url>
       <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=306664&auto=0&height=66"></iframe>
@@ -3216,29 +3276,15 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
     </entry>
     
     <entry>
-      <title><![CDATA[友链]]></title>
-      <url>/weblog/links.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[tags]]></title>
       <url>/weblog/tags.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
-      <title><![CDATA[照片集]]></title>
-      <url>/weblog/gallery.html</url>
+      <title><![CDATA[友链]]></title>
+      <url>/weblog/links.html</url>
       <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[项目]]></title>
-      <url>/weblog/project.html</url>
-      <content type="html"><![CDATA[<p>等待上线</p>
-<p><code>To be continued</code></p>
-]]></content>
     </entry>
     
     <entry>
@@ -3248,6 +3294,14 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <li>2017.08.14 经过了两天的挖坑建站，小站最终成立</li>
 <li>2017.08.15 确定了以Material为主题</li>
 </ul>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[项目]]></title>
+      <url>/weblog/project.html</url>
+      <content type="html"><![CDATA[<p>等待上线</p>
+<p><code>To be continued</code></p>
 ]]></content>
     </entry>
     
