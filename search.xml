@@ -81,6 +81,114 @@
     </entry>
     
     <entry>
+      <title><![CDATA[Git Learning Course Note - How to use git and github]]></title>
+      <url>/weblog/2018/06/03/git-learning-mooc-note-1/</url>
+      <content type="html"><![CDATA[<center><font size="5"><strong>Git Learning Course Note: How to use git and github</strong></font></center> 
+
+<center><font size="1">Written by <strong><em>PhilHE</em></strong> on <u>Jun 3, 2018 </u></font></center> 
+
+<a id="more"></a>
+<blockquote>
+<p>Udacity Mooc如何使用 Git 和 GitHub：<a href="https://cn.udacity.com/course/how-to-use-git-and-github--ud775" target="_blank" rel="external">课程地址</a></p>
+<p>完结于20180603</p>
+</blockquote>
+<p>&nbsp;</p>
+<h3 id="发现区别-git-diff"><a href="#发现区别-git-diff" class="headerlink" title="发现区别 | git diff"></a>发现区别 | git diff</h3><pre><code>git log 查看历史
+git diff &lt;ID1&gt; &lt;ID2&gt;
+git --version 查看版本
+</code></pre><p>&nbsp;</p>
+<h3 id="克隆和探索版本库"><a href="#克隆和探索版本库" class="headerlink" title="克隆和探索版本库"></a>克隆和探索版本库</h3><pre class="line-numbers language-bash"><code class="language-bash">克隆版本库
+要克隆版本库，请运行 <span class="token function">git</span> clone（后跟空格和版本库 URL）。
+
+Asteroids URL
+使用以下 URL 克隆 Asteroids 版本库：https://github.com/udacity/asteroids.git
+
+退出 <span class="token function">git</span> log
+要停止查看 <span class="token function">git</span> log 的输出，请按 q（表示退出）。
+
+$ <span class="token function">cd</span> asteriods 即可进入clone下来的文件夹
+$ <span class="token function">ls</span> -a 列出隐藏文件，即可发现<span class="token variable"><span class="token variable">`</span>.git<span class="token variable">`</span></span>文件
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>&nbsp;</p>
+<h3 id="创建修改代码库"><a href="#创建修改代码库" class="headerlink" title="创建修改代码库"></a>创建修改代码库</h3><pre class="line-numbers language-bash"><code class="language-bash">% 初始化文件夹
+$ <span class="token function">git</span> init
+% 添加文件到暂存区提
+$ <span class="token function">git</span> add <span class="token operator">&lt;</span>file<span class="token operator">></span> 单一文件
+$ <span class="token function">git</span> <span class="token function">rm</span> --cached <span class="token operator">&lt;</span>file<span class="token operator">></span> 将某文件删除出暂存区域staging area
+$ <span class="token function">git</span> reset HEAD <span class="token operator">&lt;</span>file<span class="token operator">></span> 也可以写成这种形式
+$ <span class="token function">git</span> status 查询文件夹中git状态
+$ <span class="token function">git</span> commit -m <span class="token string">"Commit message"</span> 提交相关信息
+
+$ <span class="token function">git</span> <span class="token function">diff</span> 可以直接查询未commit时，folder与staging area的区别
+$ <span class="token function">git</span> <span class="token function">diff</span> --staged 可以直接查询已commit时，staging area与repo的区别
+$ <span class="token function">git</span> <span class="token function">diff</span> commit1 commit2 可以查询最近两次commit的区别
+
+$ <span class="token function">git</span> reset --hard 强制删除所有git add，无法撤消
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>&nbsp;</p>
+<h3 id="创建、修改分支"><a href="#创建、修改分支" class="headerlink" title="创建、修改分支"></a>创建、修改分支</h3><pre class="line-numbers language-bash"><code class="language-bash">$ <span class="token function">git</span> checkout master 确认master分支的状态
+$ <span class="token function">git</span> branch
+* master
+$ <span class="token function">git</span> branch <span class="token operator">&lt;</span>new branch<span class="token operator">></span>
+$ <span class="token function">git</span> checkout <span class="token operator">&lt;</span>new branch<span class="token operator">></span> 确认new branch分支的状态，并转移至new branch分支
+$ <span class="token function">git</span> checkout -b <span class="token operator">&lt;</span>new branch<span class="token operator">></span> 两步并为一步
+
+$ <span class="token function">git</span> log --graph --oneline master <span class="token operator">&lt;</span>other branch<span class="token operator">></span>
+$ <span class="token function">git</span> push origin <span class="token operator">&lt;</span>new branch<span class="token operator">></span> 直接上传
+$ <span class="token function">git</span> show 可以查看某一次commit与其父级的区别
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p><a href="https://ruby-china.org/topics/939" target="_blank" rel="external">个性化你的 Git Log 的输出格式</a></p>
+<p>推荐了两个绘图工具</p>
+<ul>
+<li><a href="https://www.gliffy.com/" target="_blank" rel="external">gliffy</a></li>
+<li><a href="http://yuml.me/diagram/activity/draw" target="_blank" rel="external">yUML</a></li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="添加远程仓库"><a href="#添加远程仓库" class="headerlink" title="添加远程仓库"></a>添加远程仓库</h3><pre class="line-numbers language-bash"><code class="language-bash">% Create a repo
+$ <span class="token function">git</span> remote
+origin %首个远程仓库标准命名
+$ <span class="token function">git</span> remote add origin git@github.com:XXX.git
+$ <span class="token function">git</span> remote -v %查看相关版本
+$ <span class="token function">git</span> push origin master %提交相关变化
+---
+% When local is out-of-date
+$ <span class="token function">git</span> pull origin master
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>Related LInk: <a href="https://help.github.com/articles/caching-your-github-password-in-git/" target="_blank" rel="external">Caching your GitHub password in Git</a></p>
+<p>&nbsp;</p>
+<h3 id="协作"><a href="#协作" class="headerlink" title="协作"></a>协作</h3><blockquote>
+<p>代码库协作需要先在github上面添加collaborator</p>
+<p>相关<a href="https://classroom.udacity.com/courses/ud775/lessons/3105028581/concepts/33526188150923" target="_blank" rel="external">协作合并更改视频</a></p>
+</blockquote>
+<pre class="line-numbers language-bash"><code class="language-bash">% 防止发生冲突，先获取后合并
+$ <span class="token function">git</span> fetch origin master
+$ <span class="token function">git</span> log -p master origin/master
+$ <span class="token function">git</span> merge origin/master
+% 直接相当于这句话
+$ <span class="token function">git</span> pull origin master
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>？？？Fast-forward merge仍然不是很理解(to be continued!)</p>
+<p>&nbsp;<br>（最后更新于<em>2018.06.04</em>）</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 技术·小见 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> git </tag>
+            
+            <tag> mooc </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[挣扎的求索之路——读《一个定理的诞生》有感]]></title>
       <url>/weblog/2018/05/23/book-review-Thoughts-on-The-Birth-of-a-Theorem/</url>
       <content type="html"><![CDATA[<center><font size="5"><strong>挣扎的求索之路——读《一个定理的诞生》有感</strong></font></center> 
@@ -1163,11 +1271,11 @@
             
             <tag> 一周总结 </tag>
             
-            <tag> Formula Student </tag>
-            
             <tag> 长篇 </tag>
             
             <tag> memory record </tag>
+            
+            <tag> Formula Student </tag>
             
         </tags>
         
@@ -2643,9 +2751,9 @@ $ \LaTeX $
         
         <tags>
             
-            <tag> English_learning </tag>
-            
             <tag> newsletter </tag>
+            
+            <tag> English_learning </tag>
             
         </tags>
         
@@ -3245,9 +3353,9 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
         
         <tags>
             
-            <tag> Economist </tag>
-            
             <tag> English_learning </tag>
+            
+            <tag> Economist </tag>
             
         </tags>
         
@@ -3348,12 +3456,6 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
     </entry>
     
     <entry>
-      <title><![CDATA[照片集]]></title>
-      <url>/weblog/gallery.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[友链]]></title>
       <url>/weblog/links.html</url>
       <content type="html"></content>
@@ -3368,6 +3470,18 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
     </entry>
     
     <entry>
+      <title><![CDATA[tags]]></title>
+      <url>/weblog/tags.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[照片集]]></title>
+      <url>/weblog/gallery.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[小站历史]]></title>
       <url>/weblog/timeline.html</url>
       <content type="html"><![CDATA[<h1 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h1><h2 id="2017-8"><a href="#2017-8" class="headerlink" title="2017.8"></a>2017.8</h2><ul>
@@ -3375,12 +3489,6 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
 <li>2017.08.15 确定了以Material为主题</li>
 </ul>
 ]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/weblog/tags.html</url>
-      <content type="html"></content>
     </entry>
     
   
