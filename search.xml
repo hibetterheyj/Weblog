@@ -3354,9 +3354,17 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
     </entry>
     
     <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/weblog/tags.html</url>
+      <title><![CDATA[友链]]></title>
+      <url>/weblog/links.html</url>
       <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[项目]]></title>
+      <url>/weblog/project.html</url>
+      <content type="html"><![CDATA[<p>等待上线</p>
+<p><code>To be continued</code></p>
+]]></content>
     </entry>
     
     <entry>
@@ -3370,17 +3378,9 @@ $ <span class="token function">popd</span> <span class="token operator">&lt;</sp
     </entry>
     
     <entry>
-      <title><![CDATA[友链]]></title>
-      <url>/weblog/links.html</url>
+      <title><![CDATA[tags]]></title>
+      <url>/weblog/tags.html</url>
       <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[项目]]></title>
-      <url>/weblog/project.html</url>
-      <content type="html"><![CDATA[<p>等待上线</p>
-<p><code>To be continued</code></p>
-]]></content>
     </entry>
     
   
